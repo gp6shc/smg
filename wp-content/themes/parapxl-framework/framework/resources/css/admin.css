@@ -1,0 +1,22 @@
+/* Custom Fields */
+	.postbox .inside .field{margin-bottom:10px;}
+	.postbox .inside .field .input{margin:0;}
+	
+	/* File Upload Field */
+		.field.file{overflow:hidden;}
+		.field.file label{display:block;}
+		.field.file .current{
+			background-color:#eee;
+			border:1px solid #ccc;
+			border-radius:4px;
+			float:left;
+			margin-bottom:10px;
+			padding:10px;
+			text-align:center;
+			width:225px;
+		}
+		.field.file .current+*{clear:both;display:block;}
+		
+/* Custom Columns */
+	.column-Thumbnail{width:100px;}
+	

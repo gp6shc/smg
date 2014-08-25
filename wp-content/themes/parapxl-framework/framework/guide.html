@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+	<head>
+		<title>Parapxl Framework</title>
+		<style type="text/css" media="screen">
+			li span{font-size:small;color:green;}
+			li span.close{color:blue;}
+			li span.wip{color:red;}
+			li+li{margin-top:10px;}
+		</style>
+	</head>
+	<body>
+		<h1>The Parapxl Framework</h1>
+		<p>The goal of this framework is to provide the developer with an easy to use tool set to quickly build out an informational website.</p>
+		<h2>Classes</h2>
+		<ul>
+			<li>Boxes <span>100%</span>
+				<ul>
+					<li>Creates meta boxes that hold custom fields</li>
+				</ul>
+			</li>
+			<li>Columns <span>100%</span>
+				<ul>
+					<li>Creates custom columns to display snippets, custom fields, and assigned taxonomy terms.</li>
+				</ul>
+			</li>
+			<li>Formcast <span class="close">85%</span>
+				<ul>
+					<li>Allows for the easy creation of form elements.</li>
+				</ul>
+			</li>
+			<li>Menus <span>100%</span>
+				<ul>
+					<li>Creates the locations to assign menus.</li>
+				</ul>
+			</li>
+			<li>Panel <span class="close">95%</span>
+				<ul>
+					<li>Creates a panel in wp-admin that allows you to create custom fields at the site level.</li>
+				</ul>
+			</li>
+			<li>Post Types <span>100%</span>
+				<ul>
+					<li>Creates custom post types to be used on the site.</li>
+				</ul>
+			</li>
+			<li>Profile <span>100%</span>
+				<ul>
+					<li>Creates custom fields for user profiles.</li>
+				</ul>
+			</li>
+			<li>PXL <span>100%</span>
+				<ul>
+					<li>Contains functions that Wordpress should implement to make developer's lives easier.</li>
+					<li>Also contains the pxlWalker class to help with css styling of menus that utilize drop-downs and fly-outs.</li>
+				</ul>
+			</li>
+			<li>Resources <span>100%</span>
+				<ul>
+					<li>Used to register and enqueue css styles and js scripts</li>
+				</ul>
+			</li>
+			<li>Shortcodes <span>100%</span>
+				<ul>
+					<li>Content Columns</li>
+					<li>Insert Custom Variable</li>
+					<li>List Posts</li>
+					<li>Sidebar Position</li>
+				</ul>
+			</li>
+			<li>Sidebars <span>100%</span>
+				<ul>
+					<li>Creates the dynamic sidebars.</li>
+				</ul>
+			</li>
+			<li>Taxonomies <span>100%</span>
+				<ul>
+					<li>Creates the custom taxonomies to be used with post types: post, page, custom post types.</li>
+					<li>Pass through to Post Types class.</li>
+				</ul>
+			</li>
+			<li>Templates <span>100%</span>
+				<ul>
+					<li>An extension of how Wordpress figures out which file to serve up as the template. We do it this way in order to have a more organized theme folder structure.</li>
+					<li>Types:
+						<ul>
+							<li>Default</li>
+							<li>Page Templates</li>
+							<li>Custom</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>Twitter <span>100%</span>
+				<ul>
+					<li>User timeline [<a href="https://dev.twitter.com/docs/api/1/get/statuses/user_timeline">API Docs</a>]</li>
+					<li>Search (e.g. Users, Hashtags, Terms, etc.) [<a href="https://dev.twitter.com/docs/api/1/get/search">API Docs</a> | <a href="https://dev.twitter.com/docs/using-search">Search Operators</a>]</li>
+				</ul>
+			</li>
+		</ul>
+		<h2>Supporting Files</h2>
+		<ul>
+			<li>phpfn
+				<ul>
+					<li>A collection of homebrewed php specific functions that allow for shorter code.</li>
+				</ul>
+			</li>
+			<li>Timthumb
+				<ul>
+					<li>A small php script for cropping, zooming and resizing web images (jpg, png, gif). Perfect for use on blogs and other applications.</li>
+					<li>Link: <a href="http://code.google.com/p/timthumb/">http://code.google.com/p/timthumb</a></li>
+					<li>Implementation:
+						<ul>
+							<li>timthumb.php and cahce folder go in wp-content</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</body>
+</html>

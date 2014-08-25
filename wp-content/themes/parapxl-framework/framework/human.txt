@@ -1,0 +1,20 @@
+Parapxl's Framework for Wordpress
+
+Features:
+	• PHP Helper Functions
+		• dev() Console Logging for the Development Environment
+		• nice( $print_nice ) Prints Strings/Arrays in a nice format
+		• valArray( $key_name, array $array ) Returns an array of values from a multidimensional array for a given key
+		• isvar( &$var, $notNull = false ) Checks to see if a Variable is set and is true or not null
+		• curl_get( $url ) Initiates cURL | Used in THQ to get Vimeo json
+		
+	• Easily create:
+		Custom Post Types
+		Custom Taxonomies
+		Post Type Columns
+		Menus
+		Sidebars
+		Custom Fields & Meta Boxes
+		
+Lack:
+	
