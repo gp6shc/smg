@@ -4,26 +4,27 @@
 	<footer>
 		<div class="row lined">
 			
-			<div class="span3">
+			<div class="span3 gmap">
 				<h4>Stop In For Coffee</h4>
 				<div class="map">
-					<iframe width="200" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=114+S.+Duval+Street+Tallahassee,+FL+32301&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=82.704067,79.013672&amp;ie=UTF8&amp;hq=&amp;hnear=114+S+Duval+St,+Tallahassee,+Florida+32301&amp;t=m&amp;ll=30.4412,-84.283419&amp;spn=0.020276,0.034332&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe><br />
+					<iframe width="200" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=114+S.+Duval+Street+Tallahassee,+FL+32301&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=82.704067,79.013672&amp;ie=UTF8&amp;hq=&amp;hnear=114+S+Duval+St,+Tallahassee,+Florida+32301&amp;t=m&amp;ll=30.4412,-84.283419&amp;spn=0.020276,0.034332&amp;z=16&amp;iwloc=A&amp;output=embed">
+					</iframe>
 				</div>
 			</div>
-			<div class="span3">
+			<div class="span3 contact">
 				<h4>Drop Us a Line</h4>
 				<?php echo do_shortcode("[gravityform id=1 title=false description=false]"); ?>
 			</div>
-			<div class="span6">
+			<div class="span6 elevator">
 				<h4>Our Elevator Speech</h4>
 				<?php the_field('a_little_bit_about_us', 'options'); ?>
 
 				<div class="row lined">
-					<div class="span3">
+					<div class="span3 member">
 						<p class="coprf"><small>MEMBER</br>
 						COUNCIL of PUBLIC RELATIONS FIRMS</small></p>
 					</div>
-					<div class="span3">
+					<div class="span3 copyright">
 						<p><em>All content © <?php echo date('Y') ?> Sachs Media Group. All rights reserved. Contact: <a href="mailto:<?php the_field('main_contact','options') ?>"><?php the_field('main_contact','options') ?></a> 
 							<br><a href="<?php echo bloginfo('siteurl') ?>/privacy-policy">Privacy Policy</a></em></p>
 					</div>
