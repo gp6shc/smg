@@ -2,3 +2,5 @@
 podcasts
 pdfs
 videos
+wp-content/cache/*
+wp-content/themes/ronsachs/resources/css/.sass-cache
