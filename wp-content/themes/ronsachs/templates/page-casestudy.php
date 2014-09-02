@@ -21,7 +21,7 @@
 
 			<h3 class="whatwedo">Case Study: <?php echo get_the_title(); ?></h3>
 
-		<div class="post" style="padding-top: 10px;"><?php pxl::timthumb( 'post_thumbnail', array( 'w' => 700, 'h' => 403 ), 'original' ); ?></div>
+		<div class="post" style="padding-top: 10px;"><?php the_post_thumbnail('large'); ?></div>
 		<?php the_content(); ?>
 	</div>
 </div>
