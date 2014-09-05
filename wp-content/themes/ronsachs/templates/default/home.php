@@ -26,8 +26,9 @@
 				        $custom_query->the_post(); ?>
 							<div class="span3">	
 								<?php the_content(); ?>
-								<a class="read-more date" href="<?php echo home_url('/facts') ?>">View More</a>
 							</div>
+							<div class="white-shadow"></div>
+							<a class="read-more date" href="<?php echo home_url('/facts') ?>">View More</a>
 			<?php	endwhile;
 				endif;
 				wp_reset_postdata();

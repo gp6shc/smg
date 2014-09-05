@@ -506,13 +506,19 @@ p .related{
 .fotd {
 	width: 25%;
 	float: left;
+	height: 350px;
+	overflow: hidden;
+	position: relative;
+}
+.fotd .span3{
+	max-height: 350px;
 }
 .fotd p {
 	margin: 0 0 18px 0;
 	color: #DA1F26;
 	color: #333333;
-	font-size: 15px;
-	line-height: 1.3;
+	font-size: 14px;
+	line-height: 1.4;
 	font-family: 'Arvo';
 }
 .fotd p::first-letter {
@@ -521,6 +527,14 @@ p .related{
 	float: left;
 	padding: 0px 4px 0px 0;
 	line-height: .6;
+}
+.white-shadow {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	height: 52px;
+	width: 200px;
+	background-image: linear-gradient( rgba(255,255,255,0), white 70%);
 }
 
 .fotd-archive article {
