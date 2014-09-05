@@ -23,12 +23,12 @@
 			</nav>
 			<nav id="menu">
 			<ul>
-				<li class="active"><a href="http://sachsmedia.com/">Home</a></li>
-	            <li><a href="/about">About</a></li>
-	            <li><a href="/what-we-do">What We Do</a></li>
-	            <li><a href="/blog">Blog</a></li>
-	            <li><a href="/news">News</a></li>
-	            <li><a href="/contact">Contact</a></li>
+				<li class="active"><a href="<?php echo home_url()?>">Home</a></li>
+	            <li><a href="<?php echo home_url('/about')?>">About</a></li>
+	            <li><a href="<?php echo home_url('/what-we-do')?>">What We Do</a></li>
+	            <li><a href="<?php echo home_url('/blog')?>">Blog</a></li>
+	            <li><a href="<?php echo home_url('/news')?>">News</a></li>
+	            <li><a href="<?php echo home_url('/contact')?>">Contact</a></li>
 			</ul>
 				<!--<ul>
 					<?php wp_nav_menu( array(
