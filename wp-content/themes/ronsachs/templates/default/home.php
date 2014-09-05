@@ -24,13 +24,10 @@
 				if ( $custom_query->have_posts() ) :
 				    while ( $custom_query-> have_posts() ) :
 				        $custom_query->the_post(); ?>
-							    	<div class="postmeta">
-							    		<span><i>Posted on <?php the_time('l, F j, Y'); ?></i></span>
-							    	</div>
-							    <div class="entry">	
-							    	<?php the_content(); ?>
-							    	<hr>
-							    </div>
+							<div class="span3">	
+								<?php the_content(); ?>
+								<a class="read-more date" href="<?php echo home_url('/facts') ?>">View More</a>
+							</div>
 			<?php	endwhile;
 				endif;
 				wp_reset_postdata();
