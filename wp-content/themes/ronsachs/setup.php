@@ -82,22 +82,6 @@
 					'rewrite' => array('slug' => 'our-work', 'with_front' => false),
 				)
 			),
-			'resources' => array(
-				'css' => array(
-					'royalslider' => true,
-					'rs-default' => true,
-					'theme' => true,
-				),
-				'js' => array(
-					'jquery.effects.min' => array('deps' => array('jquery'), 'async' => true, 'defer' => true, 'in_footer' => true),
-					'jquery.easing.1.3.min' => array('deps' => array('jquery.effects.min'), 'async' => true, 'defer' => true, 'in_footer' => true),
-					'jquery.royalslider.min' => array('deps' => array('jquery.easing.1.3.min'), 'async' => true, 'defer' => true, 'in_footer' => true),
-					'site' => array('deps' => array('jquery.royalslider.min'), 'async' => true, 'defer' => true, 'in_footer' => true),
-				),
-				'fonts' => array(
-					// 'Arvo' => '400,700,400italic,700italic',
-				),
-			),
 			'sidebars' => array(
 				'side' => array(
 					'name' => 'Sidebar',
