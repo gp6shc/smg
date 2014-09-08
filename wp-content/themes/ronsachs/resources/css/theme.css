@@ -562,6 +562,10 @@ p .related{
 	background-color: #DA1F26;
 }
 
+.explicit-date {
+	float: right;
+}
+
 ::selection {
 	background-color: #DA1F26;
 	color: #F7F5F5;
