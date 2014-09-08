@@ -36,6 +36,9 @@
 		?>
 	</h3>
 	<?php the_content(); ?>
+	<h5 class="explicit-date">
+		<?php the_time('F j'); ?>
+	</h5>
 	<hr>
 </article>
 
