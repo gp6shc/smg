@@ -566,6 +566,11 @@ p .related{
 	float: right;
 }
 
+.date-suffix {
+	font-size: 9px;
+	vertical-align: text-bottom;
+}
+
 ::selection {
 	background-color: #DA1F26;
 	color: #F7F5F5;

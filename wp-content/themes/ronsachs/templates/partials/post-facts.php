@@ -20,14 +20,14 @@
 				if( ($factPublishDate % 10) === 1 ) {								// if day number ends in 1, append "st"
 					echo(the_time('F j').'st\'s Fact');
 			
-				}elseif( ($factPublishDate % 10) === 2 ) {							// if day number ends in 2, append "nd"
-					echo(the_time('F j').'nd\'s Fact');
-			
-				}elseif( ($factPublishDate % 10) === 3 ) {							// if day number ends in 3, append "rd"
-					echo(the_time('F j').'rd\'s Fact');
-			
-				}else{																// else append "th"
-					echo(the_time('F j').'th\'s Fact');
+					}elseif( ($factPublishDate % 10) === 2 ) {							// if day number ends in 2, append "nd"
+					    echo(the_time('F j').'nd\'s Fact');
+					
+					}elseif( ($factPublishDate % 10) === 3 ) {							// if day number ends in 3, append "rd"
+					    echo(the_time('F j').'rd\'s Fact');
+					
+					}else{																// else append "th"
+					    echo(the_time('F j').'th\'s Fact');
 				}
 					
 			}else{																	// if not published this year, give everything
@@ -37,7 +37,20 @@
 	</h3>
 	<?php the_content(); ?>
 	<h5 class="explicit-date">
-		<?php the_time('F j'); ?>
+		<?php
+			if( ($factPublishDate % 10) === 1 ) {								// if day number ends in 1, append "st"
+					echo(the_time('F j').'<span class="date-suffix">st</span>');
+			
+				}elseif( ($factPublishDate % 10) === 2 ) {							// if day number ends in 2, append "nd"
+					echo(the_time('F j').'<span class="date-suffix">nd</span>');
+			
+				}elseif( ($factPublishDate % 10) === 3 ) {							// if day number ends in 3, append "rd"
+					echo(the_time('F j').'<span class="date-suffix">rd</span>');
+			
+				}else{																// else append "th"
+					echo(the_time('F j').'<span class="date-suffix">th</span>');
+					}
+		?>
 	</h5>
 	<hr>
 </article>
