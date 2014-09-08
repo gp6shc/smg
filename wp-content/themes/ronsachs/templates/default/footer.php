@@ -31,10 +31,10 @@
 			</div>
 		</div>
 
-<script type="text/javascript" src="http://sachsmedia.com/wp-content/themes/ronsachs/resources/js/jquery.effects.min.js" async="async" defer='defer'></script>
-<script type="text/javascript" src="http://sachsmedia.com/wp-content/themes/ronsachs/resources/js/jquery.easing.1.3.min.js" async="async" defer="defer"></script>
-<script type="text/javascript" src="http://sachsmedia.com/wp-content/themes/ronsachs/resources/js/jquery.royalslider.min.js" async="async" defer="defer"></script>
-<script type="text/javascript" src="http://sachsmedia.com/wp-content/themes/ronsachs/resources/js/site.js" async="async" defer="defer"></script>
+<script type="text/javascript" src="<?php echo home_url();?>/wp-content/themes/ronsachs/resources/js/jquery.effects.min.js" async="async" defer='defer'></script>
+<script type="text/javascript" src="<?php echo home_url();?>/wp-content/themes/ronsachs/resources/js/jquery.easing.1.3.min.js" async="async" defer="defer"></script>
+<script type="text/javascript" src="<?php echo home_url();?>/wp-content/themes/ronsachs/resources/js/jquery.royalslider.min.js" async="async" defer="defer"></script>
+<script type="text/javascript" src="<?php echo home_url();?>/wp-content/themes/ronsachs/resources/js/site.js" async="async" defer="defer"></script>
 <script type="text/javascript">
 /* <![CDATA[ */
 var JQLBSettings = {"fitToScreen":"0","resizeSpeed":"400","displayDownloadLink":"0","navbarOnTop":"0","loopImages":"","resizeCenter":"","marginSize":"0","linkTarget":"_self","help":"","prevLinkTitle":"previous image","nextLinkTitle":"next image","prevLinkText":"\u00ab Previous","nextLinkText":"Next \u00bb","closeTitle":"close image gallery","image":"Image ","of":" of ","download":"Download"};

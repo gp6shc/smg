@@ -187,7 +187,7 @@
 			#slideshow .rsArrowLeft .rsArrowIcn{background-position:-70px -38px;}
 	
 		/* What's the Scoop */
-			#scoop .span3{height:330px;padding-bottom:10px;}
+			.scoop .span3{height:330px;padding-bottom:10px;}
 			
 		/* Hot Off the Blog */
 			#hot h3{font-size:28px;line-height:30px;}
@@ -495,4 +495,83 @@ p .related{
 	padding-top: 1px;
 }
 
+/* New additions */
 
+.scoop {
+	width: 75%;
+	float: left;
+	margin: 0;
+}
+
+.fotd {
+	width: 25%;
+	float: left;
+	height: 350px;
+	overflow: hidden;
+	position: relative;
+}
+.fotd .span3{
+	max-height: 350px;
+}
+.fotd p {
+	margin: 0 0 18px 0;
+	color: #DA1F26;
+	color: #333333;
+	font-size: 14px;
+	line-height: 1.4;
+	font-family: 'Arvo';
+}
+.fotd p::first-letter {
+	color: #DA1F26;
+	font-size: 50px;
+	float: left;
+	padding: 0px 4px 0px 0;
+	line-height: .6;
+}
+.white-shadow {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	height: 52px;
+	width: 200px;
+	background-image: linear-gradient( rgba(255,255,255,0), white 70%);
+}
+
+.fotd-archive article {
+	margin: 0;
+}
+.fotd-archive article p {
+	font-size: 15px;
+}
+.fotd-archive article p::first-letter {
+	color: #000000;
+	font-size: 45px;
+	font-weight: bold;
+	float: left;
+	padding: 8px 3px 0 0;
+}
+
+.fact-title {
+	color: white;
+	display: inline-block;
+	line-height: 30px;
+	letter-spacing: 1px;
+	font-size: 20px;
+	height: 30px;
+	padding: 4px 10px 0 10px;
+	background-color: #DA1F26;
+}
+
+.explicit-date {
+	float: right;
+}
+
+.date-suffix {
+	font-size: 9px;
+	vertical-align: text-bottom;
+}
+
+::selection {
+	background-color: #DA1F26;
+	color: #F7F5F5;
+}

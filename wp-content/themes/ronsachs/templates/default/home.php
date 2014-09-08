@@ -1,9 +1,44 @@
 <div class="row">
-	<header class="span12"><h4>Here's The Scoop</h4></header>
+	<header class="span9"><h4>Here's The Scoop</h4></header>
+	<header class="span3"><h4>Fact of the Day</h4></header>
 </div>
-<div id="scoop" class="row lined">
-	<?php echo do_shortcode("[posts type=news show=4 loop=post-news]"); ?>
+<div class="row">
+	<div class="scoop row lined">
+		<?php echo do_shortcode("[posts type=news show=3 loop=post-news]"); ?>
+	</div>
+	<div class="fotd">
+		<?php // Define custom query parameters
+			
+			   $custom_query_args = array(
+					'post_type' => 'facts',
+					'posts_per_page' => 1,
+					'orderby' => 'date',
+				);
+				$custom_query = new WP_Query( $custom_query_args );
+				
+				$temp_query = $wp_query;
+				$wp_query   = NULL;
+				$wp_query   = $custom_query;
+				
+				// Output custom query loop
+				if ( $custom_query->have_posts() ) :
+				    while ( $custom_query-> have_posts() ) :
+				        $custom_query->the_post(); ?>
+							<div class="span3">	
+								<?php the_content(); ?>
+							</div>
+							<div class="white-shadow"></div>
+							<a class="read-more date" href="<?php echo home_url('/facts') ?>">View More</a>
+			<?php	endwhile;
+				endif;
+				wp_reset_postdata();
+				
+				// Reset main query object
+				$wp_query = NULL;
+				$wp_query = $temp_query; ?>
+	</div>
 </div>
+
 <div class="row spaced">
 	<div id="hot" class="span6">
 		<header><h4>Hot Off the Blog</h4></header>

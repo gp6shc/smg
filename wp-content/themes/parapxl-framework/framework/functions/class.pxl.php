@@ -347,10 +347,10 @@
 					case 'taxmeta':
 						include( FW_FUNCTIONS . '/class.taxonomy-meta.php');
 						break;
-					case 'twitter':
-						include( FW_FUNCTIONS . '/class.twitter.php');
-						new pxlTweet( self::$setup );
-						break;
+					//case 'twitter':
+					//	include( FW_FUNCTIONS . '/class.twitter.php');
+					//	new pxlTweet( self::$setup );
+					//	break;
 					case 'widget-shortcode':
 						if (!is_admin()) add_filter('widget_text', 'do_shortcode', 11);
 						break;

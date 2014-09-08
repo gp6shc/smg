@@ -3854,6 +3854,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-admin\/includes\/translation-install.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-admin\/includes\/translation-install.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-admin\/includes\/update-core.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -4135,6 +4144,28 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/wp-admin\/js\/editor-expand.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-admin\/js\/editor-expand.js",
+		"outputAbbreviatedPath": "\/wp-admin\/js\/min\/editor-expand-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-admin\/js\/editor-expand.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-admin\/js\/editor-expand.min.js",
+		"outputAbbreviatedPath": "\/wp-admin\/js\/min\/editor-expand.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/wp-admin\/js\/editor.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -4262,6 +4293,28 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-admin\/js\/iris.min.js",
 		"outputAbbreviatedPath": "\/wp-admin\/js\/min\/iris.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-admin\/js\/language-chooser.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-admin\/js\/language-chooser.js",
+		"outputAbbreviatedPath": "\/wp-admin\/js\/min\/language-chooser-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-admin\/js\/language-chooser.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-admin\/js\/language-chooser.min.js",
+		"outputAbbreviatedPath": "\/wp-admin\/js\/min\/language-chooser.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -5571,105 +5624,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-config.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/cache_old\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/cache_old\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/cache_old\/supercache\/sachsmedia.com\/about\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/cache_old\/supercache\/sachsmedia.com\/about\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/cache_old\/supercache\/sachsmedia.com\/contact\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/cache_old\/supercache\/sachsmedia.com\/contact\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/cache_old\/supercache\/sachsmedia.com\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/cache_old\/supercache\/sachsmedia.com\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/cache_old\/supercache\/sachsmedia.com\/news\/florida-newsmakers-amy-baker\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/cache_old\/supercache\/sachsmedia.com\/news\/florida-newsmakers-amy-baker\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/cache_old\/supercache\/sachsmedia.com\/news\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/cache_old\/supercache\/sachsmedia.com\/news\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/cache_old\/supercache\/sachsmedia.com\/news\/ron-sachs-slams-tmz-winston-story\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/cache_old\/supercache\/sachsmedia.com\/news\/ron-sachs-slams-tmz-winston-story\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/cache_old\/supercache\/sachsmedia.com\/news\/tallahassee-internships-2013\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/cache_old\/supercache\/sachsmedia.com\/news\/tallahassee-internships-2013\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/cache_old\/wp-cache-093c0af933aac62b7ea6886cd916a986.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/cache_old\/wp-cache-093c0af933aac62b7ea6886cd916a986.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/cache_old\/wp-cache-4ba0bc9dc4e90e8484113f58579f441d.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/cache_old\/wp-cache-4ba0bc9dc4e90e8484113f58579f441d.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/cache_old\/wp-cache-7337ac81f7186677533ff1c284e67005.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/cache_old\/wp-cache-7337ac81f7186677533ff1c284e67005.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -11620,11 +11574,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/parapxl-framework\/framework\/functions\/class.twitter.php": {
+	"\/wp-content\/themes\/parapxl-framework\/framework\/functions\/class.twitter--DEPRECATED.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/parapxl-framework\/framework\/functions\/class.twitter.php",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/parapxl-framework\/framework\/functions\/class.twitter--DEPRECATED.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -12152,15 +12106,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/css\/rs-default.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/themes\/ronsachs\/resources\/css\/theme.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/css\/theme.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -36904,6 +36849,105 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/uploads\/2014\/09\/naptime-post-150x150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7833,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/naptime-post-150x150.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/naptime-post-150x150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/naptime-post-300x208.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16949,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/naptime-post-300x208.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/naptime-post-300x208.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/naptime-post.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 93890,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/naptime-post.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/naptime-post.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/naptime-report-150x77.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5726,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/naptime-report-150x77.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/naptime-report-150x77.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/naptime-report-300x24.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3547,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/naptime-report-300x24.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/naptime-report-300x24.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/naptime-report.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 89107,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/naptime-report.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/naptime-report.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/Rep.-Southerland-150x150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7503,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/Rep.-Southerland-150x150.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/Rep.-Southerland-150x150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/Rep.-Southerland-300x165.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12075,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/Rep.-Southerland-300x165.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/Rep.-Southerland-300x165.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/Rep.-Southerland.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50839,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/Rep.-Southerland.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/Rep.-Southerland.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-cron.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -37134,6 +37178,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-includes\/class-wp-customize-manager.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-includes\/class-wp-customize-panel.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-includes\/class-wp-customize-panel.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -39294,6 +39347,28 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/wp-includes\/js\/media-grid.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-includes\/js\/media-grid.js",
+		"outputAbbreviatedPath": "\/wp-includes\/js\/min\/media-grid-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-includes\/js\/media-grid.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-includes\/js\/media-grid.min.js",
+		"outputAbbreviatedPath": "\/wp-includes\/js\/min\/media-grid.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/wp-includes\/js\/media-models.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -39673,6 +39748,28 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/wp-includes\/js\/tinymce\/plugins\/colorpicker\/plugin.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-includes\/js\/tinymce\/plugins\/colorpicker\/plugin.js",
+		"outputAbbreviatedPath": "\/wp-includes\/js\/tinymce\/plugins\/colorpicker\/min\/plugin-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-includes\/js\/tinymce\/plugins\/colorpicker\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-includes\/js\/tinymce\/plugins\/colorpicker\/plugin.min.js",
+		"outputAbbreviatedPath": "\/wp-includes\/js\/tinymce\/plugins\/colorpicker\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/wp-includes\/js\/tinymce\/plugins\/compat3x\/css\/dialog.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -39792,6 +39889,28 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/wp-includes\/js\/tinymce\/plugins\/lists\/plugin.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-includes\/js\/tinymce\/plugins\/lists\/plugin.js",
+		"outputAbbreviatedPath": "\/wp-includes\/js\/tinymce\/plugins\/lists\/min\/plugin-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-includes\/js\/tinymce\/plugins\/lists\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-includes\/js\/tinymce\/plugins\/lists\/plugin.min.js",
+		"outputAbbreviatedPath": "\/wp-includes\/js\/tinymce\/plugins\/lists\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/wp-includes\/js\/tinymce\/plugins\/media\/plugin.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -39897,6 +40016,28 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-includes\/js\/tinymce\/plugins\/wordpress\/plugin.min.js",
 		"outputAbbreviatedPath": "\/wp-includes\/js\/tinymce\/plugins\/wordpress\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-includes\/js\/tinymce\/plugins\/wpautoresize\/plugin.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-includes\/js\/tinymce\/plugins\/wpautoresize\/plugin.js",
+		"outputAbbreviatedPath": "\/wp-includes\/js\/tinymce\/plugins\/wpautoresize\/min\/plugin-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-includes\/js\/tinymce\/plugins\/wpautoresize\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-includes\/js\/tinymce\/plugins\/wpautoresize\/plugin.min.js",
+		"outputAbbreviatedPath": "\/wp-includes\/js\/tinymce\/plugins\/wpautoresize\/min\/plugin.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -40973,6 +41114,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-includes\/script-loader.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-includes\/session.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-includes\/session.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

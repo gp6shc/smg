@@ -41,8 +41,41 @@
 	add_action('login_head', 'custom_login_logo');
 	
 	function the_title_limit($length, $replacer = '...') {
- $string = the_title('','',FALSE);
- if(strlen($string) > $length)
- $string = (preg_match('/^(.*)\W.*$/', substr($string, 0, $length+1), $matches) ? $matches[1] : substr($string, 0, $length)) . $replacer;
- echo $string;
-}
+		$string = the_title('','',FALSE);
+		if(strlen($string) > $length)
+		$string = (preg_match('/^(.*)\W.*$/', substr($string, 0, $length+1), $matches) ? $matches[1] : substr($string, 0, $length)) . $replacer;
+		echo $string;
+	}
+	
+	function fotd_custom_post() {
+		$labels = array(
+		    'name'               => _x( 'Facts of the Day', 'post type general name' ),
+		    'singular_name'      => _x( 'Fact of the Day', 'post type singular name' ),
+		    'add_new'            => _x( 'Add New Fact', 'book' ),
+		    'add_new_item'       => __( 'Add New Fact' ),
+		    'edit_item'          => __( 'Edit Facts' ),
+		    'new_item'           => __( 'New Fact' ),
+		    'all_items'          => __( 'All Facts' ),
+		    'view_item'          => __( 'View this Fact' ),
+		    'search_items'       => __( 'Search Facts' ),
+		    'not_found'          => __( 'No facts found' ),
+		    'not_found_in_trash' => __( 'No facts found in the Trash' ), 
+			'parent_item_colon'  => '',
+		    'menu_name'          => 'Fact of the Day'
+		);
+			
+		$args = array(
+			'labels'        => $labels,
+			'description'   => 'Holds the Fact of the Day posts',
+			'public'        => true,
+			'menu_position' => 5,
+			'menu_icon'		=> 'dashicons-format-status',
+			'supports'      => array( 'title', 'editor' ),
+			'has_archive'   => true,
+		);
+		
+		register_post_type( 'facts', $args ); 
+	}
+		
+	add_action( 'init', 'fotd_custom_post' );	
+?>

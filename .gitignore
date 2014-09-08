@@ -2,4 +2,6 @@
 podcasts
 pdfs
 videos
-wp-content/cache/*
+wp-content/cache
+wp-config.php
+.htaccess

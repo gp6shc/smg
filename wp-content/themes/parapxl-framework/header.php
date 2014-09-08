@@ -9,15 +9,15 @@
 	    <meta name="author" content="<?php echo bloginfo('name'); ?>">
 		<meta name="description" content="<?php echo bloginfo('name'); ?>">
 		<meta property="twitter:account_id" content="68730054" />
-		<link rel="stylesheet" id="royalslider-css"  href="http://sachsmedia.com/wp-content/themes/ronsachs/resources/css/royalslider.css" type="text/css" media="all" />
-		<link rel="stylesheet" id="rs-default-css"  href="http://sachsmedia.com/wp-content/themes/ronsachs/resources/css/rs-default.css" type="text/css" media="all" />
-		<link rel="stylesheet" id="theme-css"  href="http://sachsmedia.com/wp-content/themes/ronsachs/resources/css/theme.css" type="text/css" media="all" />
+		<link rel="stylesheet" id="royalslider-css"  href="<?php echo home_url();?>/wp-content/themes/ronsachs/resources/css/royalslider.css" type="text/css" media="all" />
+		<link rel="stylesheet" id="rs-default-css"  href="<?php echo home_url();?>/wp-content/themes/ronsachs/resources/css/rs-default.css" type="text/css" media="all" />
+		<link rel="stylesheet" id="theme-css"  href="<?php echo home_url();?>/wp-content/themes/ronsachs/resources/css/theme.css" type="text/css" media="all" />
 
 		<?php pxl::responsive(); ?>
 		<link rel="profile" href="http://gmpg.org/xfn/11">
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 		<link rel="shortcut icon" href="<?php bloginfo('stylesheet_directory'); ?>/resources/images/icons/favicon.ico" />
-		<?php wp_head(); ?>
+		<?php wp_head();?>
 		<!--[if lt IE 9]>
 			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
