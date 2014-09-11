@@ -1,0 +1,38 @@
+body {
+	border-top: 7px solid #8c9af2;
+}
+
+.wrapper {
+	width: 95%;
+}
+
+#slideshow {
+	height: 407px;
+	
+}
+
+.rsSlide {
+	background-color: #f7f5f5;
+	
+}
+
+.rsOverflow {
+	height: 100% !important;
+}
+
+.slide img {
+	width: 100% !important;
+	height: auto !important;
+}
+
+#curl-shadow {
+	display: none;
+}
+
+.elevator {
+	width: 40%;
+}
+
+.row.lined > [class*="span"] + [class*="span"]:before {
+	display: none;
+}

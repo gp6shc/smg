@@ -274,7 +274,8 @@
 				}
 				return $return;
 			}
-			public  function timthumb( $image, $args = false, $size = 'medium', $title = '', $echo_url = false ) {
+			/*
+public  function timthumb( $image, $args = false, $size = 'medium', $title = '', $echo_url = false ) {
 				$defaults = array( 'w' => 100 ,'h' => 100 ,'q' => 100 ,'a' => false ,'zc' => 0 ,'f' => false ,'s' => false ,'cc' => false ,'ct' => false, 'lp' => 'random', 'hd' => false );
 				if ( $args ) $params = array_merge($defaults,$args);
 				else $params = $defaults;
@@ -313,6 +314,7 @@
 					}elseif( dev() ) self::lorempixel( $echo_url, $params['w'], $params['h'], $params['lp'] );
 				}elseif( dev() ) self::lorempixel( $echo_url, $params['w'], $params['h'], $params['lp'] );
 			}
+*/
 			public  function title() {
 				if ( is_home() ) wp_title('');
 				elseif( is_search() ) {

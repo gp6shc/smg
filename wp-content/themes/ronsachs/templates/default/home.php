@@ -1,7 +1,10 @@
+<div id="scoop" class="span9 lined">
 <div class="row">
 	<header class="span9"><h4>Here's The Scoop</h4></header>
 	<header class="span3"><h4>Fact of the Day</h4></header>
+	<?php echo do_shortcode("[posts type=news show=3 loop=post-news]"); ?>
 </div>
+
 <div class="row">
 	<div class="scoop row lined">
 		<?php echo do_shortcode("[posts type=news show=3 loop=post-news]"); ?>

@@ -5,12 +5,7 @@
 		</a>
 		<div class="navs">
 			<nav id="social">
-			<ul>
-		    <li id="menu-item-194" class="facebook menu-item menu-item-type-custom menu-item-object-custom menu-item-194"><a title="LIKE us on Facebook" href="http://www.facebook.com/sachsmedia">Facebook</a></li>
-			<li id="menu-item-7" class="twitter menu-item menu-item-type-custom menu-item-object-custom menu-item-7"><a title="Follow us on Twitter" href="http://www.twitter.com/sachsmediagrp">Twitter</a></li>
-			<li id="menu-item-5" class="youtube menu-item menu-item-type-custom menu-item-object-custom menu-item-5"><a title="Visit us on Youtube" href="http://www.youtube.com/user/SachsMedia/">YouTube</a></li>
-			</ul>
-				<!--<ul>
+				<ul>
 					<?php wp_nav_menu( array(
 						'theme_location'  => 'social',
 						'container'       => false,
@@ -19,18 +14,10 @@
 						'items_wrap'      => '%3$s',
 						'depth'           => 0
 					) ); ?>
-				</ul>-->
+				</ul>
 			</nav>
 			<nav id="menu">
-			<ul>
-				<li class="active"><a href="<?php echo home_url()?>">Home</a></li>
-	            <li><a href="<?php echo home_url('/about')?>">About</a></li>
-	            <li><a href="<?php echo home_url('/what-we-do')?>">What We Do</a></li>
-	            <li><a href="<?php echo home_url('/blog')?>">Blog</a></li>
-	            <li><a href="<?php echo home_url('/news')?>">News</a></li>
-	            <li><a href="<?php echo home_url('/contact')?>">Contact</a></li>
-			</ul>
-				<!--<ul>
+				<ul class="main-menu">
 					<?php wp_nav_menu( array(
 						'theme_location'  => 'main',
 						'container'       => false,
@@ -39,13 +26,13 @@
 						'items_wrap'      => '%3$s',
 						'depth'           => 0
 					) ); ?>
-				</ul>-->
+				</ul>
 			</nav>
 		</div>
 	</div>
 </header>
 <div id="container" class="wrapper">
-	<div id="banner" style="background: url('<?php the_field('header_image', 'options') ?>') repeat-x 0 0;">
+	<div id="banner" >
 	<?php if ( is_front_page() ) : $home = get_page_by_title('Home'); ?>
 		<div id="slideshow" class="rsDefault">
 		<?php if (get_field('slides',$home->ID)) : ?>
@@ -88,7 +75,7 @@
 			<h2 class="red"><span>Contact Us</span></h2>
 		</div>
 	</div>
-	<?php elseif ( is_page( array( 449, 477, 481, 483, 485, 488,  ) )  ) : ?>
+	<?php elseif ( is_page( array( 449, 477, 481, 483, 485, 488  ) )  ) : ?>
 		<div id="banner" style="background: url('<?php echo home_url( 'wp-content/uploads/2013/02/pageheader_whatwedo_grey.jpg' ); ?>') repeat-x 0 	0;">
 		<div class="text">
 			<h2 class="red"><span>What We Do</span></h2>
