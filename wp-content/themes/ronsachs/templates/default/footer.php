@@ -1,8 +1,8 @@
 </div>
-<div class="wrapper">
+<div class="clearfix wrapper">
 	<div id="curl-shadow"></div>
 	<footer>
-		<div class="row lined">
+		<div class="lined">
 			
 			<div class="span3 gmap">
 				<h4>Stop In For Coffee</h4>
@@ -19,7 +19,7 @@
 				<h4>Our Elevator Speech</h4>
 				<?php the_field('a_little_bit_about_us', 'options'); ?>
 
-				<div class="row lined">
+				<div class="lined">
 					<div class="span3 member">
 						<p class="coprf"><small>MEMBER</br>
 						COUNCIL of PUBLIC RELATIONS FIRMS</small></p>

@@ -1,52 +1,46 @@
-<div id="scoop" class="span9 lined">
-<div class="row">
-	<header class="span9"><h4>Here's The Scoop</h4></header>
-	<header class="span3"><h4>Fact of the Day</h4></header>
+<div class="scoop clearfix">
+	<header><h4>Here's The Scoop</h4></header>
 	<?php echo do_shortcode("[posts type=news show=3 loop=post-news]"); ?>
 </div>
 
-<div class="row">
-	<div class="scoop row lined">
-		<?php echo do_shortcode("[posts type=news show=3 loop=post-news]"); ?>
-	</div>
-	<div class="fotd">
-		<?php // Define custom query parameters
-			
-			   $custom_query_args = array(
-					'post_type' => 'facts',
-					'posts_per_page' => 1,
-					'orderby' => 'date',
-				);
-				$custom_query = new WP_Query( $custom_query_args );
-				
-				$temp_query = $wp_query;
-				$wp_query   = NULL;
-				$wp_query   = $custom_query;
-				
-				// Output custom query loop
-				if ( $custom_query->have_posts() ) :
-				    while ( $custom_query-> have_posts() ) :
-				        $custom_query->the_post(); ?>
-							<div class="span3">	
-								<?php the_content(); ?>
-							</div>
-							<div class="white-shadow"></div>
-							<a class="read-more date" href="<?php echo home_url('/facts') ?>">View More</a>
-			<?php	endwhile;
-				endif;
-				wp_reset_postdata();
-				
-				// Reset main query object
-				$wp_query = NULL;
-				$wp_query = $temp_query; ?>
-	</div>
+<div class="fotd clearfix">
+	<header><h4>Fact of the Day</h4></header>
+	
+	<?php // Define custom query parameters
+	       $custom_query_args = array(
+	    		'post_type' => 'facts',
+	    		'posts_per_page' => 1,
+	    		'orderby' => 'date',
+	    	);
+	    	$custom_query = new WP_Query( $custom_query_args );
+	    	
+	    	$temp_query = $wp_query;
+	    	$wp_query   = NULL;
+	    	$wp_query   = $custom_query;
+	    	
+	    	// Output custom query loop
+	    	if ( $custom_query->have_posts() ) :
+	    	    while ( $custom_query-> have_posts() ) :
+	    	        $custom_query->the_post();
+	    				the_content(); ?>
+	    				
+	    				<div class="white-shadow"></div>
+	    				<a class="read-more date" href="<?php echo home_url('/facts') ?>">View More</a>
+	    <?php	endwhile;
+	    	endif;
+	    	wp_reset_postdata();
+	    	
+	    	// Reset main query object
+	    	$wp_query = NULL;
+	    	$wp_query = $temp_query; ?>
 </div>
 
-<div class="row spaced">
-	<div id="hot" class="span6">
+<div class="hot-blog clearfix">
+	<div class="span6">
 		<header><h4>Hot Off the Blog</h4></header>
 		<?php echo do_shortcode("[posts category_name=hotofftheblog show=1 loop=post-blog]"); ?>
 	</div>
+	
 	<div id="be-social" class="span6">
 		<header><h4>Let's Be Social</h4></header>
 		<div class="row lined">
@@ -56,18 +50,20 @@
 <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FSachsMedia&amp;width=222&amp;height=427&amp;show_faces=true&amp;colorscheme=light&amp;stream=false&amp;show_border=false&amp;header=true&amp;appId=175195112639351" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:222px; height:296px;" allowTransparency="true"></iframe>
 				</div>
 			</div>
+			
 			<div id="twitter" class="span3" style="height:362px;margin-top:-2px;">
 				<h3>All ATwitter</h3>
 				
 				<a class="twitter-timeline" width="222" height="296" href="https://twitter.com/twitterapi" data-widget-id="277096538856099840">@SachsMediaGrp</a>
 			
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 			</div>
 		</div>
 	</div>
 </div>
-<div class="row">
+
+<div class="spotlight clearfix">
 	<header class="span12"><h4>Creative Spotlight</h4></header>
 	<div id="new-work-slider" class="span12">
 		<div class="work-slide">

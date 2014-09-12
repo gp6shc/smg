@@ -55,9 +55,9 @@ h2 {
 }
 
 h3 {
-  font-size: 28px;
+  font-size: 25px;
   margin: 20px 0 5px 0;
-  line-height: 25px;
+  line-height: 24px;
 }
 
 h4 {
@@ -106,7 +106,7 @@ a.read-more {
   background: transparent url("../images/icons/sprite.png") right -83px;
   color: #808080;
   font-family: 'Arvo', serif;
-  font-size: 10px;
+  font-size: 11px;
   padding-left: 6px;
   padding-right: 12px;
   text-transform: uppercase;
@@ -121,6 +121,10 @@ a.read-more.date {
 
 a:hover {
   color: #000;
+}
+
+sup {
+	line-height: 0;
 }
 
 /* Misc. */
@@ -247,18 +251,14 @@ footer form label {
   width: 100%;
 }
 
-.row:before,
-.row:after {
+.clearfix:after {
   display: table;
   content: "";
-}
-
-.row:after {
   clear: both;
+  
 }
 
-
-.row.lined > [class*="span"] + [class*="span"]:before {
+.lined > [class*="span"] + [class*="span"]:before {
   background-color: #CCC;
   bottom: 0;
   content: '';
@@ -268,7 +268,7 @@ footer form label {
   width: 1px;
 }
 
-footer .row.lined > [class*="span"] + [class*="span"]:before {
+footer .lined > [class*="span"] + [class*="span"]:before {
   background-color: #4D4D4D;
 }
 
@@ -325,11 +325,6 @@ footer .row.lined > [class*="span"] + [class*="span"]:before {
 	margin: 5px 0;
 	
 }
-
-.scoop {
-	padding-right: 4%;
-}
-
 
 /* Headers */
 header#primary {
@@ -544,9 +539,108 @@ nav ul#categories {
   background-position: -70px -38px;
 }
 
-/* What's the Scoop */
-#scoop .span3 {
-  padding-bottom: 10px;
+/* Here's the Scoop */
+.scoop {
+	width: 75%;
+	float: left;
+	margin: 0;
+	
+	h4 {
+		margin-right: 4%;
+	}
+	
+	.span3 {
+		width: 29.333%;
+		height: 325px;
+	}
+	
+	img {
+		width: 100%;
+		height: auto;
+	}
+	
+	p {
+		padding-bottom: 9px;
+	}
+
+	:nth-child(3):before, :nth-child(4):before {
+		background-color: #CCC;
+		bottom: 0;
+		content: '';
+		left: -15px;
+		position: absolute;
+		top: 0;
+		width: 1px;
+	}
+}
+
+/* Fact of the Day */
+
+.fotd {
+	width: 25%;
+	height: 367px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+.fotd .span3{
+	max-height: 350px;
+}
+.fotd p {
+	margin: 20px 0 18px 0;
+	color: #DA1F26;
+	color: #333333;
+	font-size: 14px;
+	line-height: 1.4;
+	font-family: 'Arvo';
+}
+.fotd p::first-letter {
+	color: #DA1F26;
+	font-size: 50px;
+	float: left;
+	padding: 0px 4px 0px 0;
+	line-height: .6;
+}
+.white-shadow {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	height: 52px;
+	width: 100%;
+	background-image: linear-gradient( rgba(255,255,255,0), white 70%);
+}
+
+.fotd-archive article {
+	margin: 0;
+}
+.fotd-archive article p {
+	font-size: 15px;
+}
+.fotd-archive article p::first-letter {
+	color: #000000;
+	font-size: 45px;
+	float: left;
+	padding: 8px 3px 0 0;
+}
+
+.fact-title {
+	color: white;
+	display: inline-block;
+	line-height: 30px;
+	letter-spacing: 1px;
+	font-size: 20px;
+	height: 30px;
+	padding: 4px 10px 0 10px;
+	background-color: #DA1F26;
+}
+
+.explicit-date {
+	float: right;
+}
+
+.date-suffix {
+	font-size: 9px;
+	vertical-align: text-bottom;
 }
 
 /* Hot Off the Blog */
@@ -710,15 +804,15 @@ pre img {
   top: -10px;
 }
 
-.coins .row.lined [class*="span"] {
+.coins .lined [class*="span"] {
   padding: 0 0 15px 0;
 }
 
-.coins hr + .row.lined [class*="span"] {
+.coins hr + .lined [class*="span"] {
   padding: 25px 0 0 0;
 }
 
-.coins .row.lined [class*="span"] + [class*="span"]:before {
+.coins .lined [class*="span"] + [class*="span"]:before {
   background-color: #DA1F26;
 }
 
@@ -1099,81 +1193,6 @@ h3.related {
 
 p .related {
   padding-top: 1px;
-}
-
-/* Fact of the Day */
-
-.scoop {
-	width: 75%;
-	float: left;
-	margin: 0;
-}
-
-.fotd {
-	width: 25%;
-	float: left;
-	height: 350px;
-	overflow: hidden;
-	position: relative;
-}
-.fotd .span3{
-	max-height: 350px;
-}
-.fotd p {
-	margin: 0 0 18px 0;
-	color: #DA1F26;
-	color: #333333;
-	font-size: 14px;
-	line-height: 1.4;
-	font-family: 'Arvo';
-}
-.fotd p::first-letter {
-	color: #DA1F26;
-	font-size: 50px;
-	float: left;
-	padding: 0px 4px 0px 0;
-	line-height: .6;
-}
-.white-shadow {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	height: 52px;
-	width: 200px;
-	background-image: linear-gradient( rgba(255,255,255,0), white 70%);
-}
-
-.fotd-archive article {
-	margin: 0;
-}
-.fotd-archive article p {
-	font-size: 15px;
-}
-.fotd-archive article p::first-letter {
-	color: #000000;
-	font-size: 45px;
-	float: left;
-	padding: 8px 3px 0 0;
-}
-
-.fact-title {
-	color: white;
-	display: inline-block;
-	line-height: 30px;
-	letter-spacing: 1px;
-	font-size: 20px;
-	height: 30px;
-	padding: 4px 10px 0 10px;
-	background-color: #DA1F26;
-}
-
-.explicit-date {
-	float: right;
-}
-
-.date-suffix {
-	font-size: 9px;
-	vertical-align: text-bottom;
 }
 
 ::selection {
