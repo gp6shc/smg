@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "17682",
+"creatorBuild": "17908",
 "files": {
 	"\/503.php": {
 		"fileType": 8192,
@@ -12110,6 +12110,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/themes\/ronsachs\/resources\/css\/theme.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/css\/theme.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/themes\/ronsachs\/resources\/images\/backgrounds\/curlshadow.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -12397,6 +12406,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/ronsachs\/templates\/custom\/facts-archive.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/templates\/custom\/facts-archive.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -13036,6 +13054,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/templates\/partials\/post-casestudy.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/ronsachs\/templates\/partials\/post-facts.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/templates\/partials\/post-facts.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -14787,7 +14814,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 60892,
+		"initialSize": 30000,
 		"inputAbbreviatedPath": "\/wp-content\/uploads\/2012\/11\/product_11.jpg",
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/2012\/11\/product_11.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -14886,7 +14913,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.58598e+06,
+		"initialSize": 750000,
 		"inputAbbreviatedPath": "\/wp-content\/uploads\/2012\/11\/raymond.jpg",
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/2012\/11\/raymond.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -15315,7 +15342,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 163725,
+		"initialSize": 30000,
 		"inputAbbreviatedPath": "\/wp-content\/uploads\/2012\/12\/RSC_ProfileImage_alia-3.jpg",
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/2012\/12\/RSC_ProfileImage_alia-3.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -21156,7 +21183,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 200229,
+		"initialSize": 30000,
 		"inputAbbreviatedPath": "\/wp-content\/uploads\/2013\/03\/AliaRickScott.jpg",
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/2013\/03\/AliaRickScott.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -21321,7 +21348,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 617775,
+		"initialSize": 210000,
 		"inputAbbreviatedPath": "\/wp-content\/uploads\/2013\/03\/FCS-logo.jpg",
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/2013\/03\/FCS-logo.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -25765,7 +25792,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 576702,
+		"initialSize": 120000,
 		"inputAbbreviatedPath": "\/wp-content\/uploads\/2013\/07\/photo6.jpg",
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/2013\/07\/photo6.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -25864,7 +25891,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 148627,
+		"initialSize": 30000,
 		"inputAbbreviatedPath": "\/wp-content\/uploads\/2013\/07\/ProfileImage_Courtney.jpg",
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/2013\/07\/ProfileImage_Courtney.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -32530,7 +32557,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 564067,
+		"initialSize": 90000,
 		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/01\/Screen-Shot-2014-01-16-at-5.28.14-PM.png",
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/01\/Screen-Shot-2014-01-16-at-5.28.14-PM.png",
 		"outputPathIsOutsideProject": 0,
@@ -33201,7 +33228,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 48749,
+		"initialSize": 30000,
 		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/02\/herbieprof.jpg",
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/02\/herbieprof.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -36845,105 +36872,6 @@
 		"initialSize": 120765,
 		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/08\/SMG_Team.jpg",
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/08\/SMG_Team.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/uploads\/2014\/09\/naptime-post-150x150.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 7833,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/naptime-post-150x150.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/naptime-post-150x150.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/uploads\/2014\/09\/naptime-post-300x208.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 16949,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/naptime-post-300x208.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/naptime-post-300x208.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/uploads\/2014\/09\/naptime-post.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 93890,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/naptime-post.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/naptime-post.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/uploads\/2014\/09\/naptime-report-150x77.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5726,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/naptime-report-150x77.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/naptime-report-150x77.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/uploads\/2014\/09\/naptime-report-300x24.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3547,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/naptime-report-300x24.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/naptime-report-300x24.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/uploads\/2014\/09\/naptime-report.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 89107,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/naptime-report.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/naptime-report.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/uploads\/2014\/09\/Rep.-Southerland-150x150.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 7503,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/Rep.-Southerland-150x150.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/Rep.-Southerland-150x150.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/uploads\/2014\/09\/Rep.-Southerland-300x165.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 12075,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/Rep.-Southerland-300x165.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/Rep.-Southerland-300x165.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/uploads\/2014\/09\/Rep.-Southerland.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 50839,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/Rep.-Southerland.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/Rep.-Southerland.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -41838,6 +41766,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"prefer_english_operator": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"space_operators": {
 			"active": 0,
 			"flagValue": -1
@@ -42313,6 +42245,7 @@
 	"stylusAutoOutputPathReplace1": "stylus",
 	"stylusAutoOutputPathReplace2": "css",
 	"stylusAutoOutputPathStyle": 2,
+	"stylusCreateSourceMap": 0,
 	"stylusDebugStyle": 0,
 	"stylusImportCSS": 0,
 	"stylusOutputStyle": 0,
