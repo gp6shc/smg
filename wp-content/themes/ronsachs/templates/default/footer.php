@@ -20,8 +20,8 @@
 
 				<div class="row lined">
 					<div class="span3">
-						<p class="coprf"><small>MEMBER</br>
-						COUNCIL of PUBLIC RELATIONS FIRMS</small></p>
+						<p class="coprf"><small>PROUD MEMBER</br>
+						<a href="http://prfirms.org" target="_blank">COUNCIL of PUBLIC RELATIONS FIRMS</a></small></p>
 					</div>
 					<div class="span3">
 						<p><em>All content © <?php echo date('Y') ?> Sachs Media Group. All rights reserved. Contact: <a href="mailto:<?php the_field('main_contact','options') ?>"><?php the_field('main_contact','options') ?></a> 

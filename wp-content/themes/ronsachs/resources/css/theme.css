@@ -294,7 +294,7 @@
 		footer em{font-size:11px;line-height:11px}
 		footer img.map{display:block;margin:15px 0;}
 		
-		p.coprf{background:transparent url('../images/icons/sprite.png') no-repeat -100px -126px;line-height:14px;padding:10px 0 10px 40px;}
+		p.coprf{background:transparent url('../images/icons/member-of-pr-council.png') no-repeat;line-height:14px;padding:5px 0 10px 40px;}
 
 /* Media Queries 
 	@media (max-width: 1010px) {
