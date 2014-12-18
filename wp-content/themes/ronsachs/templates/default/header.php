@@ -77,7 +77,7 @@
 		</div>
 	</div>
 	<?php elseif ( is_page( array( 45 ) )  ) : ?>
-	<div id="banner" style="background: url('<?php echo home_url( 'wp-content/uploads/2014/08/SMG_AboutUs.jpg' ); ?>') repeat-x 0 0;">
+	<div id="banner" style="background: url('<?php echo home_url( 'wp-content/uploads/2013/02/pageheader_whatwedo_grey.jpg' ); ?>') repeat-x 0 0;">
 		<div class="text">
 			<h2 class="red"><span>About Us</span></h2>
 		</div>
