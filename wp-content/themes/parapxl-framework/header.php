@@ -2,7 +2,7 @@
 <html <?php language_attributes(); ?>>
 	<head>
 		<meta http-equiv="Content-Type" content="<?php bloginfo( 'html_type' ); ?>; charset=<?php bloginfo( 'charset' ); ?>" />
-		<title><?php wp_title( '|', true, 'right' ); ?> Sachs Media Group</title>
+		<title><?php wp_title( '|', true, 'right' ); ?>Sachs Media Group</title>
 		
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
 		<meta name="viewport" content="width=1130">
@@ -13,7 +13,6 @@
 		<meta property="og:title" content="<?php the_title()?>"/>
 		<meta property="og:site_name" content="Sachs Media Group"/>
 		<meta property="og:url" content="<?php the_permalink()?>"/>
-		<meta property="og:description" content="<?php the_excerpt()?>"/>
 		<!-- <meta property="fb:app_id" content="" /> -->
 		
 		<link rel="stylesheet" id="royalslider-css"  href="<?php echo home_url();?>/wp-content/themes/ronsachs/resources/css/royalslider.css" type="text/css" media="all" />
