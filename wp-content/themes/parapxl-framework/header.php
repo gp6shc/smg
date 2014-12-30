@@ -9,6 +9,13 @@
 	    <meta name="author" content="<?php echo bloginfo('name'); ?>">
 		<meta name="description" content="<?php echo bloginfo('name'); ?>">
 		<meta property="twitter:account_id" content="68730054" />
+		
+		<meta property="og:title" content="<?php the_title()?>"/>
+		<meta property="og:site_name" content="Sachs Media Group"/>
+		<meta property="og:url" content="<?php the_permalink()?>"/>
+		<meta property="og:description" content="<?php the_excerpt()?>"/>
+		<!-- <meta property="fb:app_id" content="" /> -->
+		
 		<link rel="stylesheet" id="royalslider-css"  href="<?php echo home_url();?>/wp-content/themes/ronsachs/resources/css/royalslider.css" type="text/css" media="all" />
 		<link rel="stylesheet" id="rs-default-css"  href="<?php echo home_url();?>/wp-content/themes/ronsachs/resources/css/rs-default.css" type="text/css" media="all" />
 		<link rel="stylesheet" id="theme-css"  href="<?php echo home_url();?>/wp-content/themes/ronsachs/resources/css/theme.css" type="text/css" media="all" />
