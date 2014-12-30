@@ -2,8 +2,8 @@
 <html <?php language_attributes(); ?>>
 	<head>
 		<meta http-equiv="Content-Type" content="<?php bloginfo( 'html_type' ); ?>; charset=<?php bloginfo( 'charset' ); ?>" />
-		<title><?php pxl::head_title(); ?></title>
-
+		<title><?php wp_title( '|', true, 'right' ); ?></title>
+		
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
 		<meta name="viewport" content="width=1130">
 	    <meta name="author" content="<?php echo bloginfo('name'); ?>">
