@@ -7,7 +7,6 @@
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
 		<meta name="viewport" content="width=1130">
 	    <meta name="author" content="<?php echo bloginfo('name'); ?>">
-		<meta name="description" content="<?php echo bloginfo('name'); ?>">
 		<meta property="twitter:account_id" content="68730054" />
 		
 		<meta property="og:title" content="<?php the_title()?>"/>
