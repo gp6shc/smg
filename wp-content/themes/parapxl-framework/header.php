@@ -12,7 +12,7 @@
 		<meta property="og:title" content="<?php the_title()?>"/>
 		<meta property="og:site_name" content="Sachs Media Group"/>
 		<meta property="og:url" content="<?php the_permalink()?>"/>
-		<!-- <meta property="fb:app_id" content="" /> -->
+		<meta property="fb:app_id" content="712207672128635"/>
 		
 		<link rel="stylesheet" id="royalslider-css"  href="<?php echo home_url();?>/wp-content/themes/ronsachs/resources/css/royalslider.css" type="text/css" media="all" />
 		<link rel="stylesheet" id="rs-default-css"  href="<?php echo home_url();?>/wp-content/themes/ronsachs/resources/css/rs-default.css" type="text/css" media="all" />
