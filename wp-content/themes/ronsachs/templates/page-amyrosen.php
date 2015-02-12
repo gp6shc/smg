@@ -33,16 +33,18 @@
 					<!--end about title-->
 
 					<!--about paragraph-->
-						<p>Amy  has agency experience working at international New York and Chicago firms with a variety of ADDYs® and Effies under her belt, as well as client-side experience running the marketing departments of several national corporations. She specializes in developing brand identity, positioning and launching new brands, and helping brands reinvent themselves to be to be more competitive and relevant in today's changing market. Her vast category experience, along with her expertise in both traditional and digital media, enables her to provide clients with target-focused marketing plans providing measurable results and maximum return on their marketing investment.</p>
+						<p>Amy has agency experience working at international New York and Chicago firms with a variety of ADDYs® and Effies under her belt, as well as client-side experience running the marketing departments of several national corporations. She specializes in developing brand identity, positioning and launching new brands, and helping brands reinvent themselves to be more competitive and relevant in today's changing market. Her vast category experience, along with her expertise in both traditional and digital media, enables her to provide clients with target-focused marketing plans providing measurable results and maximum return on their marketing investment.</p>
 						<p>Amy received her Bachelor of Arts degree with a dual major in Government and American Studies, with a minor in Business. She has been a guest lecturer at Northern Arizona University and has run numerous training programs developed to help up-and-coming advertising executives hone their strategic, creative and communication skills. Her advertising and marketing experience includes Tiffany, Mercedes Benz, Kraft Foods, Bacardi, L'Oréal, Con Agra, Procter & Gamble, Schwinn and Bally Total Fitness.</p>
 
 
 					<!--end about paragraph-->
 
+					<?php if (get_category(122)->category_count > 0): ?>
 					<!--blog section-->
 					<h2 class="blog"><?php $title = get_the_title();$title_array = explode(' ', $title);$first_word = $title_array[0];echo $first_word;?>'s Blog Articles<!--echos first name only--></h2>
-
+					
 					<p><?php echo do_shortcode("[posts show=3 loop=post-blog category_name=amy-rosen]"); ?></p>
+					<?php endif;?>
 					<!--end blog section-->
 
 				</div><!--end span6-->
