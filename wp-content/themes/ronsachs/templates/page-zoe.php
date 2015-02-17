@@ -42,28 +42,15 @@
 					<!--end facebook subscribe-->
 
 					<!--about paragraph-->
-					<p>Zoe graduated summa cum laude from Florida State University with a degree in English before joining the Ron Sachs Communications team in January 2010.  A gifted writer and editor, Zoe has organized and coordinated numerous successful events, including the ceremony for the return of the Romanino painting Cristo Portacroce and the opening ceremonies for the Tallahassee Florida Blue center and the Providence Community Service Center.</p>
+					<p>Zoe joined the Sachs Media Group team in January 2010 as an intern during her senior year at Florida State University. After she graduated summa cum laude with a Bachelor’s degree in English, Zoe became a full-time rhino.</p>
+					<p>Zoe is a gifted writer and editor, as well as an accomplished project coordinator, video producer and event planner. Her work with the firm has deepened her knowledge of a broad range of topics, including branding and marketing, children’s issues, health care, agriculture and finance.</p>
+					<p>She is a very involved member of the Capital Chapter of the Florida Public Relations Association and currently serves as Programs Committee Chair.</p>
 					<!--end about paragraph-->
 
 					<!--last p (pushes padding down)-->
 					<p class="lastp"></p>
 					<!--end last p-->
 			    
-					<!--keep up with-->
-					<!--<h3 class="team">Keep Up With <?php echo get_the_title(); ?></h3>-->
-					<!--end keep up with-->
-
-					<!--blog section
-					<h2 class="blog"><?php $title = get_the_title();$title_array = explode(' ', $title);$first_word = $title_array[0];echo $first_word;?>'s Blog Articles<!--echos first name only--></h2>
-
-					<!--<p><?php echo do_shortcode("[posts show=3 loop=post-blog category_name=zoe-sharron]"); ?></p>
-					<!--end blog section-->
-
-					<!--more articles section-->	
-					<!--<p class="more">View More Articles by: <a href="../category/zoe-sharron/"><?php echo get_the_title(); ?></a>
-					</p>-->
-					<!--end more article section-->
-
 				</div><!--end span6-->
 			
 				<div class="span3">
