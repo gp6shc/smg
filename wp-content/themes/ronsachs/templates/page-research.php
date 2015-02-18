@@ -27,8 +27,18 @@
 
 		<!--Case Studies -->
 		<div id="sidebar" class="span3">
-		<h3 class="whatwedo">Case Studies</h3>
-			<?php echo do_shortcode("[posts loop=post-casestudy category_name=casestudy-research]"); ?>
+		<h3 class="whatwedo" style="font-size: 22px">Research Methods We Love</h3>
+			<?php $R_query = new WP_Query( 'category_name=casestudy-research');
+				while ( $R_query->have_posts() ) : $R_query->the_post();
+					$do_not_duplicate = $post->ID; ?>
+					<div>
+						<div class="post">
+							<?php the_post_thumbnail('medium','class=research-img'); ?>
+						</div>	
+						<h3><?php the_title();?></h3>
+						<p><?php the_content(); ?></p>
+					</div>
+				<?php endwhile;?>
  		</div><!--end span 3-->
  		
 </div><!--end container row lined-->
