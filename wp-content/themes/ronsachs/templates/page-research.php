@@ -28,7 +28,7 @@
 		<!--Case Studies -->
 		<div id="sidebar" class="span3">
 		<h3 class="whatwedo">Case Studies</h3>
-			<?php echo do_shortcode("[posts loop=post-casestudy category_name=casestudy-research]"); ?>
+			<?php echo do_shortcode("[posts loop=post-casestudy category_name=research]"); ?>
  		</div><!--end span 3-->
  		
 </div><!--end container row lined-->
