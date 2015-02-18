@@ -465,6 +465,12 @@ li.menu-item a:before {
 	width: 276px;
 }
 
+ul#side.no-margin li.menu-item a {
+	margin: 0;
+}
+.current-menu-item a {
+	color: #DA1F26 !important;
+}
 
 /* What We Do Template */
 .content-img-what-we-do{

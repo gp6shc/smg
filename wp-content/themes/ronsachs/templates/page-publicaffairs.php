@@ -71,15 +71,7 @@ a.read-more.team{
 </style>
 <div class="row lined">
 	<div id="sidebar" class="span3">
-		<ul id="side">
-			<li><a href="../public-affairs/">Public Affairs</a></li>
-			<li><a href="../branding/">Branding</a></li>
-			<li><a href="../campaigns/">Campaigns</a></li>
-			<li><a href="../crisis-communication/">Crisis Communications</a></li>
-			<li><a href="../social-digital/">Social/Digital</a></li>
-			<li><a href="../public-relations/">Public Relations</a></li>
-			<li><a href="<?php echo home_url( '/our-work' ); ?>">Design Portfolio</a></li>
-		</ul>
+		<?php wp_nav_menu('menu=what-we-do&container=&menu_id=side&menu_class=no-margin'); ?>
 		<br />
 		<?php if ( !dynamic_sidebar('Sidebar') ) : ?>
 		<?php endif; ?>
@@ -135,16 +127,7 @@ a.read-more.team{
 		<p style="vertical-align: top;">Director of Washington Operations Mark Pankowski leads our Washington D.C. efforts with more than 25 years of experience as an award-winnig journalist, media relations specialist and crisis communications expert. <a class="read-more team" href="<?php echo home_url(); ?>/team/mark-pankowski">View Profile</a></p>
 		<div style="clear: both;"></div>
 		<hr style="border-bottom: 0px solid #333;margin:20px 0px!important;" />
-		
-		
-		
-		<a href="<?php echo home_url(); ?>/team/karen-cyphers/"><img class="alignleft size-thumbnail wp-image-2235" style="margin-right: 10px;" title="Karen Cyphers" src="http://sachsmedia.com/wp-content/uploads/2014/02/karen.jpg" alt="" width="100" height="100" align="left" /></a>
-		<p style="vertical-align: top;">Senior policy counsel Karen Cyphers</a> uses her expert knowledge of Florida's political trends to direct policy initiatives and previously served as policy director for the gubernatorial campaigns of Charlie Crist and Bill McCollum, and as director of health care policy for the FL. Medical Association. <a class="read-more team" href="<?php echo home_url(); ?>/team/karen-cyphers">View Profile</a></p>
-		<div style="clear: both;"></div>
-		<hr style="border-bottom: 0px solid #333;margin:20px 0px!important;" />
-		
-	
-		
+
 		</div><!-- end .public-affairs-team -->
 		
 		

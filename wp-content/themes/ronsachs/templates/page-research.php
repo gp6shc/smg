@@ -1,4 +1,4 @@
-<?php /* Template Name: What We Do: Campaigns */ pxl::page(); while ( have_posts() ) : the_post(); ?>
+<?php /* Template Name: What We Do: Research */ pxl::page(); while ( have_posts() ) : the_post(); ?>
 
 <div class="row lined">
 	<div id="sidebar" class="span3">
@@ -18,7 +18,7 @@
 				<div class="span6">
 					<!--blog section-->
 					<h3 class="related">Related Blog Articles<!--echos first name only--></h3>
-					<p style="padding-bottom:4px;"><?php echo do_shortcode("[posts show=3 loop=post-indivcasestudy category_name=campaigns]"); ?></p>
+					<p style="padding-bottom:4px;"><?php echo do_shortcode("[posts show=3 loop=post-indivcasestudy category_name=casestudy-research]"); ?></p>
 					<!--end blog section-->
 				</div><!--end span6-->
 							
@@ -28,7 +28,7 @@
 		<!--Case Studies -->
 		<div id="sidebar" class="span3">
 		<h3 class="whatwedo">Case Studies</h3>
-			<?php echo do_shortcode("[posts loop=post-casestudy category_name=casestudy-campaigns]"); ?></p>
+			<?php echo do_shortcode("[posts loop=post-casestudy category_name=casestudy-research]"); ?>
  		</div><!--end span 3-->
  		
 </div><!--end container row lined-->

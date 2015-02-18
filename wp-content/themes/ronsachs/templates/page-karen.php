@@ -34,9 +34,10 @@
 					<!--end twitter follow-->
 
 					<!--about paragraph-->
-					<p>While completing a doctoral degree, Karen worked for two gubernatorial campaigns, one governor, the Florida House and Senate, and the Florida Medical Association. Today, she relentlessly seeks the elusive bridge between data-driven policy and on-the-ground politics.</p> 
-					<p>Consulting with Sachs Media Group, Karen provides thought leadership and strategic analysis on a range of projects. Outside of the office, Karen is an adjunct instructor at Florida State University, dedicates time toward assisting the Alzheimer's Project, Inc. on matters close to her heart, and writes for various publications. </p>
-					<p>Karen earned a Ph.D. in political science from Florida State University. She is a proud graduate of New College of Florida.</p>
+					<p>While completing a doctoral degree, Karen directed policy for two gubernatorial campaigns, one governor, the Florida House and Senate, and the Florida Medical Association. Today, she relentlessly seeks the elusive bridge between data-driven policy and on-the-ground politics.</p>
+					<p>Karen provides thought leadership, data crunching, and strategic analysis on a range of projects.</p>
+					<p>Outside of the office, Karen is an adjunct instructor at Florida State University, dedicates time toward assisting the Alzheimer's Project, Inc. on matters close to her heart, and writes for various publications.</p>
+					<p>Karen earned a Ph.D. in political science from Florida State University. Her academic research focuses on experimental design, political behavior and health care policy. She is a proud graduate of New College of Florida.</p>
 					<!--end about paragraph-->
 
 					<p class="lastp"></p>
@@ -61,7 +62,7 @@
 					<h3 class="team"><?php $title = get_the_title();$title_array = explode(' ', $title);$first_word = $title_array[0];echo $first_word;?>'s Badges</h3>
 					<p><img src="<?php bloginfo('template_directory'); ?>/badges/homebase.png" /></p>
 					<p class="badge-title">Home Base</p>
-					<p>Karen and her husband Brett have two preschoolers, and Karen's stepdaughter will be a proud Seminole in the freshman class of 2014.</p>
+					<p>Karen and her husband Brett have two preschoolers, and Karen's stepdaughter is a proud Florida State Seminole.</p>
 					<div id="bottom-line"></div>
 
 					<p><img src="<?php bloginfo('template_directory'); ?>/badges/doodlemaster.png" /></p>

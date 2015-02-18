@@ -118,20 +118,8 @@ if(mb_strlen($string16, $charset) > $length) {
 
 <div class="row lined">
 	<div id="sidebar" class="span3">
-		<ul id="side">
-			<li><a href="../public-affairs/">Public Affairs</a></li>
-			<li><a href="../branding/">Branding</a></li>
-			<li><a href="../campaigns/">Campaigns</a></li>
-			<li><a href="../crisis-communication/">Crisis Communications</a></li>
-			<li><a href="../social-digital/">Social/Digital</a></li>
-			<li><a href="../public-relations/">Public Relations</a></li>
-			<li class="dropdown">
-				<a href="../design-portfolio/">Design Services</a>
-				<ul>
-					<li><a href="../design-portfolio/">Portfolio</a></li>
-				</ul>
-		</ul>
-<br />
+		<?php wp_nav_menu('menu=what-we-do&container=&menu_id=side&menu_class=no-margin'); ?>
+	<br />
 
 	<?php if ( !dynamic_sidebar('Sidebar') ) : ?>
 	<?php endif; ?>
