@@ -16,10 +16,12 @@
 		
 			<div class="row lined">
 				<div class="span6">
+				<?php if (get_category(125)->category_count > 0): ?>
 					<!--blog section-->
 					<h3 class="related">Related Blog Articles<!--echos first name only--></h3>
 					<p style="padding-bottom:4px;"><?php echo do_shortcode("[posts show=3 loop=post-indivcasestudy category_name=research]"); ?></p>
 					<!--end blog section-->
+				<?php endif;?>
 				</div><!--end span6-->
 							
 		</div><!--end span6 row lined-->
