@@ -274,7 +274,7 @@
 		ul#side{padding:0}
 		ul#side a:hover{color:#DA1F26;}
 		ul#side a:before, ul#side span:before{background-image: url('../images/icons/sprite.png');content:'';display:block;position:absolute;}
-		ul#side > li > a, ul#side > li > span{border-bottom:2px solid #000;color:#000;display:block;font-family:'BebasNeueRegular';font-size:22px;line-height:36px;padding:3px 0 0 24px;position:relative;}
+		ul#side > li > a, ul#side > li > span{border-bottom:2px solid #000;color:#000;display:block;font-family:'BebasNeueRegular';font-size:21px;line-height:36px;padding:3px 0 0 24px;position:relative;}
 		ul#side > li > span{border-bottom:none}
 		ul#side > li > a:before, ul#side > li > span:before{background-position: -418px -160px;height:16px;left:0;top:11px;width:16px;}
 		ul#side > li > ul{margin:15px 0 10px 0;padding-left:27px}
