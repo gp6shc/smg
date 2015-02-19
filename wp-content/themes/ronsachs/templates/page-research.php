@@ -31,11 +31,11 @@
 			<?php $R_query = new WP_Query( 'category_name=casestudy-research');
 				while ( $R_query->have_posts() ) : $R_query->the_post();
 					$do_not_duplicate = $post->ID; ?>
-					<div>
+					<div style="margin-bottom: 25px">
 						<div class="post">
 							<?php the_post_thumbnail('medium','class=research-img'); ?>
 						</div>	
-						<h3><?php the_title();?></h3>
+						<h3 style="margin: 5px 0 0 0"><?php the_title();?></h3>
 						<p><?php the_content(); ?></p>
 					</div>
 				<?php endwhile;?>
