@@ -1,4 +1,4 @@
-<?php /* Template Name: Mike */ pxl::page(); while ( have_posts() ) : the_post(); ?>
+<?php /* Template Name: Uchi */ pxl::page(); while ( have_posts() ) : the_post(); ?>
 
 <div class="row lined">
 	<div id="sidebar" class="span3">
@@ -39,10 +39,8 @@
 
 					<!--about paragraphs-->
 
-					<p>Mike is a web developer for Sachs Media Group, with a unique talent for technical problem solving. Mike received his Associate’s degree from Tallahassee Community College and is currently pursuing a Bachelor’s degree in Computer Science Engineering from the University of Florida. His focus includes creating innovative user experiences and building top-notch sites from the ground up for an array of clients, in addition to developing the firm’s own website. With his impressive and cutting-edge skills, Mike brings the client’s ideas to life online.</p>
-
 					<!--last p (pushes padding down)-->
-					<p class="lastp">Mike is a self-taught developer and has gained a special interest in multi-platform web services. He is heavily inspired by the mastermind innovator, Elon Musk, who is an entrepreneur, engineer, and thought leader.</p>
+					<p class="lastp">Michael is a designer who pairs creative chops with a strategic mindset. While earning a M.A. in integrated marketing from Florida State University he set himself on a mission to help companies become part of other peoples’ lives through design. Michael managed marketing campaigns for FSU, garnering record attendance numbers for large campus events, before joining the team. He continues to produce award-winning creative work in addition to directly working with clients to solve communications problems and achieve their goals. He has in-depth experience in several areas, ranging from but not limited to visual identity, branding, Web design, print design, typography and integrated campaign management.</p>
 					<!--end last p-->
 
 				</div><!--end span6-->
@@ -51,29 +49,29 @@
 					<!--badges section-->
 					<div id="badges">
 					<h3 class="team"><?php $title = get_the_title();$title_array = explode(' ', $title);$first_word = $title_array[0];echo $first_word;?>'s Badges</h3><!--echos first name only-->
-					<p><img src="<?php bloginfo('template_directory'); ?>/badges/new-hampshire.png" /></p>
-					<p class="badge-title">Northern Native</p>
-					<p>Mike is a native of New Hampshire and truly misses the snowbound winters.</p>
+					<p><img src="<?php bloginfo('template_directory'); ?>/badges/guitar.png" /></p>
+					<p class="badge-title">Ramblin' Man</p>
+					<p>Michael believes there is no better way to de-stress than a sitting on a porch with a six-string.</p>
 					<div id="bottom-line"></div>
 
-					<p><img src="<?php bloginfo('template_directory'); ?>/badges/uf.png" /></p>
-					<p class="badge-title">Mega-Gator</p>
-					<p>Born into a Gator family, Mike naturally bleeds orange and blue.</p>
+					<p><img src="<?php bloginfo('template_directory'); ?>/badges/hawaii.png" /></p>
+					<p class="badge-title">Islander Spirit</p>
+					<p>Though he grew up in Florida, Michael’s family has lived in Hawai’i for more than 100 years.</p>
 					<div id="bottom-line"></div>
 
-					<p><img src="<?php bloginfo('template_directory'); ?>/badges/tv-2.png" /></p>
-					<p class="badge-title">Cinephile</p>
-					<p>Much of Mike’s down time is spent catching up on his favorite TV shows, from Breaking Bad to The Office.</p>
+					<p><img src="<?php bloginfo('template_directory'); ?>/badges/typewriter.png" /></p>
+					<p class="badge-title">Wordsmith</p>
+					<p>Michael loves finagling with vocabulary, so much so he was published in the Kudzu Review.</p>
 					<div id="bottom-line"></div>
 
-					<p><img src="<?php bloginfo('template_directory'); ?>/badges/tesla.png" /></p>
-					<p class="badge-title">Electric Drive</p>
-					<p>Mike plans to one day be the proud owner of the electric Model 3 from Tesla.</p>
+					<p><img src="<?php bloginfo('template_directory'); ?>/badges/catan.png" /></p>
+					<p class="badge-title">Catan Fan</p>
+					<p>He cannot get enough of<br/>“The Board Game of Our Time”,<br/> Settlers of Catan.</p>
 					<div id="bottom-line"></div>
 
-					<p><img src="<?php bloginfo('template_directory'); ?>/badges/mike-1.png" /></p>
-					<p class="badge-title">Apple Corp</p>
-					<p>Mike is a huge proponent of Apple and avidly tracks the company’s evolution.</p>
+					<p><img src="<?php bloginfo('template_directory'); ?>/badges/US.png" /></p>
+					<p class="badge-title">Statesman</p>
+					<p>He can recite all fifty states in alphabetical order on command.</p>
 					</div>	
 					<!--end badges section-->
 					

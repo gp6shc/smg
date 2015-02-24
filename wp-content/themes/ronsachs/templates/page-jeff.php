@@ -1,4 +1,4 @@
-<?php /* Template Name: Mike */ pxl::page(); while ( have_posts() ) : the_post(); ?>
+<?php /* Template Name: Jeff */ pxl::page(); while ( have_posts() ) : the_post(); ?>
 
 <div class="row lined">
 	<div id="sidebar" class="span3">
@@ -39,10 +39,10 @@
 
 					<!--about paragraphs-->
 
-					<p>Mike is a web developer for Sachs Media Group, with a unique talent for technical problem solving. Mike received his Associate’s degree from Tallahassee Community College and is currently pursuing a Bachelor’s degree in Computer Science Engineering from the University of Florida. His focus includes creating innovative user experiences and building top-notch sites from the ground up for an array of clients, in addition to developing the firm’s own website. With his impressive and cutting-edge skills, Mike brings the client’s ideas to life online.</p>
+					<p>Jeff is a digital media analyst for the Sachs Media team, but could better be described as digital media guru. He has a penchant for data-driven marketing and online advertising management across multiple platforms including social, search and native. He is a certified Google AdWords, Google Analytics and Bing ads professional. His unique and self-described “question-driven” approach optimizes the digital media planning and analysis he provides.</p>
 
 					<!--last p (pushes padding down)-->
-					<p class="lastp">Mike is a self-taught developer and has gained a special interest in multi-platform web services. He is heavily inspired by the mastermind innovator, Elon Musk, who is an entrepreneur, engineer, and thought leader.</p>
+					<p class="lastp">Jeff enjoys monitoring and reporting on the “metrics that matter,” while also analyzing user behavior to make data-driven decisions for online advertising. On top of all that, Jeff is also fanatical about content marketing, online lead generation, search engine optimization and conversion optimization.</p>
 					<!--end last p-->
 
 				</div><!--end span6-->
@@ -51,29 +51,29 @@
 					<!--badges section-->
 					<div id="badges">
 					<h3 class="team"><?php $title = get_the_title();$title_array = explode(' ', $title);$first_word = $title_array[0];echo $first_word;?>'s Badges</h3><!--echos first name only-->
-					<p><img src="<?php bloginfo('template_directory'); ?>/badges/new-hampshire.png" /></p>
-					<p class="badge-title">Northern Native</p>
-					<p>Mike is a native of New Hampshire and truly misses the snowbound winters.</p>
+					<p><img src="<?php bloginfo('template_directory'); ?>/badges/magnifying-glass.png" /></p>
+					<p class="badge-title">Pivot Ninja</p>
+					<p>Jeff loves slicing and dicing data with Excel Pivot Tables.</p>
 					<div id="bottom-line"></div>
 
-					<p><img src="<?php bloginfo('template_directory'); ?>/badges/uf.png" /></p>
-					<p class="badge-title">Mega-Gator</p>
-					<p>Born into a Gator family, Mike naturally bleeds orange and blue.</p>
+					<p><img src="<?php bloginfo('template_directory'); ?>/badges/barbell.png" /></p>
+					<p class="badge-title">Geek Strength</p>
+					<p>Jeff enjoys Olympic lifting</p>
 					<div id="bottom-line"></div>
 
-					<p><img src="<?php bloginfo('template_directory'); ?>/badges/tv-2.png" /></p>
-					<p class="badge-title">Cinephile</p>
-					<p>Much of Mike’s down time is spent catching up on his favorite TV shows, from Breaking Bad to The Office.</p>
+					<p><img src="<?php bloginfo('template_directory'); ?>/badges/globe.png" /></p>
+					<p class="badge-title">Linguaphile</p>
+					<p>Jeff is proficient in French and has a working knowledge of Mandarin Chinese. His favorite written language is Korean.</p>
 					<div id="bottom-line"></div>
 
-					<p><img src="<?php bloginfo('template_directory'); ?>/badges/tesla.png" /></p>
-					<p class="badge-title">Electric Drive</p>
-					<p>Mike plans to one day be the proud owner of the electric Model 3 from Tesla.</p>
+					<p><img src="<?php bloginfo('template_directory'); ?>/badges/ghost.png" /></p>
+					<p class="badge-title">HHN Fanatic</p>
+					<p>Jeff’s favorite event of the year is Universal Orlando’s Halloween Horror Nights.</p>
 					<div id="bottom-line"></div>
 
-					<p><img src="<?php bloginfo('template_directory'); ?>/badges/mike-1.png" /></p>
-					<p class="badge-title">Apple Corp</p>
-					<p>Mike is a huge proponent of Apple and avidly tracks the company’s evolution.</p>
+					<p><img src="<?php bloginfo('template_directory'); ?>/badges/teacher.png" /></p>
+					<p class="badge-title">Teacher at Heart</p>
+					<p>Jeff taught English as a Second Language abroad in Xiamen, China, and online to students in Taiwan, and has volunteered with the Leon County Literacy Volunteers program to teach students from all over the globe.</p>
 					</div>	
 					<!--end badges section-->
 					
