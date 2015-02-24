@@ -11,8 +11,9 @@ pxl::page(); while ( have_posts() ) : the_post(); ?>
 			}
 			body {
 				border: none;
+				width: 100%;
 			}
-			.wrapper footer {
+			.wrapper footer, #curl-shadow {
 				display: none;
 			}
 			#container {
