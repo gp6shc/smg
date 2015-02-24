@@ -1,0 +1,25 @@
+table:
+  quiz:
+    name: quizes
+    export_cols: id, name, quiz_type_id, measurement_id, custom_measurement_sing, custom_measurement_pl, result_html_content, display_in_box
+  abc_type_answer:
+    name: abc_type_answers
+    export_cols: id, answer, sort_order
+  optin_setting:
+    name: optin_settings
+    export_cols: id, optin_system_id, credentials, icontact_password
+  question:
+    name: questions
+    export_cols: id, question, content, sort_order
+  answer:
+    name: answers
+    export_cols: answer, value, abc_type_answer_id, sort_order
+  result_badge:
+    name: result_badges
+    export_cols: text, text_color, text_font_id, text_fontsize_id, background_color, background_image, share_text_twitter, share_text_fb, share_text_pin, points_from, points_to, abc_type_answer_id, is_default
+  result_content:
+    name: result_content
+    export_cols: text, points_from, points_to, abc_type_answer_id, is_default
+  result_optin_form:
+    name: result_optin_forms
+    export_cols: optin_setting_id, points_from, points_to, abc_type_answer_id, email_list, need_contact_name, instructions, content, submit_btn_text, is_default, custom_code
