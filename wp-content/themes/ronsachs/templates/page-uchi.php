@@ -51,7 +51,7 @@
 					<h3 class="team"><?php $title = get_the_title();$title_array = explode(' ', $title);$first_word = $title_array[0];echo $first_word;?>'s Badges</h3><!--echos first name only-->
 					<p><img src="<?php bloginfo('template_directory'); ?>/badges/guitar.png" /></p>
 					<p class="badge-title">Ramblin' Man</p>
-					<p>Michael believes there is no better way to de-stress than a sitting on a porch with a six-string.</p>
+					<p>Michael believes there is no better way to de-stress than sitting on a porch with a six-string.</p>
 					<div id="bottom-line"></div>
 
 					<p><img src="<?php bloginfo('template_directory'); ?>/badges/hawaii.png" /></p>
