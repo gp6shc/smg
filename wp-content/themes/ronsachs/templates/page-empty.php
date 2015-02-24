@@ -12,6 +12,12 @@ pxl::page(); while ( have_posts() ) : the_post(); ?>
 			body {
 				border: none;
 			}
+			.wrapper footer {
+				display: none;
+			}
+			#container {
+				border: none;
+			}
 		</style>
 		<div><?php the_content(); ?></div>
 		<!--end content-->
