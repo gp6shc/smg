@@ -38,7 +38,7 @@
 					<!--end facebook subscribe-->
 
 					<!--about paragraphs-->
-					<p>A former SMG intern, Emily has a great enthusiasm for the communications field and serves her clients with a long-standing knowledge of strategic planning, and account management. A Tallahassee native, Emily graduated from the University of Florida with a Bachelor of Science in journalism and communications. Upon graduation, she took her skills to Washington, D.C., where she worked for an integrated marketing agency that served high profile, information technology (IT) corporations.</p>
+					<p>A former SMG intern, Emily has a great enthusiasm for the communications field and serves her clients with a long-standing knowledge of strategic planning and account management. A Tallahassee native, Emily graduated from the University of Florida with a Bachelor of Science in journalism and communications. Upon graduation, she took her skills to Washington, D.C., where she worked for an integrated marketing agency that served high profile, information technology (IT) corporations.</p>
 					<p>Her client work includes experience in the areas of public health, education associations, technology, government, senior services, dentistry and product marketing. Emily officially became full-time in 2014, where her passion for advocacy work manifests itself through her involvement with the Lauren’s Kids Foundation, an organization that works to raise awareness about the prevention of childhood sexual abuse.</p>
 
 					<!--last p (pushes padding down)-->
