@@ -39,7 +39,7 @@
 					<p>A strong, fast writer and unrepentant editor, Jon has never seen a sentence he didn’t think could be improved. After graduating from journalism school (Go Mizzou!), he landed a reporting job in Tampa back when there were those creatures called “afternoon newspapers.” That job brought him to Tallahassee, where he fell in love – with the town (Go Noles!), and with an amazing woman. </p>
 					<!--end about paragraph-->
 
-					<p>Jon eventually left journalism and embarked on a 26-year-career in state government that included communications duties for one governor (Bob Martinez), three Attorneys General and four executive agency heads. In early 2012, Jon enthusiastically joined the team at Ron Sachs Communications, where he quickly learned how easy it is to do good work when you’re surrounding by outstanding professionals.</p>
+					<p>Jon eventually left journalism and embarked on a 26-year-career in state government that included communications duties for one governor (Bob Martinez), three Attorneys General and four executive agency heads. In early 2012, Jon enthusiastically joined the team at Ron Sachs Communications, where he quickly learned how easy it is to do good work when you’re surrounded by outstanding professionals.</p>
 
 					<p class="lastp"><iframe src="http://www.youtube.com/embed/_X5oSSLsim0?rel=0" frameborder="0" width="100%" height="270"></iframe></p>
 			    
