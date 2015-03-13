@@ -148,14 +148,33 @@ a.read-more.team{
 			
 		</div><!--end content-->
 		
-			<div class="row lined">
-				<div class="span6">
-					<!--blog section-->
-					<h3 class="related">Related Blog Articles<!--echos first name only--></h3>
-					<p style="padding-bottom:4px;"><?php echo do_shortcode("[posts show=3 loop=post-indivcasestudy category_name=publicaffairs]"); ?></p>
-					<!--end blog section-->
-				</div><!--end span6-->
-							
+		<div class="row lined">
+			<div class="span6">
+				<!--blog section-->
+				<h3 class="related">Examples of Our Work</h3>
+				<p>
+					<iframe width="450" height="253.125" src="https://www.youtube.com/embed/EboyZoiJI3Y?rel=0" frameborder="0" allowfullscreen></iframe>
+				</p>
+				<p>
+					<iframe width="450" height="253.125" src="https://www.youtube.com/embed/NbTpQ9Q3ryE?rel=0" frameborder="0" allowfullscreen></iframe>
+				</p>
+				<p>
+					<iframe width="450" height="253.125" src="https://www.youtube.com/embed/TV0v8Sw3mSs?rel=0" frameborder="0" allowfullscreen></iframe>
+				</p>
+				<ul>
+					<li><a style="font-size:18px;font-weight:700" href="http://192.155.94.156/mlb/" target="_blank">Florida Fights Baseball Injustice</a></li>
+				</ul>
+				<!--end blog section-->
+			</div><!--end span6-->					
+		</div><!--end span6 row lined-->
+		
+		<div class="row lined">
+			<div class="span6">
+				<!--blog section-->
+				<h3 class="related">Related Blog Articles</h3>
+				<p style="padding-bottom:4px;"><?php echo do_shortcode("[posts show=3 loop=post-indivcasestudy category_name=publicaffairs]"); ?></p>
+				<!--end blog section-->
+			</div><!--end span6-->					
 		</div><!--end span6 row lined-->
 	</div><!--end span6-->
 
