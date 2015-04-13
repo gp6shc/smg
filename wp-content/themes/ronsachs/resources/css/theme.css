@@ -176,7 +176,7 @@
 			#banner .text a.black{margin-left:227px}
 			#banner .text a.black:hover{background-color:#DA1F26;}
 			
-			#slideshow{height:422px;overflow:hidden;}
+			#slideshow{height:422px;overflow:hidden;padding:0}
 			#slideshow .slide a,
 			#slideshow img{display:block;}
 
