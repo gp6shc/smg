@@ -134,4 +134,5 @@
 	<?php endif; ?>
 	
 	<div class="shadow bottom"></div>
+</div>
 	
