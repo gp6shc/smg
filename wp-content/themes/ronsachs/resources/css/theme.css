@@ -172,7 +172,7 @@
 			#banner .text{bottom:0;left:0;padding-bottom:46px;position:absolute;}
 			#banner .text .black{background-color:#000;color:#FFF;display:inline-block;font-family: 'Arvo', serif;font-size:13px;padding:7px 15px;text-transform:uppercase;margin-bottom:6px;margin-left:65px}
 			#banner .text .red{margin:0}
-			#banner .text .red span{background-color:#DA1F26;color:#FFF;display:inline-block;font-family:'BebasNeueRegular';font-size:54px;margin-bottom:6px;padding:20px 15px 17px 65px;}
+			#banner .text .red span{background-color:#DA1F26;color:#FFF;display:inline-block;font-family:'Bebas Neue';font-size:54px;margin-bottom:6px;padding:20px 15px 17px 65px;}
 			#banner .text a.black{margin-left:227px}
 			#banner .text a.black:hover{background-color:#DA1F26;}
 			
@@ -580,4 +580,112 @@ p .related{
 ::selection {
 	background-color: #DA1F26;
 	color: #F7F5F5;
+}
+.umloading {
+	width: 30px;
+	height: 30px;
+	margin: auto;
+	background-color: #DA1F26;
+	margin-top: 100px;
+	
+	-webkit-animation: rotateplane 1s infinite ease-in-out;
+	animation: rotateplane 1s infinite ease-in-out;
+}
+
+@-webkit-keyframes rotateplane {
+	0% { -webkit-transform: perspective(120px) }
+	50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+	100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+}
+
+@keyframes rotateplane {
+	0% { 
+	  transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+	  -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
+	} 50% { 
+	  transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+	  -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
+	} 100% { 
+	  transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+	  -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+	}
+}
+
+#uwpqsf_id input[type='checkbox'] {
+	-webkit-appearance: none;
+	display: none;
+	opacity: 0;
+	position: absolute;
+	border: none;
+	
+}
+
+#uwpqsf_id {
+	text-align: center;
+}
+
+#uwpqsf_id span:not(.taxolabel-0) {
+	display: inline-block;
+	width: 75px;
+	height: 25px;
+	line-height: 25px;
+	padding: 5px 0;
+	border: 2px solid #DA1F26;
+}
+#uwpqsffrom_3279 > div > label:nth-child(4) > span {
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+}
+#uwpqsffrom_3279 > div > label:nth-child(5) > span {
+	margin: 0 -2px;
+}
+#uwpqsffrom_3279 > div > label:nth-child(6) > span {
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+
+#uwpqsf_id label:hover {
+	cursor: pointer;
+}
+
+#uwpqsf_id input[type=checkbox]:checked + span{
+	background-color: #DA1F26;
+	color: white;
+}
+
+#works {
+	display: flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	justify-content: space-around;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.portfolio {
+	width: 216px;
+	margin-top: 37px;
+	border-top: 4px solid white;
+	transition: all 0.3s ease;
+}
+
+.portfolio:hover {
+	border-top-color: #DA1F26;
+}
+
+.portfolio:hover h3 {
+	color: #DA1F26;
+	transition: color 0.3s ease-out;
+}
+
+.portfolio div {
+	width: 216px;
+	height: 144px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.portfolio p {
+	color: #666;
 }
