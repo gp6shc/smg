@@ -24,12 +24,13 @@
 		src: local('Arvo Italic'), local('Arvo-Italic'), url(http://themes.googleusercontent.com/static/fonts/arvo/v5/ui4L3MaHUbARhH-m5bxHRevvDin1pK8aKteLpeZ5c0A.woff) format('woff');
 	}
 	@font-face {
-		font-family: 'BebasNeueRegular';
+		font-family: 'Bebas Neue';
 		font-style: normal;
 		font-weight: normal;
 		src: url('../fonts/BebasNeue-webfont.eot');
 		src: url('../fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
 			url('../fonts/BebasNeue-webfont.woff') format('woff'),
+			url('../fonts/BebasNeue-webfont.ttf') format('truetype'),
 			url('../fonts/BebasNeue-webfont.ttf') format('truetype'),
 			url('../fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
 	}
@@ -60,7 +61,7 @@
 /* Basics */
 	
 	/* Headings */
-		h1,h2,h3,h4{font-family:'BebasNeueRegular';font-weight:normal;color:#000;}
+		h1,h2,h3,h4{font-family:'Bebas Neue';font-weight:normal;color:#000;}
 		h2{font-size: 34px;line-height: 30px;}
 		h3{font-size:24px;margin:20px 0 5px 0;line-height: 25px;}
 		h4{font-size:19px;margin:0 0 10px 0;}
@@ -101,7 +102,7 @@
 		form ul{display:block;list-style-type:none;padding:0;position:relative;}
 		form ul li{position:relative;}
 		form input, textarea{color:#BBB;display:block;margin:15px 0;padding:6px 3%;width:92%;}
-		form input[type="submit"]{background-color:#DA1F26;border:none;color:#fff;font-family:'BebasNeueRegular';font-size:22px;padding:4px 15px 3px;width:auto;-webkit-appearance: none;}
+		form input[type="submit"]{background-color:#DA1F26;border:none;color:#fff;font-family:'Bebas Neue';font-size:22px;padding:4px 15px 3px;width:auto;-webkit-appearance: none;}
 		form input[type="submit"]:hover{background-color:#000;cursor:pointer;}
 		form input:focus, textarea:focus{outline: 1px solid #666;}
 		label{font-family:'Arvo', serif;text-transform:uppercase;}
@@ -172,7 +173,7 @@
 			#banner .text{bottom:0;left:0;padding-bottom:46px;position:absolute;}
 			#banner .text .black{background-color:#000;color:#FFF;display:inline-block;font-family: 'Arvo', serif;font-size:13px;padding:7px 15px;text-transform:uppercase;margin-bottom:6px;margin-left:65px}
 			#banner .text .red{margin:0}
-			#banner .text .red span{background-color:#DA1F26;color:#FFF;display:inline-block;font-family:'BebasNeueRegular';font-size:54px;margin-bottom:6px;padding:20px 15px 17px 65px;}
+			#banner .text .red span{background-color:#DA1F26;color:#FFF;display:inline-block;font-family:'Bebas Neue';font-size:54px;margin-bottom:6px;padding:20px 15px 17px 65px;}
 			#banner .text a.black{margin-left:227px}
 			#banner .text a.black:hover{background-color:#DA1F26;}
 			
@@ -274,7 +275,7 @@
 		ul#side{padding:0}
 		ul#side a:hover{color:#DA1F26;}
 		ul#side a:before, ul#side span:before{background-image: url('../images/icons/sprite.png');content:'';display:block;position:absolute;}
-		ul#side > li > a, ul#side > li > span{border-bottom:2px solid #000;color:#000;display:block;font-family:'BebasNeueRegular';font-size:22px;line-height:36px;padding:3px 0 0 24px;position:relative;}
+		ul#side > li > a, ul#side > li > span{border-bottom:2px solid #000;color:#000;display:block;font-family:'Bebas Neue';font-size:22px;line-height:36px;padding:3px 0 0 24px;position:relative;}
 		ul#side > li > span{border-bottom:none}
 		ul#side > li > a:before, ul#side > li > span:before{background-position: -418px -160px;height:16px;left:0;top:11px;width:16px;}
 		ul#side > li > ul{margin:15px 0 10px 0;padding-left:27px}
@@ -349,7 +350,7 @@
 
 p.more{
 	font-size: 19px;
-	font-family: 'BebasNeueRegular';
+	font-family: 'Bebas Neue';
 	text-align: left;
 	padding: 10px 0px 10px 0px;
 	/*border-top: 1px solid #333;*/
@@ -361,7 +362,7 @@ h3.team{
 	border-bottom: 2px solid #333;
 	color: black;
 	display: block;
-	font-family: 'BebasNeueRegular';
+	font-family: 'Bebas Neue';
 	line-height: 36px;
 	padding: 0 0 0 0px;
 	position: relative;
@@ -477,7 +478,7 @@ h3.whatwedo{
 	border-bottom: 2px solid #333;
 	color: black;
 	display: block;
-	font-family: 'BebasNeueRegular';
+	font-family: 'Bebas Neue';
 	padding: 0 0 2px 0px;
 	position: relative;
 }
@@ -486,7 +487,7 @@ h3.related{
 	border-bottom: 2px solid #333;
 	color: black;
 	display: block;
-	font-family: 'BebasNeueRegular';
+	font-family: 'Bebas Neue';
 	padding: 0 0 2px 0px;
 	position: relative;
 }
@@ -574,4 +575,112 @@ p .related{
 ::selection {
 	background-color: #DA1F26;
 	color: #F7F5F5;
+}
+.umloading {
+	width: 30px;
+	height: 30px;
+	margin: auto;
+	background-color: #DA1F26;
+	margin-top: 100px;
+	
+	-webkit-animation: rotateplane 1s infinite ease-in-out;
+	animation: rotateplane 1s infinite ease-in-out;
+}
+
+@-webkit-keyframes rotateplane {
+	0% { -webkit-transform: perspective(120px) }
+	50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+	100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+}
+
+@keyframes rotateplane {
+	0% { 
+	  transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+	  -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
+	} 50% { 
+	  transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+	  -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
+	} 100% { 
+	  transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+	  -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+	}
+}
+
+#uwpqsf_id input[type='checkbox'] {
+	-webkit-appearance: none;
+	display: none;
+	opacity: 0;
+	position: absolute;
+	border: none;
+	
+}
+
+#uwpqsf_id {
+	text-align: center;
+}
+
+#uwpqsf_id span:not(.taxolabel-0) {
+	display: inline-block;
+	width: 75px;
+	height: 25px;
+	line-height: 25px;
+	padding: 5px 0;
+	border: 2px solid #DA1F26;
+}
+#uwpqsffrom_3279 > div > label:nth-child(4) > span {
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+}
+#uwpqsffrom_3279 > div > label:nth-child(5) > span {
+	margin: 0 -2px;
+}
+#uwpqsffrom_3279 > div > label:nth-child(6) > span {
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+
+#uwpqsf_id label:hover {
+	cursor: pointer;
+}
+
+#uwpqsf_id input[type=checkbox]:checked + span{
+	background-color: #DA1F26;
+	color: white;
+}
+
+#works {
+	display: flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	justify-content: space-around;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.portfolio {
+	width: 216px;
+	margin-top: 37px;
+	border-top: 4px solid white;
+	transition: all 0.3s ease;
+}
+
+.portfolio:hover {
+	border-top-color: #DA1F26;
+}
+
+.portfolio:hover h3 {
+	color: #DA1F26;
+	transition: color 0.3s ease-out;
+}
+
+.portfolio div {
+	width: 216px;
+	height: 144px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.portfolio p {
+	color: #666;
 }
