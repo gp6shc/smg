@@ -45,6 +45,22 @@
 		echo $string;
 	}
 	
+	function wp_character_excerpt($limit, $readMore) {
+		$excerpt = strip_tags( get_the_content() );
+		$length = strlen($excerpt);
+		
+		if ($length <= $limit) {
+			return $excerpt;
+		}else{
+			$excerpt = substr($excerpt, 0, $limit);		
+			if ($readMore) {
+				echo $excerpt . '… <span>Read More »</span>'; 
+			}else{
+				echo $excerpt . '…'; 
+			}
+		}	
+	}
+	
 	function fotd_custom_post() {
 		$labels = array(
 		    'name'               => _x( 'Facts of the Day', 'post type general name' ),
@@ -76,6 +92,7 @@
 	}	
 	add_action( 'init', 'fotd_custom_post' );
 	
+	//Design Portfolio
 	function customize_output($results , $arg, $id, $getdata ){
 		// The Query
 		$apiclass = new uwpqsfprocess();

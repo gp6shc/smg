@@ -1,5 +1,5 @@
 <a href="<?php echo home_url( '/design-portfolio' ); ?>" class="work span3">
-	<?php pxl::timthumb( 'post_thumbnail', array( 'w' => 274, 'h' => 137 ), 'medium' ); ?>
+	<?php if ( has_post_thumbnail() ) the_post_thumbnail('medium'); ?>
 	<?php $terms = get_the_terms( $post->ID, 'medium' ); 
 		if ( $terms ) foreach ($terms as $term) $medium = $term->name;
 		else $medium = false;

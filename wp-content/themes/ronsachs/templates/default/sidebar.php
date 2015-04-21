@@ -24,7 +24,6 @@
 		<hr>
 	<?php endif; ?>
 	
-	
 	<div class="facebook-box">
 		<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FSachsMedia&amp;width=600&amp;height=300&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=false&amp;header=true&amp;appId=253839971311174" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100%; height:300px;" allowTransparency="true"></iframe>
 	</div>

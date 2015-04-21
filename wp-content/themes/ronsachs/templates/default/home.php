@@ -18,13 +18,13 @@
 			<div class="span3">
 				<div class="facebook-box" style="margin-top:-6px;">
 				<h3>Facebook Us</h3>
-<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FSachsMedia&amp;width=222&amp;height=427&amp;show_faces=true&amp;colorscheme=light&amp;stream=false&amp;show_border=false&amp;header=true&amp;appId=175195112639351" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:222px; height:296px;" allowTransparency="true"></iframe>
+<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FSachsMedia&amp;width=222&amp;height=427&amp;show_faces=true&amp;colorscheme=light&amp;stream=false&amp;show_border=false&amp;header=true&amp;appId=175195112639351" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100%; height:420px;" allowTransparency="true"></iframe>
 				</div>
 			</div>
-			<div id="twitter" class="span3" style="height:362px;margin-top:-2px;">
+			<div id="twitter" class="span3" style="margin-top:-2px;">
 				<h3>All ATwitter</h3>
 				
-				<a class="twitter-timeline" width="222" height="296" href="https://twitter.com/twitterapi" data-widget-id="277096538856099840">@SachsMediaGrp</a>
+				<a class="twitter-timeline" width="100%" height="420" href="https://twitter.com/twitterapi" data-widget-id="277096538856099840">@SachsMediaGrp</a>
 			
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 

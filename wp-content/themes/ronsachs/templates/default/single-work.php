@@ -1,7 +1,8 @@
 <div class="row lined">
 	<div class="span12">
-		<?php pxl::timthumb( 'post_thumbnail', array( 'w' => 700, 'h' => 403 ), 'original' ); ?>
+		<?php if ( has_post_thumbnail() ) the_post_thumbnail('full'); ?>
 		<h2><?php the_title(); ?></h2>
+		work?
 		<em><?php the_time('F jS, Y'); ?> | Posted by: <?php the_author(); ?> | <span class="share">share: <a class="facebook" href="http://www.facebook.com/share.php?u=<?php the_permalink(); ?>" target="_blank">facebook</a> <a class="twitter" href="https://twitter.com/intent/tweet?url=<?php the_permalink(); ?>&via=SachsMediaGrp&text=<?php the_title(); ?>&original_referer=<?php echo home_url(); ?>" target="_blank">twitter</a></span>
 		</em>
         <!--post content-->
