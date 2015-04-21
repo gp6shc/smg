@@ -328,7 +328,7 @@ if(!class_exists('uwpqsfprocess')){
 	 
 	if(1 != $pages)
 	 {
-	  $html = "<div class=\"uwpqsfpagi\">  ";  
+	  $html = '<div class="uwpqsfpagi">  ';  
 	  $html .= '<input type="hidden" id="curuform" value="#uwpqsffrom_'.$id.'">';
 	
 	 if($paged > 2 && $paged > $range+1 && $showitems < $pages) 

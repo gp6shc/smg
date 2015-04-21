@@ -12,6 +12,7 @@ jQuery(document).ready(function($) {
 			return false;
 		});
 
+/*
 		$('body').on('keypress','.uwpqsftext',function(e) {
 		  if(e.keyCode == 13){
 		    e.preventDefault();
@@ -20,12 +21,13 @@ jQuery(document).ready(function($) {
 		    
 		  }
 		});
+*/
 		
 		window.process_data = function ($obj) {
 			
-			var ajaxURL = "/smg/wp-admin/admin-ajax.php";
-			var ajxdiv = $("#works");
-			var res = $('.loader-contain');
+			var ajaxURL = "/wp-admin/admin-ajax.php";
+			var ajxdiv  = $("#works");
+			var res		= $('.loader-contain');
 			var getdata = $obj.closest("form").serialize();
 			var pagenum = '1';
 						
@@ -34,35 +36,33 @@ jQuery(document).ready(function($) {
 				url: ajaxURL,
 				data: ({action : 'uwpqsf_ajax',getdata:getdata, pagenum:pagenum }),
 				beforeSend:function() {
-					ajxdiv.addClass("opacity-0");
+					$('.portfolio').addClass("opacity-0");
 					res.removeClass("scale-0");				 
 				},
 				success: function(html) {
-					setTimeout(function() {
-						res.addClass("scale-0");
-						setTimeout( function() {
-							ajxdiv.html(html);
-							ajxdiv.removeClass("opacity-0");
-						}, 250);
-						
-					}, 750);
+					res.addClass("scale-0");
+					ajxdiv.html(html);
+					
+					setTimeout( function() {
+						$('.portfolio').removeClass("opacity-0");
+					}, 200);
 				}
 			});
 		};	
 		
 		window.upagi_ajax = function (pagenum, formid) {
 			
-			var ajaxURL = "/smg/wp-admin/admin-ajax.php";
-			var ajxdiv = $("#works");
-			var res = $('.loader-contain');
+			var ajaxURL = "/wp-admin/admin-ajax.php";
+			var ajxdiv 	= $("#works");
+			var res 	= $('.loader-contain');
 			var getdata = $(''+formid+'').serialize();
 		
 			jQuery.ajax({
-				type: 'POST',	 
+				type: 'POST',
 				url: ajaxURL,
 				data: ({action : 'uwpqsf_ajax',getdata:getdata, pagenum:pagenum }),
 				beforeSend:function() {
-					ajxdiv.addClass("opacity-0");
+					$('.portfolio').addClass("opacity-0");
 					res.removeClass("scale-0");				 
 					res.addClass("bottom-0");				 
 				},
@@ -71,16 +71,16 @@ jQuery(document).ready(function($) {
 					res.addClass("scale-0");
 					
 					$('html, body').animate({
-						scrollTop: ($('#works').offset().top - 200)
-					}, 700);
+						scrollTop: ($('#works').offset().top - 50)
+					}, 500);
 					
 					setTimeout(function() {
 						res.removeClass("bottom-0");
+						ajxdiv.html(html);
 						setTimeout( function() {
-							ajxdiv.html(html);
-							ajxdiv.removeClass("opacity-0");
-						}, 150);
-					}, 710);
+							$('.portfolio').removeClass("opacity-0");
+						}, 200);
+					}, 510);
 				}
 			});
 		};

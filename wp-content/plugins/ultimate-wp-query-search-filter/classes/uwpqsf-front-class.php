@@ -27,17 +27,17 @@ if(!class_exists('uwpqsfront')){
 		}
 		if($type == 'checkbox'){
  			if ( $count > 0 ){
-				$html  = '<div class="'.$defaultclass.' '.$divclass.' tax-check-'.$c.' togglecheck"><span  class="taxolabel-'.$c.'">'.$taxlabel.'</span >';
+				$html  = '<div class="'.$defaultclass.' '.$divclass.' tax-check-'.$c.' togglecheck"><span  class="taxolabel-'.$c.'">'.$taxlabel.'</span>';
 				$html .= '<input  type="hidden" name="taxo['.$c.'][name]" value="'.$taxname.'">';
 				$html .= '<input  type="hidden" name="taxo['.$c.'][opt]" value="'.$opt.'">';
 				if(!empty($taxall)){
 				$checkall = (isset($_GET['taxo'][$c]['call']) && $_GET['taxo'][$c]['call'] == '1'  ) ? 'checked="checked"' : '';	
-				$html .= '<label><input type="checkbox" id="tchkb-'.$c.'" name="taxo['.$c.'][call]" class="chktaxoall" value="1" '.$checkall.'>'.$taxall.'</label>';
+				$html .= '<label><input type="checkbox" id="tchkb-'.$c.'" name="taxo['.$c.'][call]" class="chktaxoall" value="1" '.$checkall.'><span>'.$taxall.'</span></label>';
 				}
 				foreach ( $terms as $term ) {
 				$value = $term->slug;
 				$checked = (isset($_GET['taxo'][$c]['term']) && in_array($value, $_GET['taxo'][$c]['term'])) ? 'checked="checked"' : '';
-				$html .= '<label><input type="checkbox" id="tchkb-'.$c.'" name="taxo['.$c.'][term][]" value="'.$value.'" '.$checked.'>'.$term->name.'</label>';
+				$html .= '<label><input type="checkbox" id="tchkb-'.$c.'" name="taxo['.$c.'][term][]" value="'.$value.'" '.$checked.'><span>'.$term->name.'</span></label>';
 				}
 				$html .= '</div>';
 				return  apply_filters( 'uwpqsf_tax_field_checkbox', $html ,$type,$exc,$hide,$taxname,$taxlabel,$taxall,$opt,$c,$defaultclass,$formid,$divclass);
