@@ -1,41 +1,72 @@
+@import 'royalslider';
+
 $red: #DA1F26;
 $white: #F7F5F5;
 
 /* Fonts */
-	@font-face {
-		font-family: 'Arvo';
-		font-style: normal;
-		font-weight: 700;
-		src: local('Arvo Bold'), local('Arvo-Bold'), url(http://themes.googleusercontent.com/static/fonts/arvo/v5/_OKjjqM9ed2qvTR07QdjWwLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
-	}
-	@font-face {
-		font-family: 'Arvo';
-		font-style: normal;
-		font-weight: 400;
-		src: local('Arvo'), url(http://themes.googleusercontent.com/static/fonts/arvo/v5/BM-nqL-L5PgjKPDNaleWB_esZW2xOQ-xsNqO47m55DA.woff) format('woff');
-	}
-	@font-face {
-		font-family: 'Arvo';
-		font-style: italic;
-		font-weight: 700;
-		src: local('Arvo Bold Italic'), local('Arvo-BoldItalic'), url(http://themes.googleusercontent.com/static/fonts/arvo/v5/Vj6JEk1YZr8j8R8H2j0b-rO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
-	}
-	@font-face {
-		font-family: 'Arvo';
-		font-style: italic;
-		font-weight: 400;
-		src: local('Arvo Italic'), local('Arvo-Italic'), url(http://themes.googleusercontent.com/static/fonts/arvo/v5/ui4L3MaHUbARhH-m5bxHRevvDin1pK8aKteLpeZ5c0A.woff) format('woff');
-	}
-	@font-face {
-		font-family: 'BebasNeueRegular';
-		font-style: normal;
-		font-weight: normal;
-		src: url('../fonts/BebasNeue-webfont.eot');
-		src: url('../fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
-			url('../fonts/BebasNeue-webfont.woff') format('woff'),
-			url('../fonts/BebasNeue-webfont.ttf') format('truetype'),
-			url('../fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
-	}
+
+@font-face {
+	font-family: 'BebasNeueRegular';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/BebasNeue-webfont.eot');
+	src: url('../fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg'),
+		url('../fonts/BebasNeue-webfont.ttf') format('truetype'),
+		url('../fonts/BebasNeue-webfont.woff') format('woff');
+}
+@font-face {
+	font-family: 'fontello';
+	src: url('../fonts/fontello.eot');
+	src: url('../fonts/fontello.eot#iefix') format('embedded-opentype'),
+		url('../fonts/fontello.svg') format('svg'),
+		url('../fonts/fontello.ttf') format('truetype'),
+		url('../fonts/fontello.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+ 
+.icon::before {
+	font-family: "fontello";
+	font-style: normal;
+	font-weight: normal;
+	speak: none;
+	
+	display: inline-block;
+	text-decoration: inherit;
+	width: 1em;
+	//margin-right: .2em;
+	text-align: center;
+	/* opacity: .8; */
+	
+	/* For safety - reset parent styles, that can break glyph codes*/
+	font-variant: normal;
+	text-transform: none;
+	
+	/* fix buttons height, for twitter bootstrap */
+	line-height: 1em;
+	
+	/* Animation center compensation - margins should be symmetric */
+	/* remove if not needed */
+	// 	margin-left: .2em;
+	
+	/* you can be more comfortable with increased icons size */
+	/* font-size: 120%; */
+	
+	/* Font smoothing. That was taken from TWBS */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	
+	/* Uncomment for 3D effect */
+	/* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-facebook-squared:before { content: '\e805'; }
+.icon-twitter-squared:before { content: '\e802'; }
+.icon-youtube-squared:before { content: '\e803'; }
+.icon-globe:before { content: '\e800'; }
+.icon-print:before { content: '\e801'; }
+.icon-videocam:before { content: '\e804'; }
 	
 /* Viewport & Wrapper */
 	html{
@@ -61,9 +92,10 @@ $white: #F7F5F5;
 	
 	/* Headings */
 h1,h2,h3,h4 {
-  font-family: 'BebasNeueRegular';
-  font-weight: normal;
-  color: #000;
+	font-family: 'BebasNeueRegular';
+	font-weight: normal;
+// 	font-variant: small-caps;
+	color: #000;
 }
 
 h2 {
@@ -405,56 +437,31 @@ nav ul#categories {
   top: 25px;
 }
 
-#social ul {
-  right: 0;
-  margin: 10px 0 20px 0;
-}
-
-#social ul li {
-  border: none;
-}
-
-#social ul li a {
-  background: transparent url('../images/icons/sprite.png') 0 -60px;
-  display: block;
-  height: 20px;
-  margin-left: 5px;
-  padding: 0;
-  text-align: left;
-  text-indent: -10000px;
-  width: 20px;
-}
-
-#social ul li.facebook a {
-  background-position: 0 -60px;
-}
-
-#social ul li.twitter a {
-  background-position: -20px -60px;
-}
-
-#social ul li.youtube a {
-  background-position: -40px -60px;
-}
-
-#social ul li.facebook a:hover {
-  background-position: 0 -80px;
-}
-
-#social ul li.twitter a:hover {
-  background-position: -20px -80px;
-}
-
-#social ul li.youtube a:hover {
-  background-position: -40px -80px;
+#social {
+	float: right;
+	margin-bottom: 21px;
+	
+	a {
+		display: inline-block;
+		height: 20px;
+		padding: 0;
+		width: 20px;
+		
+		+ a {
+			margin-left: 2px;
+		}
+	}
+	
+	i {
+		font-size: 1.7em;
+	}
 }
 		
 		
-	/* Content */
-		/* SlideShow */
+/* Content */
+/* SlideShow */
 #banner {
-				/* For the header area use the_field('header_image', 'general'); to get the url and put it in via inline css */
-/*				background: url('../images/props/ferris-wheel.png') repeat-x 0 0;*/
+	/* For the header area use the_field('header_image', 'general'); to get the url and put it in via inline css */
   padding: 0;
   position: relative;
   min-height: 162px;
@@ -853,10 +860,11 @@ ul#side > li > a, ul#side > li > span {
   color: #000;
   display: block;
   font-family: 'BebasNeueRegular';
-  font-size: 21px;
+  font-size: 22px;
   line-height: 36px;
   padding: 3px 0 0 24px;
   position: relative;
+  letter-spacing: 0.2px;
 }
 
 ul#side > li + li {

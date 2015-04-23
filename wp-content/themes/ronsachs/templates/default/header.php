@@ -5,41 +5,19 @@
 		</a>
 		<div class="navs">
 			<nav id="social">
-			<ul>
-		    <li id="menu-item-194" class="facebook menu-item menu-item-type-custom menu-item-object-custom menu-item-194"><a title="LIKE us on Facebook" href="http://www.facebook.com/sachsmedia">Facebook</a></li>
-			<li id="menu-item-7" class="twitter menu-item menu-item-type-custom menu-item-object-custom menu-item-7"><a title="Follow us on Twitter" href="http://www.twitter.com/sachsmediagrp">Twitter</a></li>
-			<li id="menu-item-5" class="youtube menu-item menu-item-type-custom menu-item-object-custom menu-item-5"><a title="Visit us on Youtube" href="http://www.youtube.com/user/SachsMedia/">YouTube</a></li>
-			</ul>
-				<!--<ul>
-					<?php wp_nav_menu( array(
-						'theme_location'  => 'social',
-						'container'       => false,
-						'echo'            => true,
-						'fallback_cb'     => false,
-						'items_wrap'      => '%3$s',
-						'depth'           => 0
-					) ); ?>
-				</ul>-->
+				<a title="Like us on Facebook" href="http://www.facebook.com/sachsmedia"><i class="icon icon-facebook-squared"></i></a>
+				<a title="Follow us on Twitter" href="http://www.twitter.com/sachsmediagrp"><i class="icon icon-twitter-squared"></i></a>
+				<a title="Subscribe to us on Youtube" href="http://www.youtube.com/user/SachsMedia/"><i class="icon icon-youtube-squared"></i></a>
 			</nav>
 			<nav id="menu">
-			<ul>
-				<li class="active"><a href="<?php echo home_url()?>">Home</a></li>
-	            <li><a href="<?php echo home_url('/about')?>">About</a></li>
-	            <li><a href="<?php echo home_url('/what-we-do')?>">What We Do</a></li>
-	            <li><a href="<?php echo home_url('/blog')?>">Blog</a></li>
-	            <li><a href="<?php echo home_url('/news')?>">News</a></li>
-	            <li><a href="<?php echo home_url('/contact')?>">Contact</a></li>
-			</ul>
-				<!--<ul>
-					<?php wp_nav_menu( array(
-						'theme_location'  => 'main',
-						'container'       => false,
-						'echo'            => true,
-						'fallback_cb'     => false,
-						'items_wrap'      => '%3$s',
-						'depth'           => 0
-					) ); ?>
-				</ul>-->
+				<ul>
+					<li class="active"><a href="<?php echo home_url()?>">Home</a></li>
+		            <li><a href="<?php echo home_url('/about')?>">About</a></li>
+		            <li><a href="<?php echo home_url('/what-we-do')?>">What We Do</a></li>
+		            <li><a href="<?php echo home_url('/blog')?>">Blog</a></li>
+		            <li><a href="<?php echo home_url('/news')?>">News</a></li>
+		            <li><a href="<?php echo home_url('/contact')?>">Contact</a></li>
+				</ul>
 			</nav>
 		</div>
 	</div>
