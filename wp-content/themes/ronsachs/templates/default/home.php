@@ -1,5 +1,5 @@
 <div class="row">
-	<header class="span12"><h4>Here's The Scoop</h4></header>
+	<h4>Here's The Scoop</h4>
 </div>
 <div class="row">
 	<div class="scoop row lined">
@@ -9,11 +9,11 @@
 
 <div class="row spaced">
 	<div id="hot" class="span6">
-		<header><h4>Hot Off the Blog</h4></header>
+		<h4>Hot Off the Blog</h4>
 		<?php echo do_shortcode("[posts category_name=hotofftheblog show=1 loop=post-blog]"); ?>
 	</div>
 	<div id="be-social" class="span6">
-		<header><h4>Let's Be Social</h4></header>
+		<h4>Let's Be Social</h4>
 		<div class="row lined">
 			<div class="span3">
 				<div class="facebook-box" style="margin-top:-6px;">
@@ -33,18 +33,8 @@
 	</div>
 </div>
 <div class="row">
-	<header class="span12"><h4>Creative Spotlight</h4></header>
-	<div id="new-work-slider" class="span12">
-		<div class="work-slide">
-			<div><?php echo do_shortcode("[posts type=work show=3 loop=post-slider]"); ?></div>
-		</div> 
-		<div class="work-slide">
-			<div><?php echo do_shortcode("[posts type=work show=3 offset=3 loop=post-slider]"); ?></div>
-		</div>
-	</div>
-	<div id="new-work" class="span12">
-		<div class="row">
-			<?php echo do_shortcode("[posts type=work show=4 loop=post-slider]"); ?>
-		</div>
+	<h4>Creative Spotlight</h4>
+	<div id="new-work-slider">
+		<?php echo do_shortcode("[posts type=work show=12 loop=post-slider]"); ?>
 	</div>
 </div>

@@ -23,18 +23,16 @@
 	</div>
 </header>
 <div id="container" class="wrapper">
-	<div id="banner" style="background: url('<?php the_field('header_image', 'options') ?>') repeat-x 0 0;">
 	<?php if ( is_front_page() ) : $home = get_page_by_title('Home'); ?>
-		<div id="slideshow" class="rsDefault">
+		<div class="dummy-wrapper"><!-- dummy for drop shadow -->
+		<div id="slideshow">
 		<?php if (get_field('slides',$home->ID)) : ?>
 			<?php $slides = get_field('slides',$home->ID); foreach ($slides as $slide): ?>
-			<div class="slide">
-			<?php
-				if ($slide['link_internal']) : echo '<a href="'.$slide['link_internal'].'"><img src="'.$slide['image'].'" width="1010" height="422"></a>';
-				elseif ($slide['link_external']) : echo '<a href="'.$slide['link_external'].'" target="_blank"><img src="'.$slide['image'].'" width="1010" height="422"></a>';
-				endif;
-			?>
-			</div>
+				<?php
+					if ($slide['link_internal']) : echo '<a href="'.$slide['link_internal'].'"><img src="'.$slide['image'].'" width="1010" height="422"></a>';
+					elseif ($slide['link_external']) : echo '<a href="'.$slide['link_external'].'" target="_blank"><img src="'.$slide['image'].'" width="1010" height="422"></a>';
+					endif;
+				?>
 			<?php endforeach; ?>
 		<?php endif; ?>
 		</div>
@@ -43,8 +41,8 @@
 		<div class="text">
 			<h2 class="red"><span>Blog</span></h2>
 		</div>
-	</div>
 	<?php elseif ( is_404() ) : ?>
+	<div id="banner" style="background: url('<?php the_field('header_image', 'options') ?>') repeat-x 0 0;">	
 		<div class="text">
 			<h2 class="red"><span>Page Not Found: 404</span></h2>
 		</div>
@@ -53,52 +51,48 @@
 		<div class="text">
 			<h2 class="red"><span>Team</span></h2>
 		</div>
-	</div>
 	<?php elseif ( is_page( array( 45 ) )  ) : ?>
 	<div id="banner" style="background: url('<?php echo home_url( 'wp-content/uploads/2013/02/pageheader_whatwedo_grey.jpg' ); ?>') repeat-x 0 0;">
 		<div class="text">
 			<h2 class="red"><span>About Us</span></h2>
 		</div>
-	</div>
 	<?php elseif ( is_page( array( 46 ) )  ) : ?>
-		<div id="banner" style="background: url('<?php echo home_url( 'wp-content/uploads/2013/02/pageheader_contact.jpg' ); ?>') repeat-x 0 0;">
+	<div id="banner" style="background: url('<?php echo home_url( 'wp-content/uploads/2013/02/pageheader_contact.jpg' ); ?>') repeat-x 0 0;">
 		<div class="text">
 			<h2 class="red"><span>Contact Us</span></h2>
 		</div>
-	</div>
 	<?php elseif ( is_page( array( 449, 477, 481, 483, 485, 488,  ) )  ) : ?>
-		<div id="banner" style="background: url('<?php echo home_url( 'wp-content/uploads/2013/02/pageheader_whatwedo_grey.jpg' ); ?>') repeat-x 0 	0;">
+	<div id="banner" style="background: url('<?php echo home_url( 'wp-content/uploads/2013/02/pageheader_whatwedo_grey.jpg' ); ?>') repeat-x 0 	0;">
 		<div class="text">
 			<h2 class="red"><span>What We Do</span></h2>
 		</div>
-	</div>
 	<?php elseif ( is_singular(array('news')) ) : ?>
 	<div id="banner" style="background: url('<?php echo home_url( 'wp-content/uploads/2013/02/pageheader_whatwedo-1.jpg' ); ?>') repeat-x 0 0;">
 		<div class="text">
 			<h2 class="red"><span>News</span></h2>
 		</div>
-	</div>
 	<?php elseif ( is_page(474)  ) : ?>
 	<div id="banner" style="background: url('<?php echo home_url( 'wp-content/uploads/2014/02/pageheader_publicaffairs.jpg' ); ?>') repeat-x 0 0;">
 		<div class="text">
 			<!--<h2 class="red"><span>News</span></h2>-->
 		</div>
-	</div>
 	<?php elseif ( is_search() ) : ?>
 	<div id="banner" style="background: url('<?php echo home_url( 'wp-content/uploads/2013/02/pageheader_whatwedo-1.jpg' ); ?>') repeat-x 0 0;">
 		<div class="text">
 			<h2 class="red"><span>Search</span></h2>
 		</div>
-	</div>
 	<?php elseif ( is_singular(array('work')) || is_post_type_archive('work') || is_tax('medium') ) : ?>
+	<div id="banner" style="background: url('<?php the_field('header_image', 'options') ?>') repeat-x 0 0;">
 		<div class="text">
 			<h2 class="red"><span>Design Portfolio</span></h2>
 		</div>
 	<?php elseif ( is_post_type_archive() ) : ?>
+	<div id="banner" style="background: url('<?php the_field('header_image', 'options') ?>') repeat-x 0 0;">
 		<div class="text">
 			<h2 class="red"><span><?php post_type_archive_title(); ?></span></h2>
 		</div>
 	<?php else : ?>
+	<div id="banner" style="background: url('<?php the_field('header_image', 'options') ?>') repeat-x 0 0;">
 		<div class="text">
 			<h2 class="red"><span><?php single_post_title(); ?></span></h2>
 		</div>

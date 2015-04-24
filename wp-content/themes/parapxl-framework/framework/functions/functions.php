@@ -17,6 +17,13 @@
 		else define('CHILD_PATH', get_stylesheet_directory() . RESOURCES);
 		define('TEMPLATES', get_stylesheet_directory() . '/templates' );
 		
+		function jquery_dump() {
+			if (!is_admin()) {
+				wp_deregister_script('jquery');
+			}
+		}
+		add_action('init', 'jquery_dump');
+		
 	/* Query Helper */
 		$pxl_query = false;
 		
@@ -29,7 +36,6 @@
 		
 	// Framework
 		include( FW_FUNCTIONS . '/class.pxl.php');
-
 	// Custom admin login 
 	function custom_login_logo() {
 		echo '<style type="text/css">
