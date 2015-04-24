@@ -6270,11 +6270,29 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/plugins\/gravityforms\/css\/admin.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/css\/admin.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/plugins\/gravityforms\/css\/browsers.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/css\/browsers.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/gravityforms\/css\/browsers.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/css\/browsers.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -6288,11 +6306,29 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/plugins\/gravityforms\/css\/datepicker.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/css\/datepicker.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/plugins\/gravityforms\/css\/font-awesome.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/css\/font-awesome.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/gravityforms\/css\/font-awesome.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/css\/font-awesome.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -6306,11 +6342,29 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/plugins\/gravityforms\/css\/formreset.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/css\/formreset.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/plugins\/gravityforms\/css\/forms.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/css\/forms.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/gravityforms\/css\/forms.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/css\/forms.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -6324,11 +6378,29 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/plugins\/gravityforms\/css\/formsmain.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/css\/formsmain.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/plugins\/gravityforms\/css\/gravityfont.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/css\/gravityfont.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/gravityforms\/css\/gravityfont.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/css\/gravityfont.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -6351,11 +6423,29 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/plugins\/gravityforms\/css\/jquery-ui.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/css\/jquery-ui.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/plugins\/gravityforms\/css\/preview.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/css\/preview.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/gravityforms\/css\/preview.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/css\/preview.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -6369,11 +6459,29 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/plugins\/gravityforms\/css\/print.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/css\/print.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/plugins\/gravityforms\/css\/readyclass.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/css\/readyclass.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/gravityforms\/css\/readyclass.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/css\/readyclass.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -6387,11 +6495,29 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/plugins\/gravityforms\/css\/reset.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/css\/reset.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/plugins\/gravityforms\/css\/rtl.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/css\/rtl.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/gravityforms\/css\/rtl.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/css\/rtl.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -6405,6 +6531,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/plugins\/gravityforms\/css\/shortcode-ui-editor-styles.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/css\/shortcode-ui-editor-styles.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/plugins\/gravityforms\/css\/shortcode-ui.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -6414,11 +6549,38 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/plugins\/gravityforms\/css\/shortcode-ui.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/css\/shortcode-ui.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/plugins\/gravityforms\/css\/tooltip.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/css\/tooltip.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/gravityforms\/css\/tooltip.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/css\/tooltip.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/gravityforms\/css\/ui.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/css\/ui.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -7224,6 +7386,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/plugins\/gravityforms\/includes\/addon\/css\/gaddon_form_settings.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/includes\/addon\/css\/gaddon_form_settings.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/plugins\/gravityforms\/includes\/addon\/css\/gaddon_results.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -7233,11 +7404,29 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/plugins\/gravityforms\/includes\/addon\/css\/gaddon_results.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/includes\/addon\/css\/gaddon_results.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/plugins\/gravityforms\/includes\/addon\/css\/gaddon_settings.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/includes\/addon\/css\/gaddon_settings.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/gravityforms\/includes\/addon\/css\/gaddon_settings.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/includes\/addon\/css\/gaddon_settings.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -7260,6 +7449,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/plugins\/gravityforms\/includes\/addon\/js\/gaddon_fieldmap.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/includes\/addon\/js\/gaddon_fieldmap.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/includes\/addon\/js\/min\/gaddon_fieldmap-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/gravityforms\/includes\/addon\/js\/gaddon_fieldmap.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/includes\/addon\/js\/gaddon_fieldmap.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/includes\/addon\/js\/min\/gaddon_fieldmap.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/wp-content\/plugins\/gravityforms\/includes\/addon\/js\/gaddon_payment.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -7271,12 +7482,34 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/wp-content\/plugins\/gravityforms\/includes\/addon\/js\/gaddon_payment.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/includes\/addon\/js\/gaddon_payment.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/includes\/addon\/js\/min\/gaddon_payment.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/wp-content\/plugins\/gravityforms\/includes\/addon\/js\/gaddon_results.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/includes\/addon\/js\/gaddon_results.js",
 		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/includes\/addon\/js\/min\/gaddon_results-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/gravityforms\/includes\/addon\/js\/gaddon_results.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/includes\/addon\/js\/gaddon_results.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/includes\/addon\/js\/min\/gaddon_results.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -7297,6 +7530,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/includes\/addon\/js\/repeater.js",
 		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/includes\/addon\/js\/min\/repeater-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/gravityforms\/includes\/addon\/js\/repeater.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/includes\/addon\/js\/repeater.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/includes\/addon\/js\/min\/repeater.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -7743,11 +7987,29 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/plugins\/gravityforms\/includes\/locking\/css\/locking-list.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/includes\/locking\/css\/locking-list.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/plugins\/gravityforms\/includes\/locking\/css\/locking.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/includes\/locking\/css\/locking.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/gravityforms\/includes\/locking\/css\/locking.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/includes\/locking\/css\/locking.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -7801,6 +8063,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/wp-content\/plugins\/gravityforms\/includes\/locking\/js\/locking-list.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/includes\/locking\/js\/locking-list.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/includes\/locking\/js\/min\/locking-list.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/wp-content\/plugins\/gravityforms\/includes\/locking\/js\/locking-view.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -7812,12 +8085,34 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/wp-content\/plugins\/gravityforms\/includes\/locking\/js\/locking-view.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/includes\/locking\/js\/locking-view.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/includes\/locking\/js\/min\/locking-view.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/wp-content\/plugins\/gravityforms\/includes\/locking\/js\/locking.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/includes\/locking\/js\/locking.js",
 		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/includes\/locking\/js\/min\/locking-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/gravityforms\/includes\/locking\/js\/locking.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/includes\/locking\/js\/locking.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/includes\/locking\/js\/min\/locking.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -7877,6 +8172,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/plugins\/gravityforms\/includes\/webapi\/css\/gfwebapi_settings.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/includes\/webapi\/css\/gfwebapi_settings.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/plugins\/gravityforms\/includes\/webapi\/css\/index.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -7901,6 +8205,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/includes\/webapi\/js\/gfwebapi_settings.js",
 		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/includes\/webapi\/js\/min\/gfwebapi_settings-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/gravityforms\/includes\/webapi\/js\/gfwebapi_settings.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/includes\/webapi\/js\/gfwebapi_settings.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/includes\/webapi\/js\/min\/gfwebapi_settings.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -7964,12 +8279,34 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/wp-content\/plugins\/gravityforms\/js\/conditional_logic.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/js\/conditional_logic.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/js\/min\/conditional_logic.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/wp-content\/plugins\/gravityforms\/js\/datepicker.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/js\/datepicker.js",
 		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/js\/min\/datepicker-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/gravityforms\/js\/datepicker.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/js\/datepicker.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/js\/min\/datepicker.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -7986,12 +8323,34 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/wp-content\/plugins\/gravityforms\/js\/floatmenu_init.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/js\/floatmenu_init.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/js\/min\/floatmenu_init.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/wp-content\/plugins\/gravityforms\/js\/form_admin.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/js\/form_admin.js",
 		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/js\/min\/form_admin-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/gravityforms\/js\/form_admin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/js\/form_admin.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/js\/min\/form_admin.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -8008,6 +8367,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/wp-content\/plugins\/gravityforms\/js\/form_editor.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/js\/form_editor.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/js\/min\/form_editor.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/wp-content\/plugins\/gravityforms\/js\/forms.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -8019,12 +8389,34 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/wp-content\/plugins\/gravityforms\/js\/forms.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/js\/forms.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/js\/min\/forms.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/wp-content\/plugins\/gravityforms\/js\/gf_field_filter.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/js\/gf_field_filter.js",
 		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/js\/min\/gf_field_filter-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/gravityforms\/js\/gf_field_filter.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/js\/gf_field_filter.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/js\/min\/gf_field_filter.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -8116,6 +8508,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/wp-content\/plugins\/gravityforms\/js\/menu.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/js\/menu.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/js\/min\/menu.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/wp-content\/plugins\/gravityforms\/js\/placeholders.jquery.min.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -8133,6 +8536,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/js\/shortcode-ui.js",
 		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/js\/min\/shortcode-ui-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/gravityforms\/js\/shortcode-ui.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/js\/shortcode-ui.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/js\/min\/shortcode-ui.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -8164,6 +8578,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/js\/tooltip_init.js",
 		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/js\/min\/tooltip_init-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/gravityforms\/js\/tooltip_init.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/js\/tooltip_init.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/js\/min\/tooltip_init.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -11337,24 +11762,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/ronsachs\/resources\/css\/comments.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/css\/comments.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/themes\/ronsachs\/resources\/css\/royalslider.scss": {
+	"\/wp-content\/themes\/ronsachs\/resources\/css\/owl.carousel.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 5,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/css\/royalslider.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/css\/royalslider.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/css\/owl.carousel.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/css\/owl.carousel.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -11581,91 +11997,47 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp-content\/themes\/ronsachs\/resources\/js\/jquery.easing.1.3.min.js": {
+	"\/wp-content\/themes\/ronsachs\/resources\/js\/min\/owl.carousel-min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/js\/jquery.easing.1.3.min.js",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/js\/min\/jquery.easing.1.3.min-min.js",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/js\/min\/owl.carousel-min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/js\/min\/min\/owl.carousel-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp-content\/themes\/ronsachs\/resources\/js\/jquery.effects.min.js": {
+	"\/wp-content\/themes\/ronsachs\/resources\/js\/min\/owl.carousel.min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/js\/jquery.effects.min.js",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/js\/min\/jquery.effects.min-min.js",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/js\/min\/owl.carousel.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/js\/min\/min\/owl.carousel.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp-content\/themes\/ronsachs\/resources\/js\/jquery.mixitup.min.js": {
+	"\/wp-content\/themes\/ronsachs\/resources\/js\/min\/site.min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/js\/jquery.mixitup.min.js",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/js\/min\/jquery.mixitup.min-min.js",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/js\/min\/site.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/js\/min\/min\/site.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp-content\/themes\/ronsachs\/resources\/js\/jquery.royalslider.min.js": {
+	"\/wp-content\/themes\/ronsachs\/resources\/js\/owl.carousel.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/js\/jquery.royalslider.min.js",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/js\/min\/jquery.royalslider.min-min.js",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/js\/owl.carousel.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/js\/min\/owl.carousel.min.js",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/themes\/ronsachs\/resources\/js\/lightbox-2.6.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/js\/lightbox-2.6.min.js",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/js\/min\/lightbox-2.6.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/themes\/ronsachs\/resources\/js\/portfolio-filter.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/js\/portfolio-filter.js",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/js\/min\/portfolio-filter-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/themes\/ronsachs\/resources\/js\/royal-slider-8.1.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/js\/royal-slider-8.1.js",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/js\/min\/royal-slider-8.1-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/themes\/ronsachs\/resources\/js\/royal-slider-8.1.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/js\/royal-slider-8.1.min.js",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/js\/min\/royal-slider-8.1.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
@@ -11674,9 +12046,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/js\/site.js",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/js\/min\/site-min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/js\/min\/site.min.js",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
@@ -40012,6 +40384,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/wp-content\/uploads\/gravity_forms\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/gravity_forms\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/wp-cron.php": {
 		"fileType": 8192,
