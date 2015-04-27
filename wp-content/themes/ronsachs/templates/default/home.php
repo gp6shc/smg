@@ -1,7 +1,20 @@
 <div class="row">
-	<h4>Here's The Scoop</h4>
+	<div class="constrain">
+		<p class="intro">
+			Sachs Media Group is Florida's dominant public affairs communications company for critical issues and one of America’s leading independent communications companies. With exceptional experience and results in public affairs, branding, social, digital, and crisis communications, the firm combines unparalleled relationships, news judgment, messaging, and storytelling ability with cutting-edge strategies to engage audiences with content they seek and share.
+		</p>
+	</div>
 </div>
+
 <div class="row">
+	<h4>Creative Spotlight</h4>
+	<div id="new-work-slider">
+		<?php echo do_shortcode("[posts type=work show=12 loop=post-slider]"); ?>
+	</div>
+</div>
+
+<div class="row">
+	<h4>Here's The Scoop</h4>
 	<div class="scoop row lined">
 		<?php echo do_shortcode("[posts type=news show=4 loop=post-news]"); ?>
 	</div>
@@ -30,11 +43,5 @@
 
 			</div>
 		</div>
-	</div>
-</div>
-<div class="row">
-	<h4>Creative Spotlight</h4>
-	<div id="new-work-slider">
-		<?php echo do_shortcode("[posts type=work show=12 loop=post-slider]"); ?>
 	</div>
 </div>

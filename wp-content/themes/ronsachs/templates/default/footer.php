@@ -31,7 +31,6 @@
 			</div>
 		</div>
 
-
 <?php if (is_front_page() ):?><script type="text/javascript" src="<?php echo get_stylesheet_directory_uri() ?>/resources/js/min/owl.carousel.min.js"></script><?php endif;?>
 <script type="text/javascript" src="<?php echo home_url();?>/wp-content/themes/ronsachs/resources/js/min/site.min.js" async="async" defer="defer"></script>
 <script type="text/javascript">

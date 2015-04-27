@@ -114,7 +114,7 @@ h4 {
 
 h5 {
   font-size: 13px;
-  font-family: 'Arvo', serif;
+  font-family: 'Arvo', sans-serif;
   font-weight: normal;
   margin: 5px 0 5px;
   text-transform: uppercase;
@@ -152,7 +152,7 @@ a {
 a.read-more {
   background: transparent url('../images/icons/sprite.png') right -83px;
   color: #808080;
-  font-family: 'Arvo', serif;
+  font-family: 'Arvo', sans-serif;
   font-size: 10px;
   padding-left: 6px;
   padding-right: 12px;
@@ -250,7 +250,7 @@ form input:focus, textarea:focus {
 }
 
 label {
-  font-family: 'Arvo', serif;
+  font-family: 'Arvo', sans-serif;
   text-transform: uppercase;
 }
 
@@ -291,11 +291,12 @@ footer form label {
   padding: 30px;
 }
 
-#container .template {
-}
-
 .row {
 	position: relative;
+	
+	+ .row {
+		margin-top: 30px;
+	}
 }
 
 .row:before,
@@ -306,11 +307,6 @@ footer form label {
 
 .row:after {
 	clear: both;
-}
-
-.row.spaced {
-  margin-top: 30px;
-  margin-bottom: 30px;
 }
 
 [class*="span"] + [class*="span"] {
@@ -366,7 +362,7 @@ header#primary {
 }
 
 .template header h2 small {
-  font-family: 'Arvo', serif;
+  font-family: 'Arvo', sans-serif;
   font-size: 13px;
   font-weight: 400;
   text-transform: uppercase;
@@ -380,7 +376,7 @@ header#primary {
 .template h4, footer h4 {
   color: #000;
   border-bottom: 4px solid #000;
-  font-family: 'Arvo', serif;
+  font-family: 'Arvo', sans-serif;
   font-size: 13px;
   font-weight: 400;
   padding-bottom: 5px;
@@ -396,7 +392,7 @@ header#primary {
 }
 
 nav ul {
-  font-family: 'Arvo', serif;
+  font-family: 'Arvo', sans-serif;
   font-size: 13px;
   list-style-type: none;
   margin: 0;
@@ -476,7 +472,7 @@ nav ul#categories {
   background-color: #000;
   color: #FFF;
   display: inline-block;
-  font-family: 'Arvo', serif;
+  font-family: 'Arvo', sans-serif;
   font-size: 13px;
   padding: 7px 15px;
   text-transform: uppercase;
@@ -572,7 +568,16 @@ nav ul#categories {
 		}
 	}
 }
+
+.constrain {
+	width: 75%;
+	margin: auto;
 	
+}
+.intro {
+	font-size: 22px;	
+}
+
 /* What's the Scoop */
 .scoop .span3 {
 	height: 340px;
@@ -652,7 +657,7 @@ a.work {
 	
 	span {
 		color: #808080;
-		font-family: 'Arvo', serif;
+		font-family: 'Arvo', sans-serif;
 		font-size: 10px;
 		text-transform: uppercase;
 	}
@@ -903,7 +908,7 @@ ul#side > li.dropdown > ul {
 
 ul#side > li > ul > li > a {
   color: #808080;
-  font-family: 'Arvo', serif;
+  font-family: 'Arvo', sans-serif;
   font-size: 12px;
   line-height: 23px;
   padding-left: 15px;
@@ -917,13 +922,11 @@ ul#side > li > ul > li > a:before {
   left: 0;
   top: 3px;
   width: 6px;
-}
+}		
 		
-		
-		
-	/* Custom Post Type Modifiers */
-		
-	/* Footer */
+/* Custom Post Type Modifiers */
+	
+/* Footer */
 #curl-shadow {
   background: url('../images/backgrounds/curlshadow.png') no-repeat 50% 0;
   height: 270px;
@@ -991,7 +994,7 @@ h3.team{
 
 li.group{
 	font-size: 14px;
-	font-family: 'Arvo', serif;
+	font-family: 'Arvo', sans-serif;
 	font-weight: 900;
 	line-height: 28px;
 	text-transform: uppercase;
@@ -1041,7 +1044,7 @@ h2.blog{
 #badges p.badge-title{
 	font-size: 14px;
 	color: #000;
-	font-family: 'Arvo', serif;
+	font-family: 'Arvo', sans-serif;
 	font-weight: 900;
 	line-height: 16px;
 	text-transform: uppercase;
@@ -1063,7 +1066,7 @@ h2.blog{
 
 li.menu-item a {
 	color: #808080;
-	font-family: 'Arvo', serif;
+	font-family: 'Arvo', sans-serif;
 	font-size: 11px;
 	line-height: 23px;
 	padding-left: 15px;
@@ -1131,69 +1134,6 @@ p .related{
 	width: 100%;
 	float: left;
 	margin: 0;
-}
-
-.fotd {
-	width: 25%;
-	float: left;
-	height: 350px;
-	overflow: hidden;
-	position: relative;
-}
-.fotd .span3{
-	max-height: 350px;
-}
-.fotd p {
-	margin: 0 0 18px 0;
-	color: $red;
-	color: #333333;
-	font-size: 14px;
-	line-height: 1.4;
-	font-family: 'Arvo';
-}
-.fotd p::first-letter {
-	color: $red;
-	font-size: 50px;
-	float: left;
-	padding: 0px 4px 0px 0;
-	line-height: .6;
-}
-.white-shadow {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	height: 52px;
-	width: 200px;
-	background-image: linear-gradient( rgba(255,255,255,0), white 70%);
-}
-
-.fotd-archive article {
-	margin: 0;
-}
-.fotd-archive article p {
-	font-size: 15px;
-}
-.fotd-archive article p::first-letter {
-	color: #000000;
-	font-size: 45px;
-	font-weight: bold;
-	float: left;
-	padding: 8px 3px 0 0;
-}
-
-.fact-title {
-	color: white;
-	display: inline-block;
-	line-height: 30px;
-	letter-spacing: 1px;
-	font-size: 20px;
-	height: 30px;
-	padding: 4px 10px 0 10px;
-	background-color: $red;
-}
-
-.explicit-date {
-	float: right;
 }
 
 .date-suffix {
