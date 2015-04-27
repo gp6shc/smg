@@ -508,6 +508,7 @@ nav ul#categories {
 .dummy-wrapper {
 	padding: 0 !important;
 	position: relative;
+	overflow: hidden;
 }
 
 #slideshow {
@@ -520,30 +521,54 @@ nav ul#categories {
 		display: block;
 		width: 100%;
 	}
-	
+		
 	.owl-prev, .owl-next {
-		border-color: white;
+		position: absolute;
+		top: 50%;
+		top: calc(50% - 15px);
+		display: inline-block;
+		height: 30px;
+		width: 40px;
+		cursor: pointer;
+		border: none;
+		background-color: rgba($red, 0.7);
+		transition: transform 200ms;
 		
 		&::before {
 			content: '';
-			border-top: 3px solid $red;
 			display: block;
-			width: calc(100% - 3px);
-			height: calc(100% - 3px);
+			position: absolute;
+			height: 12px;
+			width: 12px;
+			border-top: 3px solid white;
+		}
+		
+		&:hover {
+			transform: translateX(0);
 		}
 	}
+	
 	.owl-prev {
-		left: 12px;
+		left: 0;
+		transform: translateX(-10px);
 		
 		&::before {
-			border-left: 3px solid $red;
+			border-left: 3px solid white;
+			top: 7px;
+			left: 21px;
+			transform: rotateZ(-45deg);
 		}
 	}
+	
 	.owl-next {
-		right: 12px;
-		
+		right: 0;
+		transform: translateX(10px);
+	
 		&::before {
-			border-right: 3px solid $red;
+			border-right: 3px solid white;
+			top: 7px;
+			right: 21px;
+			transform: rotateZ(45deg);
 		}
 	}
 }
@@ -566,8 +591,8 @@ nav ul#categories {
 }
 
 .facebook-box,
-			.fb-like-box,
-			.fb-like-box iframe {
+.fb-like-box,
+.fb-like-box iframe {
   width: 100%;
 }
 

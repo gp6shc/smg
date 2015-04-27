@@ -17,7 +17,7 @@ $(document).ready(function() {
 		navigationText: true,
 		singleItem: true,
 		autoPlay: 5000,
-		transitionStyle: "fade"
+		transitionStyle: "fadeUp"
 	});
 
 });
