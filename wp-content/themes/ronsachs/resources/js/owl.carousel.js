@@ -680,8 +680,6 @@ if (typeof Object.create !== "function") {
         afterGo : function () {
             var base = this;
  
-            console.log(this.currentItem)
- 
             base.prevArr.push(base.currentItem);
             base.prevItem = base.owl.prevItem = base.prevArr[base.prevArr.length - 2];
             base.prevArr.shift(0);

@@ -18,7 +18,7 @@
 				<h4>Our Elevator Speech</h4>
 				<?php the_field('a_little_bit_about_us', 'options'); ?>
 
-				<div class="row lined">
+				<div class="row lined regulatory">
 					<div class="span3">
 						<p class="coprf"><small>PROUD MEMBER</br>
 						<a href="http://prfirms.org" target="_blank">COUNCIL of PUBLIC RELATIONS FIRMS</a></small></p>

@@ -113,17 +113,25 @@
 				$thumb_id = get_post_thumbnail_id();
 				$thumb_url_array = wp_get_attachment_image_src($thumb_id, 'medium', true);
 				$thumb_url = $thumb_url_array[0];
-			?>
+				
+				$terms = get_the_terms($post->id, 'medium');
+				
+				?>
 			
-			<div class="portfolio opacity-0">
-				<a href="<?php the_permalink() ?>">
-					<div style="background-image: url(<?php echo $thumb_url ?>)"></div>
-					<i><?php the_terms($post->id, 'medium')?></i>
-					<h3><?php the_title() ?></h3>
-					<p><?php the_excerpt() ?></p>
-				</a>	
-			</div>
-		<?}
+				<div class="portfolio opacity-0">
+					<a href="<?php the_permalink() ?>">
+						<div style="background-image: url(<?php echo $thumb_url ?>)"></div>
+						<p class="medium-icons"><?php 
+							foreach ($terms as $term) {
+								$term = $term->slug;
+								echo "<i class=\"icon icon-$term\"></i>";
+							}
+						?></p>
+						<h3><?php the_title() ?></h3>
+						<p><?php the_excerpt() ?></p>
+					</a>	
+				</div>
+		  <?} 
 			echo  $apiclass->ajax_pagination($arg['paged'],$query->max_num_pages, 2, $id, $getdata);
 		}
 		/* Restore original Post Data */

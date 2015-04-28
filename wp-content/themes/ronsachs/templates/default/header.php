@@ -5,13 +5,13 @@
 		</a>
 		<div class="navs">
 			<nav id="social">
-				<a title="Like us on Facebook" href="http://www.facebook.com/sachsmedia"><i class="icon icon-facebook-squared"></i></a>
-				<a title="Follow us on Twitter" href="http://www.twitter.com/sachsmediagrp"><i class="icon icon-twitter-squared"></i></a>
-				<a title="Subscribe to us on Youtube" href="http://www.youtube.com/user/SachsMedia/"><i class="icon icon-youtube-squared"></i></a>
+				<a title="Like us on Facebook" href="http://www.facebook.com/sachsmedia"><i class="icon icon-facebook"></i></a>
+				<a title="Follow us on Twitter" href="http://www.twitter.com/sachsmediagrp"><i class="icon icon-twitter"></i></a>
+				<a title="Subscribe to us on Youtube" href="http://www.youtube.com/user/SachsMedia/"><i class="icon icon-youtube"></i></a>
 			</nav>
 			<nav id="menu">
 				<ul>
-					<li class="active"><a href="<?php echo home_url()?>">Home</a></li>
+					<li><a href="<?php echo home_url()?>">Home</a></li>
 		            <li><a href="<?php echo home_url('/about')?>">About</a></li>
 		            <li><a href="<?php echo home_url('/what-we-do')?>">What We Do</a></li>
 		            <li><a href="<?php echo home_url('/blog')?>">Blog</a></li>
