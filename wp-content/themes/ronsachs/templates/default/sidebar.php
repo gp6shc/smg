@@ -24,14 +24,16 @@
 		<hr>
 	<?php endif; ?>
 	
-	<div class="facebook-box">
-		<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FSachsMedia&amp;width=600&amp;height=300&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=false&amp;header=true&amp;appId=253839971311174" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100%; height:300px;" allowTransparency="true"></iframe>
+	<div class="fb-page" data-href="https://www.facebook.com/sachsmedia" data-hide-cover="false" data-show-facepile="false" data-show-posts="false" width="222">
+		<div class="fb-xfbml-parse-ignore">
+			<blockquote cite="https://www.facebook.com/sachsmedia">
+				<a href="https://www.facebook.com/facebook">Facebook</a>
+			</blockquote>
+		</div>
 	</div>
-	<hr>
 	<div id="twitter">
 		<h3>All ATwitter</h3>
-		<a class="twitter-timeline" width="222" height="600" href="https://twitter.com/twitterapi" data-widget-id="277096538856099840">@SachsMediaGrp</a>
-			
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		<a width="222" height="600" class="twitter-timeline" href="https://twitter.com/SachsMediaGrp" data-chrome="noheader nofooter noborder" data-widget-id="593808855299133442">Tweets by @SachsMediaGrp</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 	</div>
 </div>
