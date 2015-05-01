@@ -67,37 +67,6 @@
 		}	
 	}
 	
-	function fotd_custom_post() {
-		$labels = array(
-		    'name'               => _x( 'Facts of the Day', 'post type general name' ),
-		    'singular_name'      => _x( 'Fact of the Day', 'post type singular name' ),
-		    'add_new'            => _x( 'Add New Fact', 'book' ),
-		    'add_new_item'       => __( 'Add New Fact' ),
-		    'edit_item'          => __( 'Edit Facts' ),
-		    'new_item'           => __( 'New Fact' ),
-		    'all_items'          => __( 'All Facts' ),
-		    'view_item'          => __( 'View this Fact' ),
-		    'search_items'       => __( 'Search Facts' ),
-		    'not_found'          => __( 'No facts found' ),
-		    'not_found_in_trash' => __( 'No facts found in the Trash' ), 
-			'parent_item_colon'  => '',
-		    'menu_name'          => 'Fact of the Day'
-		);
-			
-		$args = array(
-			'labels'        => $labels,
-			'description'   => 'Holds the Fact of the Day posts',
-			'public'        => true,
-			'menu_position' => 5,
-			'menu_icon'		=> 'dashicons-format-status',
-			'supports'      => array( 'title', 'editor' ),
-			'has_archive'   => true,
-		);
-		
-		register_post_type( 'facts', $args ); 
-	}	
-	add_action( 'init', 'fotd_custom_post' );
-	
 	//Design Portfolio
 	function customize_output($results , $arg, $id, $getdata ){
 		// The Query
@@ -111,24 +80,28 @@
 			while ( $query->have_posts() ) {
 				$query->the_post();
 				$thumb_id = get_post_thumbnail_id();
-				$thumb_url_array = wp_get_attachment_image_src($thumb_id, 'medium', true);
+				$thumb_url_array = wp_get_attachment_image_src($thumb_id, 'full', true);
 				$thumb_url = $thumb_url_array[0];
-				
-				$terms = get_the_terms($post->id, 'medium');
 				
 				?>
 			
 				<div class="portfolio opacity-0">
 					<a href="<?php the_permalink() ?>">
-						<div style="background-image: url(<?php echo $thumb_url ?>)"></div>
-						<p class="medium-icons"><?php 
-							foreach ($terms as $term) {
-								$term = $term->slug;
-								echo "<i class=\"icon icon-$term\"></i>";
-							}
-						?></p>
-						<h3><?php the_title() ?></h3>
-						<p><?php the_excerpt() ?></p>
+						<div class="portfolio-image" style="background-image: url(<?php echo $thumb_url ?>)"></div>
+						<div class="portfolio-title">
+							<h3><?php the_title() ?></h3>
+							<ul>
+							<?php $terms = get_the_terms($post->id, 'medium');
+								if ( !empty($terms) && !is_wp_error( $terms ) ) {
+									foreach( $terms as $term ) {
+										echo '<li>' . esc_html( $term->name ) . '</li>'; 
+									}
+								}else{
+									echo '<li></li>'; 
+								}
+							?>
+							</ul>
+						</div>
 					</a>	
 				</div>
 		  <?} 
