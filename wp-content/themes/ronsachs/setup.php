@@ -80,6 +80,7 @@
 					'icon' => 'content',
 					'supports' => 'title, editor, author, thumbnail',
 					'rewrite' => array('slug' => 'our-work', 'with_front' => false),
+					'has_archive' => false
 				)
 			),
 			'sidebars' => array(

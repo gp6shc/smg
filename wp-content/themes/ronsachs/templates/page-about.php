@@ -2,9 +2,9 @@
 <div class="row lined">
 	<div id="sidebar" class="span3">
 		<ul id="side">
-			<li><a href="<?php echo home_url( '/about' ); ?>">About Us</a></li>
+			<li><a href="/about">About Us</a></li>
 			<li class="">
-				<a href="#">Our Team</a>
+				<a href="/team/ron-sachs/">Our Team</a>
 				<ul>
 					<li class="group">Executive</li>
 					<?php wp_nav_menu('menu=executive'); ?>

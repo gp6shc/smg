@@ -1,4 +1,4 @@
-<?php /* Template Name: Design Portfolio */ pxl::page(); while ( have_posts() ) : the_post(); ?>
+<?php /* Template Name: Our Work */ pxl::page(); while ( have_posts() ) : the_post(); ?>
 <script src="<?php echo plugins_url('ultimate-wp-query-search-filter/classes/scripts/uwpqsfscript.min.js') ?>" async></script>
 <div class="row lined">
 	<div id="sidebar" class="span3">
@@ -18,4 +18,3 @@
 </div>
 
 <?php endwhile; pxl::page(0); ?>
-
