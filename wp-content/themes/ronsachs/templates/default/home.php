@@ -15,7 +15,7 @@
 </div>
 
 <div class="row">
-	<h4>Here's The Scoop</h4>
+	<h4>In the News</h4>
 	<div class="scoop row lined">
 		<?php echo do_shortcode("[posts type=news show=4 loop=post-news]"); ?>
 	</div>

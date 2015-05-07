@@ -84,7 +84,7 @@
 	<?php elseif ( is_singular(array('work')) || is_post_type_archive('work') || is_tax('medium') ) : ?>
 	<div id="banner" style="background: url('<?php the_field('header_image', 'options') ?>') repeat-x 0 0;">
 		<div class="text">
-			<h2 class="red"><span>Design Portfolio</span></h2>
+			<h2 class="red"><span>Our Work</span></h2>
 		</div>
 	<?php elseif ( is_post_type_archive() ) : ?>
 	<div id="banner" style="background: url('<?php the_field('header_image', 'options') ?>') repeat-x 0 0;">

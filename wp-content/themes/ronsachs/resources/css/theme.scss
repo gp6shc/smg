@@ -157,6 +157,10 @@ a.read-more.date {
 a:hover {
   color: #333;
 }
+
+video {
+	width: 100%;
+}
 		
 /* Misc. */
 hr {
@@ -196,7 +200,7 @@ address {
   bottom: 0;
 }
 	
-	/* Forms */
+/* Forms */
 		
 form ul {
   display: block;
@@ -653,8 +657,11 @@ nav ul#categories {
 	overflow: hidden;
 	
 	.portfolio {
-		width: 314.667px;
-		
+		width: 314.667px;	
+	}
+	
+	.portfolio-image {
+		width: auto;
 	}
 		
 	&:hover {
@@ -770,25 +777,39 @@ pre img {
 .post .research-img, .post img, .scoop img, .single img {
 	height: auto;
 	width: auto;
-	max-height: 500px;
 	max-width: 100%;
 	margin: auto;
 	display: block;
 }
-.single-work img {
+.single-work .wp-post-image {
 	width: 100%;
 	height: auto;
+}
+
+img.size-full {
+	max-height: none;
+	width: 100%;
 }
 
 .post + .post {
 	margin-top: 50px;
 }
-/*
-.post img {
-	box-sizing: border-box;
-	border-left: 15px solid $red;
+
+.gallery {
+	.left {
+		width: 450px;
+		float: left;
+	}
+	.right {
+		width: 450px;
+		float: left;
+		margin-left: 50px;
+	}
+	
+	* {
+		margin-bottom: 50px;
+	}
 }
-*/
 
 .post h3 {
   border-bottom: 2px solid #000;
@@ -1440,6 +1461,49 @@ p .related{
 		}
 	}
 }
+
+/* Work Single Pages */
+
+.challenge, .by-the-numbers {
+	margin-top: 0;
+	margin-bottom: -0.5em;
+	color: $red;
+	font-size: 26px;
+}
+
+.breakthrough {
+	margin-bottom: -0.5em;
+	color: $red;
+	font-size: 26px;
+	
+}
+
+.info-numbers {
+	list-style: none;
+	margin: 1.5em 0 0 0;
+	padding: 0;
+	
+	
+	li {
+		font-size: 18px;
+		text-indent: -22px;
+		padding-left: 44px;
+		
+		+ li {
+			margin-top: 15px;
+		}
+		
+	}
+	
+	i {
+		font-size: 1.6em;
+		color: $red;
+		margin-right: 15px;
+		vertical-align: -0.2ex;
+	}
+}
+
+/* Misc. */
 
 .opacity-0 {
 	opacity: 0;	

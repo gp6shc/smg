@@ -3,14 +3,12 @@
 <div class="row lined single-work">
 	<?php if ( has_post_thumbnail() ) the_post_thumbnail('full'); ?>
 	<h2><?php the_title(); ?></h2>
-	<em><?php the_time('F jS, Y'); ?> | Posted by: <?php the_author(); ?> | <span class="share">share: <a href="http://www.facebook.com/share.php?u=<?php the_permalink(); ?>" target="_blank"><i class="icon icon-facebook"></i></a> <a href="https://twitter.com/intent/tweet?url=<?php the_permalink(); ?>&via=SachsMediaGrp&text=<?php the_title(); ?>&original_referer=<?php echo home_url(); ?>" target="_blank"><i class="icon icon-twitter"></i></a></span>
-	</em>
     <!--post content-->
 	<?php the_content(); ?>
 	<!--end post content-->
 
 	<!--share at bottom-->
-	<em><span class="share">share: <a href="http://www.facebook.com/share.php?u=<?php the_permalink(); ?>" target="_blank"><i class="icon icon-facebook"></i></a> <a href="https://twitter.com/intent/tweet?url=<?php the_permalink(); ?>&via=SachsMediaGrp&text=<?php the_title(); ?>&original_referer=<?php echo home_url(); ?>" target="_blank"><i class="icon icon-twitter"></i></a></em>
+	<div class="row"><em><span class="share">share: <a href="http://www.facebook.com/share.php?u=<?php the_permalink(); ?>" target="_blank"><i class="icon icon-facebook"></i></a> <a href="https://twitter.com/intent/tweet?url=<?php the_permalink(); ?>&via=SachsMediaGrp&text=<?php the_title(); ?>&original_referer=<?php echo home_url(); ?>" target="_blank"><i class="icon icon-twitter"></i></a></em></div>
 	<!--end share at bottom-->
 </div><!--end row lined-->
 
