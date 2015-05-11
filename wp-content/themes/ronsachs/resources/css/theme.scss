@@ -797,17 +797,21 @@ img.size-full {
 
 .gallery {
 	.left {
-		width: 450px;
+		width: 465px;
 		float: left;
 	}
 	.right {
-		width: 450px;
+		width: 465px;
 		float: left;
-		margin-left: 50px;
+		margin-left: 20px;
 	}
 	
-	* {
-		margin-bottom: 50px;
+	iframe {
+		margin-bottom: 20px;
+	}
+	
+	> div > *, img {
+		box-shadow: 0 0 10px rgba(0,0,0,0.3);
 	}
 }
 
@@ -1462,7 +1466,25 @@ p .related{
 	}
 }
 
+.portfolio-more {
+	height: 266px;
+	background-color: $white;
+	text-align: center;
+	
+	i {
+		padding-top: 30%;
+		transition: color 250ms;
+	}
+	
+	h3 {
+		color: $red;
+	}
+}
 /* Work Single Pages */
+
+.single-work {
+	font-size: 18px;
+}
 
 .challenge, .by-the-numbers {
 	margin-top: 0;
@@ -1478,13 +1500,43 @@ p .related{
 	
 }
 
+.web-caption {
+	background-color: $red;
+	display: block;
+	margin-top: -23px;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	
+	a {
+		display: block;
+		padding: 12px 18px;
+		color: white;
+		font-weight: 700;
+		
+		&::after {
+			content: "\f0a9";
+			font-family: 'FontAwesome';
+			display: inline-block;
+			padding: 0 3px;
+			opacity: 0;
+			transform: translateX(-3px);
+			transition: transform 450ms, opacity 200ms;
+		}
+		
+		&:hover::after {
+			transform: translateX(5px);
+			opacity: 1;
+		}
+	}
+}
+
 .info-numbers {
 	list-style: none;
 	margin: 1.5em 0 0 0;
 	padding: 0;
 	
 	
-	li {
+	> li {
 		font-size: 18px;
 		text-indent: -22px;
 		padding-left: 44px;
@@ -1493,12 +1545,26 @@ p .related{
 			margin-top: 15px;
 		}
 		
+		ul {
+			padding-left: 20px;
+			list-style-type: disc;
+			
+			li {
+				font-size: 16px;
+				padding-left: 0;
+				text-indent: 0px;
+				
+				+ li {
+					padding-top: 7px;	
+				}
+			}
+		}
 	}
 	
 	i {
 		font-size: 1.6em;
 		color: $red;
-		margin-right: 15px;
+		margin-right: 18px;
 		vertical-align: -0.2ex;
 	}
 }

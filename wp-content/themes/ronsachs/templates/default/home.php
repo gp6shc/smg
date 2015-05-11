@@ -10,7 +10,15 @@
 <div class="row">
 	<h4>Our Work</h4>
 	<div id="new-work-slider">
-		<?php echo do_shortcode("[posts type=work show=9 loop=post-slider]"); ?>
+		<?php echo do_shortcode("[posts type=work show=11 loop=post-slider]"); ?>
+		<div class="work portfolio">
+			<a href="http://gator-air.local:5757/our-work/">
+				<div class="portfolio-more">
+					<i class="fa fa-3x fa-arrow-circle-right"></i>
+					<h3>View More of Our Work</h3>
+				</div>
+			</a>	
+		</div>
 	</div>
 </div>
 

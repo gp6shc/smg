@@ -77,7 +77,7 @@
 	
 		// The Loop
 		if ( $query->have_posts() ) {
-			while ( $query->have_posts() ) {
+			while ( $query->have_posts() ) :
 				$query->the_post();
 				$thumb_id = get_post_thumbnail_id();
 				$thumb_url_array = wp_get_attachment_image_src($thumb_id, 'full', true);
@@ -104,7 +104,7 @@
 						</div>
 					</a>	
 				</div>
-		  <?} 
+		<?php endwhile;
 			echo  $apiclass->ajax_pagination($arg['paged'],$query->max_num_pages, 2, $id, $getdata);
 		}
 		/* Restore original Post Data */
