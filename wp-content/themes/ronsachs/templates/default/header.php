@@ -91,6 +91,9 @@
 		<div class="text">
 			<h2 class="red"><span><?php post_type_archive_title(); ?></span></h2>
 		</div>
+	<?php elseif (is_page(3999)) : ?>
+		<!-- Anniversary Page-->
+		<div>
 	<?php else : ?>
 	<div id="banner" style="background: url('<?php the_field('header_image', 'options') ?>') repeat-x 0 0;">
 		<div class="text">
