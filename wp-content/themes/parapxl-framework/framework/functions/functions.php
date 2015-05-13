@@ -143,6 +143,11 @@ function customize_output($results , $arg, $id, $getdata ){
 	return $results;
 }
 add_filter('uwpqsf_result_tempt', 'customize_output', '', 4);
-		
-add_post_type_support( 'work', 'excerpt');
+
+// Get the home url for shortcode use
+function home_url_shortcode() {
+	return get_home_url();
+} 
+add_shortcode('home-url','home_url_shortcode');
+
 ?>
