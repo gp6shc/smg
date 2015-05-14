@@ -81,13 +81,14 @@ function custom_post_alumni() {
     'not_found'          => __( 'No Alumni found' ),
     'not_found_in_trash' => __( 'No Alumni found in the Trash' ), 
     'parent_item_colon'  => '',
-    'menu_name'          => 'Alumni'
+    'menu_name'          => 'Alumni',
   );
   $args = array(
     'labels'        => $labels,
     'description'   => 'Collection of SMG Alumni',
     'public'        => true,
     'menu_position' => 5,
+    'menu_icon'		=> 'dashicons-welcome-learn-more',
     'supports'      => array( 'title', 'editor' ),
     'has_archive'   => false,
   );
