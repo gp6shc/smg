@@ -1589,6 +1589,12 @@ p .related{
 .alumni {
 	display: inline-block;
 	vertical-align: top;
+	position: relative;
+	z-index: 0;
+	
+	.full-view {
+		display: none;
+	}
 }
 .preview-box {
 	position: relative;
@@ -1606,7 +1612,7 @@ p .related{
 	&::after {
 		content: '';
 		position: absolute;
-		top: 308px;
+		top: 318px;
 		left: 50%;
 		transform: translateX(-50%);
 		width: 0;
@@ -1665,24 +1671,51 @@ p .related{
 }
 .full-view-contain {
 	max-height: 0;
+	position: relative;
 	overflow: hidden;
-	margin-top: 15px;
-	position: absolute;
-	left: 0;
-	z-index: 0;
+	margin: 0 -30px;
+	z-index: 1;
 	transition: max-height 0.6s linear;
+	
+	&.allow-overflow {
+		overflow: visible;
+	}
+	
+	&.fade-out {
+		&::after {
+			opacity: 1;
+		}
+		.bg-name {
+			opacity: 0;
+		}
+	}
+	
+	&::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background: rgb(54, 56, 58);
+		opacity: 0;
+		pointer-events: none;
+		transition: opacity 0.3s;
+		box-shadow: inset 0 0 24px 6px rgba(0,0,0,0.3);
+	}
 }
+
 .full-view {
 	width: 950px;
 	padding: 30px;
+	margin-top: 15px;
 	position: relative;
 	background-color: #36383A;
 	color: $white;
 	box-shadow: inset 0 0 24px 6px rgba(black, 0.3);
 	
 	.row {
-		opacity: 0;	
-		transition: opacity 0.3s 0s;
+		opacity: 0;
+		transition: opacity 0.2s 0s;
 	}
 	
 	h3 {
@@ -1697,20 +1730,18 @@ p .related{
 }
 
 .alumni.active .preview-box {
-	transition: margin 0.25s linear;
-	
-	~ .full-view-contain {
-		max-height: 2000px;
-		z-index: 200;
-		
-		.row {
-			opacity: 1;
-			transition: opacity 0.3s 0.15s;
-		}
-	}
 	
 	&::after {
 		opacity: 1;
+	}
+}
+
+.visible {
+	max-height: 2000px;
+
+	.row {
+		opacity: 1;
+		transition: opacity 0.4s 0.2s;
 	}
 }
 
@@ -1726,7 +1757,7 @@ p .related{
 	transition: transform 350ms;
 	cursor: pointer;
 	cursor: zoom-in;
-	transform-origin: right bottom;
+	transform-origin: right center;
 	
 	&.big {
 		transform: scale(2.3);
@@ -1745,6 +1776,7 @@ p .related{
 	color: rgb(47, 50, 52);
 	z-index: 0;
 	pointer-events: none;
+	transition: opacity 0.3s;
 }
 
 /* Misc. */
