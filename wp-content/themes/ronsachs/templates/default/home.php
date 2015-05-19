@@ -2,9 +2,9 @@
 	<p class="span6">
 		<iframe width="449" height="198.4" src="https://www.youtube.com/embed/DWlBwezbkj8?controls=0&modestbranding=1&rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
 	</p>
-	<p class="span6">
-		<span class="break-through">Break through.</span> In today’s mind-numbing, message-a-minute world, getting seen and being heard is a big challenge. To overcome the clutter, you need a compelling message, a clear target, and a proven partner to help you break through.
-	</p>
+	<div class="span6">
+		<?php the_content() ?>
+	</div>
 </div>
 
 <div class="row">

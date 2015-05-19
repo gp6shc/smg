@@ -73,7 +73,7 @@ body {
 	
 /* Basics */
 	
-	/* Headings */
+/* Headings */
 h1,h2,h3,h4 {
 	font-family: BebasNeueRegular;
 	font-weight: normal;
@@ -131,7 +131,7 @@ a.brand {
   width: 226px;
 }
 		
-	/* Links */
+/* Links */
 a {
   color: $red;
   text-decoration: none;
@@ -161,6 +161,10 @@ a:hover {
 video {
 	width: 100%;
 }
+
+address {
+	text-align: center;
+}	
 		
 /* Misc. */
 hr {
@@ -214,11 +218,10 @@ form ul li {
 }
 
 form input, textarea {
-  color: #BBB;
+  color: #333;
   display: block;
   margin: 15px 0;
-  padding: 6px 3%;
-  width: 92%;
+  padding: 6px;
 }
 
 form input[type="submit"] {
@@ -236,10 +239,6 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
   background-color: #000;
   cursor: pointer;
-}
-
-form input:focus, textarea:focus {
-  outline: 1px solid #666;
 }
 
 label {
@@ -270,6 +269,21 @@ footer form label {
 	font-size: 12px;
 	margin-top: 20px;
 }		
+textarea {
+	resize: none;
+}
+input, textarea {
+	border: 1px solid #ccc;
+	transition: border 300ms;
+	box-sizing: border-box;
+	width: 100%;
+	
+	&:focus {
+		border: 1px solid darken(#ccc, 30%);
+		outline: none;
+	}
+}
+
 /* Divisions */
 	
 /* Containers */
@@ -294,6 +308,11 @@ footer form label {
 	+ .row {
 		margin-top: 45px;
 	}
+}
+.row.border-top {
+	border-top: 1px solid #ccc;
+	margin-top: 15px;
+	padding-top: 15px;
 }
 
 .row:before,
@@ -348,7 +367,7 @@ header#primary {
 }
 
 .template header {
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .template header h2 {
@@ -367,7 +386,7 @@ header#primary {
 
 .template header h3 {
   border-bottom: 4px solid #000;
-  padding-bottom: 15px;
+  padding-bottom: 2px;
 }
 
 .template h4, footer h4 {
@@ -588,9 +607,9 @@ nav ul#categories {
 	
 }
 .intro {
-	font-size: 20px;
+	font-size: 19px;
 	line-height: 1.3;
-	letter-spacing: -0.1px;
+	letter-spacing: -0.2px;
 	text-rendering: geometricPrecision;
 	
 	iframe {
@@ -598,7 +617,7 @@ nav ul#categories {
 	}
 	
 	.span6 + .span6 {
-		margin-top: 40px;
+		margin-top: 13px;
 		padding: 0;
 	}
 }
@@ -610,6 +629,8 @@ nav ul#categories {
 	font-size: 24px;
 	line-height: 1;
 	letter-spacing: 0.7px;
+	vertical-align: middle;
+	padding-left: 2px;
 }
 
 /* What's the Scoop */
@@ -989,6 +1010,27 @@ p.coprf {
 	background: transparent url('../images/icons/member-of-pr-council.png') no-repeat;
 	line-height: 14px;
 	padding: 5px 0 10px 40px;
+}
+
+.location {
+	max-height: 24px;
+	overflow: hidden;
+	margin-bottom: 10px;
+	transition: max-height 700ms 1500ms;
+	
+	h3 {
+		margin: 0;
+	}
+	
+	address {
+		text-align: left;
+		padding-top: 10px;
+	}
+	
+	&:hover {
+		max-height: 200px;
+		transition: max-height 450ms;
+	}
 }
 
 /* Individual Team Member Template Styling */
@@ -1591,6 +1633,9 @@ p .related{
 	vertical-align: top;
 	position: relative;
 	z-index: 0;
+	margin-top: 4px;
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIAAgMAAACJFjxpAAAADFBMVEXFxcX////p6enW1tbAmiBwAAAFiElEQVR4AezAgQAAAACAoP2pF6kAAAAAAAAAAAAAAIDbu2MkvY0jiuMWWQoUmI50BB+BgRTpCAz4G6C8CJDrC3AEXGKPoMTlYA/gAJfwETawI8cuBs5Nk2KtvfiLW+gLfK9m+r3X82G653+JP/zjF8afP1S//y+An4/i51//AsB4aH+/QPD6EQAY/zwZwN8BAP50bh786KP4+VT+3fs4/noigEc+jnHeJrzxX+NWMDDh4g8+EXcnLcC9T8U5S/CdT8bcUeBEIrwBOiI8ki7Ba5+NrePgWUy89/nYyxQ8Iw3f+pWY4h1gb3eAW7sDTPEOsLc7wK1TIeDuDB+I/OA1QOUHv/dFsZQkhKkh4QlEfOULYz2nGj2/Nn1LmwR/86VxlCoAW6kCsHRGANx1RgCMo5Qh2EsZgrXNQZZShp5Liv7Il8eIc5C91EHY2hxk6bwYmNscZIReDBwtCdhbErC1JGBpScBcOgFMLQsZMQs5Whayd+UQsLYsZGlZyNyykKllISNmIUfAwifw8NXvTojAjGFrdYi11SGWVoeYWx1i6lmQCiEjFkKOVgjZ+xxIhZCtFULWHkCqxCw9gNQKmP9vNHzipdEPrRcxtVbAeDkAvve0iM2QozVD9hfjhp4YP/UrkJYDbD2AtBxgfSkAvvHEeNcDSAsilgtAWxIy91J8AXgZAJ5e33+4tuACcAG4AFwALgBXRXQB6AFcB5MXAuA6nl9/0Vx/011/1V5/1/dfTPJvRtdnu/zL6beeFO/7r+fXBYbrEkt/j+i6ytXfpuvvE/ZXOnsA/a3a/l5xf7O6v1t+Xe/vOyz6HpO8yyboM8o7rfJes77bru83THk48p7TvOs27zvOO6/73vO++z7l4cgnMPQzKPopHC0N9noSSz6LJp/Gk88jyicy5TOp6qlc+VyyfDJbPpuuns6XzyfMJzTmMyrrKZ35nNJ8Ums+q7af1tvPK+4nNodEnPKp3fnc8npyez67/qVP7+/fL8hfcMjfsOhf8cjfMclfcnn9+BkOnLECP8Q58OYeyJ40eoyF6Ee/En/JHlP6mIlRVXprF4BxtAvArV0AxtEuALd2ARhHuwDc2gVgHPX/hFv9fMBddjIGeKg/WCxlCsI46u+Ga5mCcJd+sIG9UkGAW32ZbApFAHhod4Bb3eo04h3god0BbiUHYApVCNjbHeBW+QDAXT4a7qg7r7e214057vg0QhkEHkoSwq0kIdydXw4/Q3H8hjYJ3vL0WConBJhCHQaOToeBrU0BljYFmEoVgHGUKgAPnREAt84IgLuqFgAYSUEOAHszDwuAtSkHAZhLGYIpdCLgKGUIHtocZG1zkLmUIRhxDnJU1RDA1uYga5uDzKUOwhTnIEfnxcDe5iBrcyQAYGlzkKkUYhhxDrKXQgxbSwLWUohhbknA1JKAEZOAvSUBW0sC1pYEzC0JmFoSMMJyCDhaFrK3JGDtyiFgaVnI3LKQqWUhI2YhR8tC9paFrC0LWVoWMrcsZGpZyIhZyNGykL2rSIGtlQHWVgZYWhlgbmWAqZUBRiwDHK0MsLcywNbKAGsOoNUhllaHmFsdYmp1iBHrEEerQ+w5gFYI2VodYm11iKXVIeYcQCuETK0QMmIh5MgBtELI3gohWyuErDmAVolZWiFkzgG0SszUKjGjfj6gVmKOVonZcwCtFbB9HQC+ozWDbz1bvGu9iKW1AuYcQOtFTLEX1GbIaFegN0OOHEBrhuw5gNYM2XIArRuz5gDacoB3bTnAEktxXQ4wfw0AvveM8b4tiJjSJOwLIsbXsAKeNeKCiOO3D+AVbUl0AfjGs8ZPbUnIdgFoa1LWC0BblfMuB9AeC1j6gqQE0J9LmC8AOYD2ZMb7i4bt2ZTpWoHfPoB7Tj2fXzT8N1X41vkq/QHOAAAAAElFTkSuQmCC');
+	background-size: cover;
 	
 	.full-view {
 		display: none;
@@ -1601,7 +1646,6 @@ p .related{
 	background-size: cover;
 	width: 314px;
 	height: 314px;
-	margin-top: 4px;
 	cursor: pointer;
 	transition: margin 0.6s 0.3s linear;
 		
@@ -1737,7 +1781,7 @@ p .related{
 }
 
 .visible {
-	max-height: 2000px;
+	max-height: 1000px;
 
 	.row {
 		opacity: 1;

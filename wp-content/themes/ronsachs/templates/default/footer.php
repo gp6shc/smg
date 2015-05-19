@@ -3,16 +3,43 @@
 	<div id="curl-shadow"></div>
 	<footer>
 		<div class="row lined">
-			
 			<div class="span3">
-				<h4>Stop In For Coffee</h4>
-				<div class="map">
-					<iframe width="200" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=114+S.+Duval+Street+Tallahassee,+FL+32301&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=82.704067,79.013672&amp;ie=UTF8&amp;hq=&amp;hnear=114+S+Duval+St,+Tallahassee,+Florida+32301&amp;t=m&amp;ll=30.4412,-84.283419&amp;spn=0.020276,0.034332&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe><br />
+				<h4>Our Locations</h4>
+				<div class="location">
+					<h3><a href="<?php echo home_url('contact')?>#tallahassee">Tallahassee</a></h3>
+					<address>
+						114 S. Duval Street<br>
+						Tallahassee, FL 32301<br>
+						Phone: (850) 222-1996<br>
+						Fax: (850) 224-2882<br>
+						E-mail: <a href="mailto:contact@sachsmedia.com">contact@sachsmedia.com</a>
+					</address>
+				</div>
+				<div class="location">
+					<h3><a href="<?php echo home_url('contact')?>#orlando">Orlando</a></h3>
+					<address>
+						Two Landmark Center<br>
+						225 East Robinson Street, Suite 455<br>
+						Orlando, FL 32801<br>
+						Phone: (407) 219-3157<br>
+						Fax: (407) 219-3095<br>
+					</address>
+				</div>
+				<div class="location">
+					<h3><a href="<?php echo home_url('contact')?>#boca">Boca Raton</a></h3>
+					<address>
+						150 East Palmetto Park Road, Suite 800<br/>
+						Boca Raton, Florida 33432<br/>
+						Phone: (847) 977-9740<br/>
+					</address>
+				</div>
+				<div class="location">
+					<h3><a href="<?php echo home_url('team/mark-pankowski/')?>">Washington D.C.</a></h3>
 				</div>
 			</div>
 			<div class="span3">
 				<h4>Drop Us a Line</h4>
-				<?php echo do_shortcode("[gravityform id=1 title=false description=false]"); ?>
+				<?php echo do_shortcode("[gravityform id=1 title=false description=false tabindex=10]"); ?>
 			</div>
 			<div class="span6">
 				<h4>Our Elevator Speech</h4>

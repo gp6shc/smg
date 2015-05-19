@@ -4,17 +4,17 @@
 	<h1 class="anniversary"><?php the_title(); ?></h1>
 	<div class="anniversary-content"><?php the_content(); ?></div>
 </div>
-
+<div class="anniv-nav">
+	<ul>
+		<li><a href="/anniversary">Alumni</a></li>
+	</ul>
+</div>
 <div class="row alumni-contain">
 	<?php $loop = new WP_Query( array( 'post_type' => 'alumni', 'posts_per_page' => 0 ) ); ?>
 	<?php $i = 0; ?>
 	<?php while ( $loop->have_posts() ) : $loop->the_post(); $fields = get_fields(); $i++;?>
-	
-		<!--<pre><?php /* print_r($fields);die */?></pre> -->
-		
 		<div class="alumni">
 			<div class="preview-box" style="background-image:url('<?= $fields[current_photo][sizes][large]?>')">
-			<!--<img src="<?= $fields[current_photo][sizes][medium]?>"/> -->
 				<span class="preview-title"><?php the_title()?></span>
 			</div>
 			<div class="full-view">
