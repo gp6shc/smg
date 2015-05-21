@@ -7,9 +7,9 @@
 
 <div class="row">
 	<ul class="anniv-nav">
-		<li class="current-page"><a href="/impact-on-people">People</a></li>
-		<li><a href="/impact-on-community">Community</a></li>
-		<li><a href="/impact-on-issues">Issues</a></li>
+		<li class="current-page"><a href="<?php home_url('/impact-on-people') ?>">People</a></li>
+		<li><a href="<?php home_url('/impact-on-community') ?>">Community</a></li>
+		<li><a href="<?php home_url('/impact-on-issues') ?>">Issues</a></li>
 	</ul>
 </div>
 <div class="row alumni-contain">
