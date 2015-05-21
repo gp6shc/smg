@@ -32,11 +32,11 @@
 <div class="row">
 	<h4>Our Clients</h4>
 	<div id="logos" class="logos">
-		<img src="<?php home_url()?>/wp-content/themes/ronsachs/resources/images/logo-box-01.jpg"/>
-		<img src="<?php home_url()?>/wp-content/themes/ronsachs/resources/images/logo-box-02.jpg"/>
-		<img src="<?php home_url()?>/wp-content/themes/ronsachs/resources/images/logo-box-03.jpg"/>
-		<img src="<?php home_url()?>/wp-content/themes/ronsachs/resources/images/logo-box-04.jpg"/>
-		<img src="<?php home_url()?>/wp-content/themes/ronsachs/resources/images/logo-box-05.jpg"/>
+		<img src="<?= home_url()?>/wp-content/themes/ronsachs/resources/images/logo-box-01.jpg"/>
+		<img src="<?= home_url()?>/wp-content/themes/ronsachs/resources/images/logo-box-02.jpg"/>
+		<img src="<?= home_url()?>/wp-content/themes/ronsachs/resources/images/logo-box-03.jpg"/>
+		<img src="<?= home_url()?>/wp-content/themes/ronsachs/resources/images/logo-box-04.jpg"/>
+		<img src="<?= home_url()?>/wp-content/themes/ronsachs/resources/images/logo-box-05.jpg"/>
 	</div>
 </div>
 
