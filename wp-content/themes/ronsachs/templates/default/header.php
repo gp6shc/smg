@@ -23,18 +23,18 @@
 	</div>
 </header>
 <div id="container" class="wrapper">
-	<?php if ( is_front_page() ) : $home = get_page_by_title('Home'); ?>
+	<?php if ( is_front_page() ) : 
+		$slides = get_fields($page->ID);
+		$numberOfSlides = count($slides) / 2; ?>
+		
 		<div class="dummy-wrapper"><!-- dummy for drop shadow -->
-		<div id="slideshow">
-		<?php if (get_field('slides',$home->ID)) : ?>
-			<?php $slides = get_field('slides',$home->ID); foreach ($slides as $slide): ?>
-				<?php
-					if ($slide['link_internal']) : echo '<a href="'.$slide['link_internal'].'"><img src="'.$slide['image'].'" width="1010" height="422"></a>';
-					elseif ($slide['link_external']) : echo '<a href="'.$slide['link_external'].'" target="_blank"><img src="'.$slide['image'].'" width="1010" height="422"></a>';
-					endif;
-				?>
-			<?php endforeach; ?>
-		<?php endif; ?>
+			<div id="slideshow">
+			<?php for ($i = 1; $i <= $numberOfSlides; $i++):
+					$link = 'slide_link_'.$i; 
+					$image = 'slide_image_'.$i; ?>
+				
+					<a href="<?= $slides[$link]?>"><img src="<?= $slides[$image]?>" width="1010" height="422"/></a>
+			<?php endfor; ?>
 		</div>
 	<?php elseif ( is_home() ||  is_singular(array('post')) ) : ?>
 	<div id="banner" style="background: url('<?php echo home_url( 'wp-content/uploads/2013/02/pageheader_whatwedo_grey.jpg' ); ?>') repeat-x 0 	0;">
