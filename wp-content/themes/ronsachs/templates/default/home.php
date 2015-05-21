@@ -32,9 +32,11 @@
 <div class="row">
 	<h4>Our Clients</h4>
 	<div id="logos" class="logos">
-		<img src="http://placehold.it/950x300/333333"/>
-		<img src="http://placehold.it/950x300/8b8b8b/333333"/>
-		<img src="http://placehold.it/950x300"/>
+		<img src="<?php home_url()?>/wp-content/themes/ronsachs/resources/images/logo-box-01.jpg"/>
+		<img src="<?php home_url()?>/wp-content/themes/ronsachs/resources/images/logo-box-02.jpg"/>
+		<img src="<?php home_url()?>/wp-content/themes/ronsachs/resources/images/logo-box-03.jpg"/>
+		<img src="<?php home_url()?>/wp-content/themes/ronsachs/resources/images/logo-box-04.jpg"/>
+		<img src="<?php home_url()?>/wp-content/themes/ronsachs/resources/images/logo-box-05.jpg"/>
 	</div>
 </div>
 
