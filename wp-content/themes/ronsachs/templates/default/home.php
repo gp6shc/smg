@@ -12,7 +12,7 @@
 	<div id="new-work-slider">
 		<?php echo do_shortcode("[posts type=work show=11 loop=post-slider]"); ?>
 		<div class="work portfolio">
-			<a href="http://gator-air.local:5757/our-work/">
+			<a href="<?= home_url('our-work')?>">
 				<div class="portfolio-more">
 					<i class="fa fa-3x fa-arrow-circle-right"></i>
 					<h3>View More of Our Work</h3>
@@ -26,6 +26,15 @@
 	<h4>In the News</h4>
 	<div class="scoop row lined">
 		<?php echo do_shortcode("[posts type=news show=4 loop=post-news]"); ?>
+	</div>
+</div>
+
+<div class="row">
+	<h4>Our Clients</h4>
+	<div id="logos" class="logos">
+		<img src="http://placehold.it/950x300/333333"/>
+		<img src="http://placehold.it/950x300/8b8b8b/333333"/>
+		<img src="http://placehold.it/950x300"/>
 	</div>
 </div>
 

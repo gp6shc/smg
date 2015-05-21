@@ -17,6 +17,13 @@ $(document).ready(function() {
 			autoPlay: 6000,
 			scrollPerPage: true
 		});
+		
+		$("#logos").owlCarousel({
+			navigation: true,
+			navigationText: true,
+			singleItem: true,
+			autoPlay: false
+		});
 	}	
 });
 

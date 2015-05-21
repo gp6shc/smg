@@ -1,15 +1,60 @@
 /*---------------------------------------------------------------------------------------------
-	Postbox
----------------------------------------------------------------------------------------------*/
-#icon-edit {
-	background: url(../images/sprite.png) 0 0 no-repeat !important;
-}
+*
+*  Post Box
+*
+*---------------------------------------------------------------------------------------------*/
 
-#toplevel_page_edit-post_type-acf .wp-menu-image { background: url("../../../../wp-admin/images/menu.png") no-repeat scroll 0 -1px transparent; }
-		
+/*
+#titlediv {
+	margin-bottom: 20px;	
+}
+*/
+	
 #message p a {
 	display: none;
 }
+
+
+/*---------------------------------------------------------------------------------------------
+*
+*  Postbox: Publish
+*
+*---------------------------------------------------------------------------------------------*/
+
+#minor-publishing-actions,
+#misc-publishing-actions #visibility,
+#misc-publishing-actions .curtime {
+	display: none;
+}
+
+#minor-publishing {
+	border-bottom: 0 none;
+}
+#misc-pub-section {
+	border-bottom: 0 none;
+}
+
+#misc-publishing-actions .misc-pub-section {
+	border-bottom-color: #F5F5F5;
+}
+
+#submitdiv .acf-button {
+	margin: 0;
+}
+
+#delete-action .delete-field-group {
+	color: #BC0B0B;
+	text-decoration: none;
+}
+
+#delete-action .delete-field-group:hover {
+	color: #f00;
+}
+
+
+
+
+
 
 .postbox#acf_fields {
 	border: 0 none;
@@ -32,36 +77,14 @@
 	text-decoration: none;
 }
 
-#minor-publishing-actions,
-#misc-publishing-actions #visibility,
-#misc-publishing-actions .curtime {
-	display: none;
-}
 
-#minor-publishing {
-	border-bottom: 0 none;
-}
-#misc-pub-section {
-	border-bottom: 0 none;
-}
-
-#misc-publishing-actions .misc-pub-section {
-	border-bottom-color: #F5F5F5;
-}
-
-
-
-.postbox {
-	background: #FFFFFF;
-    border: 1px solid #E1E1E1;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-    position: relative;
-    border-radius: 0;
-}
 
 /*---------------------------------------------------------------------------------------------
-	Table
----------------------------------------------------------------------------------------------*/
+*
+*  Table
+*
+*---------------------------------------------------------------------------------------------*/
+
 table.widefat.acf {
 	border: 0 none;
 	background: transparent none;
@@ -87,7 +110,7 @@ table.widefat.acf td {
 
 .acf tr td.field_order,
 .acf tr th.field_order  {
- text-indent: 6px;
+	 text-indent: 5px;
 }
 
 .acf tr td.field_order {
@@ -134,6 +157,7 @@ table.widefat.acf td {
     padding: 8px;
     position: relative;
     font-size: 12px;
+    line-height: 13px;
 }
 
 
@@ -144,26 +168,39 @@ table.widefat.acf td {
 
 
 /*---------------------------------------------------------------------------------------------
-	Fields Header
----------------------------------------------------------------------------------------------*/
+*
+*  Fields Header
+*
+*---------------------------------------------------------------------------------------------*/
+
 .fields_header {
 	border: #DFDFDF solid 1px;
 	border-bottom: 0 none;
 }
 
+.fields_header th {
+	font-weight: bold;
+}
+
 
 /*---------------------------------------------------------------------------------------------
-	Field Meta
----------------------------------------------------------------------------------------------*/
+*
+*  Fields Meta
+*
+*---------------------------------------------------------------------------------------------*/
 
 #acf_fields .field_meta {
-	position: relative;
-	overflow: hidden;
+	
 }
 
 #acf_fields .field .field_meta {
 	border: #DFDFDF solid 1px;
+	border-bottom-color: #F0F0F0;
 	border-top: 0 none;
+}
+
+#acf_fields .field .field_meta td {
+	padding: 10px 8px;
 }
 
 #acf_fields .field .field_meta strong {
@@ -184,64 +221,68 @@ table.widefat.acf td {
 }
 
 #acf_fields .field.form_open > .field_meta {
-	background: #6e6e6e url(../images/sprite.png) 0 -200px repeat-x;
-	color: #fff;
-	text-shadow: #000 0 1px 0;
-	border: #565656 solid 1px;
-	/*border-top: #565656 solid 1px;
-	border-left:0 none;
-	border-right:0 none;*/
 	
+	background: #3595BC;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#46AFDB), to(#3199C5)); /* Safari 4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #46AFDB, #3199C5); /* Chrome 10+, Safari 5.1+, iOS 5+ */
+	background-image:    -moz-linear-gradient(top, #46AFDB, #3199C5); /* Firefox 3.6-15 */
+	background-image:      -o-linear-gradient(top, #46AFDB, #3199C5); /* Opera 11.10+ */
+	background-image:         linear-gradient(to bottom, #46AFDB, #3199C5); /* Firefox 16+ */
+	
+	border: #268FBB solid 1px;
+	text-shadow: #268FBB 0 1px 0;
+	box-shadow: inset #5FC8F4 0 1px 0 0;
+	
+	color: #fff;
+	
+	position: relative;
 }
 
 #acf_fields .field.form_open > .field_meta td,
 #acf_fields .field.form_open > .field_meta a {
-	color: #fff;
-}
-
-#acf_fields .field.form_open > .field_meta a:hover {
-	color: #ff8a4f;
+	color: inherit;
 }
 
 #acf_fields .fields .field .field_meta .circle {
-	width: 20px;
-	height: 20px;
-	text-align: center;
-	font-size: 11px;
-	line-height: 20px;
-	display: block;
-	float: left;
-	margin: 7px 0 0 7px;
-	text-indent: 0;
-	background: url(../images/sprite.png) 0 -350px no-repeat;
-}
-
-#acf_fields .fields .field:nth-child(2n) .field_meta .circle {
-	background-position: 0 -400px;
-
+	
+	background: transparent;
+	cursor: move;
+	margin: 2px 0 0;
+	
+	border: 1px solid #BBBBBB;
+    border-radius: 12px;
+    display: block;
+    font-size: 12px;
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 22px;
+    
+    line-height: 23px;
+    text-indent: 0;
+    margin-left: 6px;
 }
 
 #acf_fields .field.form_open > .field_meta .circle {
-	background-position: 0 -300px !important;
+	color: #fff;
+	border-color: #fff;
 }
-
 
 .fields {
 	position: relative;
 	background: #FCFCFC;
-	/* box-shadow: inset 0 0 0 1px #DFDFDF; */
 }
 
 .fields .field {
 	position: relative;
 	overflow: hidden;
-	background: #F9F9F9;
+	background: #fff;
 }
 
-
 #acf_fields .ui-sortable-helper {
-	box-shadow: 0 1px 5px rgba(0,0,0,0.2);
-	background: #fff;
+	box-shadow: 0 1px 4px rgba(0,0,0,0.1);
 }
 
 #acf_fields .ui-sortable-placeholder {
@@ -254,11 +295,13 @@ table.widefat.acf td {
 	background: rgba(0,0,0,0.075);
 }
 
+/*
 .fields .field:nth-child(even) {
-	background: #FCFCFC;
+	background: #F9F9F9;
 }
+*/
 
-.fields .field-field_clone {
+.fields .field_key-field_clone {
 	display: none;
 }
 
@@ -271,9 +314,10 @@ table.widefat.acf td {
 }
 
 .fields .field.ui-sortable-placeholder {
-	border: 0 none !important;
-	box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
-	background: rgba(0,0,0,0.075);
+	background: #F9F9F9;
+	border: #DFDFDF solid 1px;
+	border-bottom-color: #F0F0F0;
+	border-top: 0 none;
 }
 
 
@@ -298,21 +342,21 @@ table.widefat.acf td {
 	padding: 8px;
 	background: #EAF2FA;
 	border: #c7d7e2 solid 1px;
-	border-top:0 none;
+	margin-top: -1px;
 }
 
 #acf_fields .table_footer .order_message {
-	background: url(../images/sprite.png) -50px -300px no-repeat;
-	color: #7a9bbe;
-	font-size: 11px;
-	line-height: 1em;
-	padding: 7px 0 0 22px;
-	width: 161px;
-	height: 13px;
-	float: left;
-	margin-left: 13px;
-	text-shadow: #fff 0 1px 0;
-	font-family: Comic Sans MS, sans-serif;
+	background: url(../images/sprite.png) -50px 0px no-repeat;
+    color: #7A9BBE;
+    float: left;
+    font-family: Comic Sans MS, sans-serif;
+    font-size: 12px;
+    height: 13px;
+    line-height: 1em;
+    margin: 2px 0 0 11px;
+    padding: 6px 0 0 24px;
+    text-shadow: 0 1px 0 #FFFFFF;
+    width: 161px;
 }
 
 #acf_fields .table_footer a#add_field{
@@ -360,10 +404,6 @@ table.widefat.acf td {
 	line-height: 25px;
 }
 
-.field_instructions textarea {
-	height: 70px;
-}
-
 /*---------------------------------------------------------------------------------------------
 	Repeater
 ---------------------------------------------------------------------------------------------*/
@@ -379,10 +419,6 @@ table.acf_input tr td .acf tr td {
     border: 0 none;
 }
 
-.field_column_width input[type="number"] {
-	width: 50%;
-}
-
 .repeater.layout-row > .fields > .field > .field_form_mask > .field_form > .widefat > tbody > tr.field_column_width {
 	display: none;
 }
@@ -391,19 +427,11 @@ table.acf_input tr td .acf tr td {
 	Field Form
 ---------------------------------------------------------------------------------------------*/
 .field_form {
-	border: #7390a5 solid 1px;
+	border: 1px solid #E1E1E1;
 	border-top: 0 none;
-	background: #91bbd9;
-	padding: 10px;
-	clear: both;
-	vertical-align: top;
 }
 
 .field_form table.acf_input {
-	border: #86a1b5 solid 1px;
-	position: relative;
-	overflow: hidden;
-	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
 	border-radius: 0;
 }
 
@@ -415,37 +443,70 @@ table.acf_input tr td .acf tr td {
 	clear: both;
 }
 
-/*---------------------------------------------------------------------------------------------
-	Location
----------------------------------------------------------------------------------------------*/
 
-.postbox#acf_location .inside {
+/*---------------------------------------------------------------------------------------------
+*
+*  Location
+*
+*---------------------------------------------------------------------------------------------*/
+
+#acf_location .inside {
 	margin: 0;
 	padding: 0;
 }
 
-.postbox#acf_location .widefat {
+#acf_location .location-groups {
+	padding: 5px 0;
+} 
+
+#acf_location h4 {
+	margin: 15px 0 5px;
+}
+
+#acf_location .location-group {
+	margin: 0 0 15px;
+}
+
+#acf_location .location-group h4 {
+	margin: 0 0 3px;;
+}
+
+#acf_location .location-group table.acf_input tbody tr td {
+	padding: 4px;
 	border: 0 none;
 }
 
-.postbox#acf_location h3 span.description {
-	font-size: 11px;
-	color: #666;
-	font-weight: normal;
-	font-style: normal;
-	padding-left: 4px;
-}
-
-table.acf_input > tbody > tr > td > select[multiple="multiple"] {
-    height: auto !important;
-}
-
-td.param {
+#acf_location .location-group td.param {
 	width: 40%;
 }
-td.operator {
+
+#acf_location .location-group td.operator {
 	width: 20%;
 }
+
+#acf_location .location-group td.add {
+	width: 40px;
+}
+
+#acf_location .location-group td.remove {
+	width: 18px;
+	vertical-align: middle;
+}
+
+#acf_location .location-group tr .location-remove-rule {
+	display: none;
+}
+
+#acf_location .location-group tr:hover .location-remove-rule {
+	display: block;
+}
+
+
+/* Don't allow user to delete the first field group */
+#acf_location .location-group:first-child tr:first-child:hover .location-remove-rule {
+	display: none;
+}
+
 
 /*---------------------------------------------------------------------------------------------
 	Location Rules
@@ -462,53 +523,20 @@ table.acf-rules tbody tr {
 
 }
 
-table.acf-rules tbody tr td {
-	padding: 4px;
-	border: 0 none;
-}
-
-table.acf-rules tbody tr td:first-child {
-	padding-left: 0;
-}
-
-table.acf-rules tbody tr td:last-child {
-	padding-right: 0;
-}
 
 table.acf-rules tbody tr td.buttons {
-	width: 40px;
+	width: 48px;
 	vertical-align: middle;
 }
 
-table.acf-rules tbody a.remove {
-	display: block;
-	width: 16px;
-	height: 16px;
-	background: url(../images/button_remove.png) 0 0 no-repeat;
-	float: left;
-	margin-right: 4px;
+table.acf-rules tbody tr td.buttons li {
+	padding-left: 5px;
 }
 
-table.acf-rules tbody a.remove:hover {
-	background-position: 0 100%;
-}
-
-table.acf-rules.remove-disabled tbody a.remove {
+table.acf-rules.remove-disabled tbody .acf-button-remove {
 	opacity: 0.4;
-	background-position: 0 0 !important;
 	cursor: default;
-}
-
-table.acf-rules tbody a.add {
-	display: block;
-	width: 16px;
-	height: 16px;
-	background: url(../images/button_add.png) 0 0 no-repeat;
-	float: left;
-}
-
-table.acf-rules tbody a.add:hover {
-	background-position: 0 100%;
+	background-position: -66px -116px !important;
 }
 
 table.acf-rules tbody .acf-loading {
@@ -536,115 +564,20 @@ table.acf-rules tbody .acf-loading {
 	padding-left: 4px;
 }
 
-.postbox#acf_options ul.checkbox_list {
+.postbox#acf_options ul.acf-checkbox-list {
 	display: block;
 	float: left;
 	width: 300px;
 }
 
-.postbox#acf_options ul.checkbox_list li {
+.postbox#acf_options ul.acf-checkbox-list li {
 	display: block;
 }
 
-ul.checkbox_list li input {
+ul.acf-checkbox-list li input {
 	margin: 2px 5px 0 0;
 	vertical-align: top;
 } 
-
-
-/*---------------------------------------------------------------------------------------------
-*
-*	Flexible Content
-*	
-*---------------------------------------------------------------------------------------------*/
-table.acf_input table.acf_cf_meta {
-	width: 100%;
-	border: 0 none;
-}
-
-table.acf_input table.acf_cf_meta td {
-	border: 0 none;
-	width: 33%;
-}
-
-table.acf_input table.acf_cf_meta label {
-	width: 20%;
-	color: #333333;
-	font-weight: bold;
-}
-
-table.acf_input table.acf_cf_meta input {
-	width: 80%;
-}
-
-table.acf_input table.acf_cf_meta select {
-	width: 75%;
-}
-
-.acf_fc_reorder {
-	cursor: move;
-}
-
-
-
-
-
-/*---------------------------------------------------------------------------------------------
-*
-*	Publish Metabox
-*	
-*---------------------------------------------------------------------------------------------*/
-
-.postbox {
-	min-width: 200px;
-}
-
-.inner-sidebar #side-sortables, 
-.columns-2 .inner-sidebar #side-sortables {
-	width: 200px;
-}
-
-.has-right-sidebar #side-info-column {
-	width: 200px;
-}
-
-.has-right-sidebar #post-body-content {
-    margin-right: 220px;
-}
-
-#submitdiv .acf-button {
-	width: 100%;
-}
-
-#submitdiv a.acf-button {
-	width: auto;
-	margin: 0 0 10px;
-}
-
-#submitdiv #delete-action {
-	float: none;
-	margin: 0 0 5px;
-}
-#submitdiv #publishing-action {
-	float: none;
-}
-#submitdiv #publishing-action img {
-	display: none;
-}
-
-#major-publishing-actions {
-    border-top: 0 none;
-}
-
-.delete-field-group {
-	color: #BC0B0B;
-	text-decoration: none;
-}
-
-.delete-field-group:hover {
-	color: #f00;
-}
-
 
 
 /*---------------------------------------------------------------------------------------------
@@ -655,12 +588,12 @@ table.acf_input table.acf_cf_meta select {
 
 #acf_fields select optgroup,
 #acf_location select optgroup {
-	padding: 5px 2px;
+	padding: 5px 5px;
 	background: #fff;
 }
 
-#acf_fields select optgroup:first-child,
-#acf_location select optgroup:first-child {
+#acf_fields select optgroup option:first-child,
+#acf_location select optgroup option:first-child{
 	
 }
 
@@ -671,7 +604,7 @@ table.acf_input table.acf_cf_meta select {
 
 #acf_fields select optgroup option,
 #acf_location select optgroup option {
-	padding-left: 6px;
+	padding-left: 5px;
 }
 
 #acf_fields select optgroup:nth-child(2n),
@@ -694,5 +627,71 @@ table.conditional-logic-rules {
 
 table.conditional-logic-rules tbody td {
 	background: transparent;
-	border: 0 none;
+	border: 0 none !important;
+	padding: 5px 2px !important;
+}
+
+
+/*---------------------------------------------------------------------------------------------
+*
+*	Field: Tab
+*	
+*---------------------------------------------------------------------------------------------*/
+
+#acf_fields .fields .field_type-tab tr.field_name,
+#acf_fields .fields .field_type-tab tr.field_instructions,
+#acf_fields .fields .field_type-tab tr.required {
+	display: none;
+}
+
+
+/*---------------------------------------------------------------------------------------------
+*
+*	Field: Message
+*	
+*---------------------------------------------------------------------------------------------*/
+
+#acf_fields .fields .field_type-message tr.field_name,
+#acf_fields .fields .field_type-message tr.field_instructions,
+#acf_fields .fields .field_type-message tr.required {
+	display: none;
+}
+
+#acf_fields .fields .field_type-message textarea {
+	height: 175px;
+}
+
+/*--------------------------------------------------------------------------
+*
+*	Retina
+*	
+*-------------------------------------------------------------------------*/
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+	
+	#icon-edit,
+	#acf_fields .table_footer .order_message {
+		background-image: url(../images/sprite@2x.png);
+		background-size: 100px 600px;
+	}
+	
+}
+
+
+/*--------------------------------------------------------------------------
+*
+*	Firefox
+*	
+*-------------------------------------------------------------------------*/
+
+@-moz-document url-prefix() {
+    #acf_fields .fields .field .field_meta .circle {
+	    line-height: 21px;
+    }
 }

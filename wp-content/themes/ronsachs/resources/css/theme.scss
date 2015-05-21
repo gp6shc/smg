@@ -520,7 +520,7 @@ nav ul#categories {
 	color: #FFF;
 	display: inline-block;
 	font-family: BebasNeueRegular;
-	letter-spacing: 0.7px;
+	letter-spacing: -1.7px;
 	font-size: 54px;
 	margin-bottom: 6px;
 	padding: 20px 15px 17px 65px;
@@ -1016,7 +1016,7 @@ p.coprf {
 	max-height: 24px;
 	overflow: hidden;
 	margin-bottom: 10px;
-	transition: max-height 700ms 1500ms;
+	transition: max-height 700ms 45ms;
 	
 	h3 {
 		margin: 0;
@@ -1644,6 +1644,7 @@ p .related{
 .preview-box {
 	position: relative;
 	background-size: cover;
+	background-position: center 15%;
 	width: 314px;
 	height: 314px;
 	cursor: pointer;
@@ -1821,6 +1822,46 @@ p .related{
 	z-index: 0;
 	pointer-events: none;
 	transition: opacity 0.3s;
+}
+
+.anniv-nav {
+	list-style: none;
+	text-align: center;
+	perspective: 555px;
+	margin-top: -25px;
+	padding-left: 0;
+	width: 550px;
+	margin: auto;
+	
+	&:hover li {
+		transform: rotateX(20deg);
+		opacity: 0.65;
+	}
+	
+	li {
+		display: inline-block;
+		width: 180px;
+		background-color: $red;
+		transform-origin: bottom;
+		transition: opacity 300ms, transform 300ms;
+		
+		a {
+			font-size: 22px;
+			font-family: Arvo, sans-serif;
+			padding: 8px;
+			display: block;
+			color: white;	
+		}
+		
+		&:hover {
+			transform: rotateX(0);
+			opacity: 1;
+		}
+
+		&.current-page {
+			background-color: #8b8b8b;			
+		}
+	}
 }
 
 /* Misc. */
