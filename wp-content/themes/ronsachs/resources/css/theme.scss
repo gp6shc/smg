@@ -1798,6 +1798,33 @@ p .related{
 	margin-top: 10px;
 }
 
+.single-alumni {
+	
+	.alumni-single-img {
+		margin-top: -90px;
+	}
+	
+	.alumni {
+		margin-top: 0;
+		margin-left: -30px;	
+		background-image: none;
+	}
+	
+	.full-view {
+		display: block;
+		margin-top: 0;
+		
+		.row {
+			opacity: 1;
+		}
+	}
+	
+	.sachs-image.big {
+		transform: scale(1.6);
+		transform-origin: bottom right;
+	}
+}
+
 .sachs-image {
 	float: right;
 	margin: 0 0 50px 50px;

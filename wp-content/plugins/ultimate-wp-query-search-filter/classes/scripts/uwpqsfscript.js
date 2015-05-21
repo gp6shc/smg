@@ -25,7 +25,7 @@ jQuery(document).ready(function($) {
 	
 	window.process_data = function ($obj) {
 		
-		var ajaxURL = "/wp-admin/admin-ajax.php";
+		var ajaxURL = "/smg/wp-admin/admin-ajax.php";
 		var ajxdiv  = $("#works");
 		var res		= $('.loader-contain');
 		var getdata = $obj.closest("form").serialize();
@@ -52,7 +52,7 @@ jQuery(document).ready(function($) {
 	
 	window.upagi_ajax = function (pagenum, formid) {
 		
-		var ajaxURL = "/wp-admin/admin-ajax.php";
+		var ajaxURL = "/smg/wp-admin/admin-ajax.php";
 		var ajxdiv 	= $("#works");
 		var res 	= $('.loader-contain');
 		var getdata = $(''+formid+'').serialize();

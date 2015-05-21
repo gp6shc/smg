@@ -1,4 +1,41 @@
-<?php if (is_singular('work')): ?>
+<?php if (is_singular('alumni')): $fields = get_fields(); ?>
+<img src="<?= $fields[current_photo][sizes][large]?>" class="alumni-single-img"/>
+<div class="alumni">
+	<div class="full-view">
+		<h1><?php the_title()?></h1>
+		<div class="row">
+			<div class="current-position">Now:<br/>
+				<?php if ($fields[website]) :?>
+					<a href="<?= $fields[website]?>" target="_blank"><?= $fields[current_company]?></a><br/>
+					<?php else:?>
+					<p><?= $fields[current_company]?></p><br/>
+				<?php endif;?>
+				<span class="current-title"><?= $fields[title]?></span><br/>
+				<span class="current-state"><?= $fields[state]?></span>
+			</div>
+			<div class="smg-position">
+				<span><?= $fields[years]?></span><br/>
+				<span class="smg-title"><?= $fields[position_at_smg]?></span>
+			</div>
+		</div>
+		<div class="memories row">
+			<img class="sachs-image" src="<?= $fields[sachs_photo][sizes][large]?>"/>
+			<h3>Fondest Memory at Sachs:</h3>
+			<p><?= $fields[fondest_memory]?></p>
+			<h3>Biggest Takeaway from Sachs:</h3>
+			<p><?= $fields[biggest_takeaway]?></p>
+		</div>
+	</div>
+</div> <!-- /.alumni -->
+
+<script>
+	$('.sachs-image').on('click', function() {
+		$(this).toggleClass('big');
+	});
+</script>
+	
+
+<?php elseif (is_singular('work')): ?>
 
 <div class="row lined single-work">
 	<h2><?php the_title(); ?></h2>

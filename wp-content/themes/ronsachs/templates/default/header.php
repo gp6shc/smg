@@ -91,7 +91,7 @@
 		<div class="text">
 			<h2 class="red"><span><?php post_type_archive_title(); ?></span></h2>
 		</div>
-	<?php elseif (is_page_template( array('templates/page-anniversary-people.php','templates/page-anniversary-comm.php','templates/page-anniversary-issues.php') )) : ?>
+	<?php elseif (is_page_template( array('templates/page-anniversary-people.php','templates/page-anniversary-comm.php','templates/page-anniversary-issues.php') ) || is_singular('alumni') ) : ?>
 		<!-- Anniversary Pages-->
 		<div>
 	<?php else : ?>
