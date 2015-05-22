@@ -681,7 +681,11 @@ nav ul#categories {
 	height: 270px;
 	
 	.portfolio {
-		width: 314.667px;	
+		width: 314.667px;
+		
+		&:nth-child(2n - 1) {
+			clear: none;
+		}
 	}
 	
 	.portfolio-image {
