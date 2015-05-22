@@ -37,9 +37,22 @@
 
 <?php elseif (is_singular('work')): ?>
 
-<div class="row lined single-work">
+<div class="row lined">
 	<?php if ( has_post_thumbnail() ) the_post_thumbnail('full'); ?>
-	<h2><?php the_title(); ?></h2>
+	<div class="work-meta">
+		<h2 class="work-title"><?php the_title(); ?></h2>
+		<ul class="medium-list">
+		<?php $terms = get_the_terms($post->id, 'medium');
+			if ( !empty($terms) && !is_wp_error( $terms ) ) {
+				foreach( $terms as $term ) {
+					echo '<li>' . esc_html( $term->name ) . '</li>'; 
+				}
+			}else{
+				echo '<li></li>'; 
+			}
+		?>
+		</ul>
+	</div>
     <!--post content-->
 	<?php the_content(); ?>
 	<!--end post content-->

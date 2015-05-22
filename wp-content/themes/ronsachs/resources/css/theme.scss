@@ -1480,14 +1480,14 @@ p .related{
 		color: $red;
 		margin: 12px 12px 8px 12px;
 	}
+}
 	
-	ul {
+.medium-list {
 		list-style: none;
 		margin: 0 0 10px;
 		padding-left: 10px;
 		opacity: 0;
 		transition: opacity 300ms;
-	}
 	
 	li {
 		display: inline;
@@ -1533,6 +1533,24 @@ p .related{
 
 .single-work {
 	font-size: 18px;
+	
+	.work-title {
+		float: left;
+	}
+	
+	.medium-list {
+		opacity: 1;
+		float: right;
+		margin-top: 30px; 
+	}
+}
+
+.work-meta {
+	&::after {
+		content: "";
+		display: table;
+		clear: both;
+	} 
 }
 
 .challenge, .by-the-numbers {
