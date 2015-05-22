@@ -37,7 +37,7 @@
 
 <?php elseif (is_singular('work')): ?>
 
-<div class="row lined">
+<div class="row lined work-content">
 	<?php if ( has_post_thumbnail() ) the_post_thumbnail('full'); ?>
 	<div class="work-meta">
 		<h2 class="work-title"><?php the_title(); ?></h2>
@@ -45,9 +45,9 @@
 		<?php $terms = get_the_terms($post->id, 'medium');
 			if ( !empty($terms) && !is_wp_error( $terms ) ) {
 				foreach( $terms as $term ) {
-					if ($term === "PR") {
+					if ($term->name === "PR") {
 						echo '<li>Public Relations</li>';
-					}elseif ($term === "PA") {
+					}elseif ($term->name === "PA") {
 						echo '<li>Public Affairs</li>';
 					}else{
 						echo '<li>' . esc_html( $term->name ) . '</li>'; 

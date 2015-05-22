@@ -1462,6 +1462,7 @@ p .related{
 .portfolio-image {
 	width: 348px;
 	height: 266px;
+	background-color: $white;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -1531,7 +1532,7 @@ p .related{
 }
 /* Work Single Pages */
 
-.single-work {
+.work-content {
 	font-size: 18px;
 	
 	.work-title {
