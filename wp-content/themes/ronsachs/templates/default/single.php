@@ -38,6 +38,7 @@
 <?php elseif (is_singular('work')): ?>
 
 <div class="row lined single-work">
+	<?php if ( has_post_thumbnail() ) the_post_thumbnail('full'); ?>
 	<h2><?php the_title(); ?></h2>
     <!--post content-->
 	<?php the_content(); ?>
