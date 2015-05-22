@@ -124,9 +124,9 @@ function customize_output($results , $arg, $id, $getdata ){
 						<?php $terms = get_the_terms($post->id, 'medium');
 							if ( !empty($terms) && !is_wp_error( $terms ) ) {
 								foreach( $terms as $term ) {
-									if ($term === "PR") {
+									if ($term->name === "PR") {
 										echo '<li>Public Relations</li>';
-									}elseif ($term === "PA") {
+									}elseif ($term->name === "PA") {
 										echo '<li>Public Affairs</li>';
 									}else{
 										echo '<li>' . esc_html( $term->name ) . '</li>'; 
