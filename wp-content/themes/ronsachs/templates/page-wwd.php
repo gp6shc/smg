@@ -1,4 +1,4 @@
-<?php /* Template Name: What We Do(landing) */ pxl::page(); while ( have_posts() ) : the_post(); ?>
+<?php /* Template Name: What We Do */ pxl::page(); while ( have_posts() ) : the_post(); ?>
 
 <div class="row lined">
 	<div id="sidebar" class="span3">

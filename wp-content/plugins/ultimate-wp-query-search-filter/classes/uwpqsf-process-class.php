@@ -277,7 +277,7 @@ if(!class_exists('uwpqsfprocess')){
 		echo $result;
 					
 							
-		}else{ echo 'There is error here';}
+		}else{ echo '<h6 class="centered-text" style="text-transform: none">The connection to the server has been lost. Please <a href="'.get_the_permalink().'">refresh the page</a>.</h6>';}
 	    	die;	
 
   }//end ajax	
@@ -296,7 +296,7 @@ if(!class_exists('uwpqsfprocess')){
 			$html .= '<div class="entry-summary">'.get_the_excerpt().'</div></article>';
 				
 		  }
-			$html .= $this->ajax_pagination($pagenumber,$query->max_num_pages, 4, $id,$getdata);
+			$html .= $this->ajax_pagination($pagenumber,$query->max_num_pages, 2, $id,$getdata);
 		 } else {
 					$html .= __( 'Nothing Found', 'UWPQSF' );
 				}
@@ -308,7 +308,7 @@ if(!class_exists('uwpqsfprocess')){
 		
   }//end result	 
 
-  function ajax_pagination($pagenumber, $pages = '', $range = 4, $id,$getdata){
+  function ajax_pagination($pagenumber, $pages = '', $range = 2, $id,$getdata){
 	$showitems = ($range * 2)+1;  
 	 
 	$paged = $pagenumber;
@@ -328,27 +328,27 @@ if(!class_exists('uwpqsfprocess')){
 	 
 	if(1 != $pages)
 	 {
-	  $html = "<div class=\"uwpqsfpagi\">  ";  
+	  $html = '<div class="uwpqsfpagi">  ';  
 	  $html .= '<input type="hidden" id="curuform" value="#uwpqsffrom_'.$id.'">';
 	
 	 if($paged > 2 && $paged > $range+1 && $showitems < $pages) 
-	 $html .= '<a id="1" class="upagievent" href="#">&laquo; '.__("First","UWPQSF").'</a>';
+	 $html .= '<a id="1" class="upagievent upagifirst" href="#">&laquo;</a>';
 	 $previous = $paged - 1;
-	 if($paged > 1 && $showitems < $pages) $html .= '<a id="'.$previous.'" class="upagievent" href="#">&lsaquo; '.__("Previous","UWPQSF").'</a>';
+	 if($paged > 1 && $showitems < $pages) $html .= '<a id="'.$previous.'" class="upagievent upagiprevious" href="#">&lsaquo;</a>';
 	
 	 for ($i=1; $i <= $pages; $i++)
 	  {
 		 if (1 != $pages &&( !($i >= $paged+$range+1 || $i <= $paged-$range-1) || $pages <= $showitems ))
 		 {
-		 $html .= ($paged == $i)? '<span class="upagicurrent">'.$i.'</span>': '<a id="'.$i.'" href="#" class="upagievent inactive">'.$i.'</a>';
+		 $html .= ($paged == $i)? '<span class="upagievent upagicurrent">'.$i.'</span>': '<a id="'.$i.'" href="#" class="upagievent inactive">'.$i.'</a>';
 		 }
 	 }
 				
 	 if ($paged < $pages && $showitems < $pages){
 		 $next = $paged + 1;
-		 $html .= '<a id="'.$next.'" class="upagievent"  href="#">'.__("Next","UWPQSF").' &rsaquo;</a>';}
+		 $html .= '<a id="'.$next.'" class="upagievent upaginext"  href="#">&rsaquo;</a>';}
 		 if ($paged < $pages-1 &&  $paged+$range-1 < $pages && $showitems < $pages) {
-		 $html .= '<a id="'.$pages.'" class="upagievent"  href="#">'.__("Last","UWPQSF").' &raquo;</a>';}
+		 $html .= '<a id="'.$pages.'" class="upagievent upagilast"  href="#">&raquo;</a>';}
 		 $html .= "</div>\n";$max_num_pages = $pages;
 		 return apply_filters('uwpqsf_pagination',$html,$max_num_pages,$pagenumber,$id);
 	 }
@@ -357,7 +357,8 @@ if(!class_exists('uwpqsfprocess')){
    }// pagination
   	
   function ufront_js(){
-      $variables = array('url' => admin_url( 'admin-ajax.php' ),);
+/*
+    $variables = array('url' => admin_url( 'admin-ajax.php' ),);
 	$themeopt = new uwpqsfclass();	
 	$themeops = $themeopt->uwpqsf_theme();
 	$themenames= $themeopt->uwpqsf_theme_val();
@@ -372,6 +373,7 @@ if(!class_exists('uwpqsfprocess')){
           wp_localize_script('uwpqsfscript', 'ajax', $variables);
 	}// end foreach
       }//end if
+*/
   }
  
 

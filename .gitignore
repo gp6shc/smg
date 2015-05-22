@@ -5,3 +5,4 @@ videos
 wp-content/cache
 wp-config.php
 .htaccess
+wp-content/themes/ronsachs/resources/css/.sass-cache

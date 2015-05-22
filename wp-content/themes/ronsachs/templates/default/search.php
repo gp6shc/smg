@@ -8,7 +8,7 @@
 	
 			<?php else : ?>
 			<div class="entry-content">
-					<p><?php _e( 'Sorry, but nothing matched your keyword(s). Please try again with some different keywords.', 'twentyeleven' ); ?></p>
+					<p><?php _e( 'Sorry, but nothing matched your keywords. Please try again with some different keywords.', 'twentyeleven' ); ?></p>
 					<?php get_search_form(); ?>
 			</div><!-- .entry-content -->
 			<?php endif; ?>

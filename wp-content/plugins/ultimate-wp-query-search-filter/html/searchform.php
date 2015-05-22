@@ -56,7 +56,7 @@ if(!empty($cmf)){
     foreach($cmf as $k => $v){
 		if(isset($v['type'])){
 			echo $fields->output_formcmf_fields($v['type'],$v['metakey'],$v['compare'],$v['opt'],$v['label'],$v['all'],$i,$defaultclass,$id,$divclass );
-		 $i++;
+		$i++;
 	   }	
 	}
 }
@@ -64,7 +64,7 @@ if(!empty($cmf)){
 if(isset($options[0]['strchk']) && ($options[0]['strchk'] == '1') ){
 		$stext  = '<div class="'.$defaultclass.' '.$divclass.'"><label class="'.$defaultclass.' '.$divclass.'-keyword">'.$options[0]['strlabel'].'</label>';
 		$oldvalue = (isset($_GET['skeyword'])) ? $_GET['skeyword'] : '';
-		$stext .= '<input id="'.$divid.'_key" type="text" name="skeyword" class="uwpqsftext" value="'.$oldvalue.'" />';
+		$stext .= '<input id="'.$divid.'_key" type="text" name="skeyword" placeholder="Search" class="uwpqsftext" value="'.$oldvalue.'" />';
         $stext .= '</div>';
         $textsearch =  apply_filters('uwpqsf_string_search',$stext, $id,$divid,$defaultclass,$divclass,$options);
         echo $textsearch;
@@ -73,18 +73,20 @@ do_action( 'uwpqsf_form_bottom' , $atts);
 
 if($button && $button == '1'){
 $html = '<div class="'.$defaultclass.' '.$divclass.' uwpqsf_submit">';
-$html .= '<input type="'.$btype.'" id="'.$divid.'_btn" value="'.$options[0]['button'].'" alt="[Submit]" class="usfbtn '.$bclass.'" /></div>';
+$html .= '<input type="'.$btype.'" id="'.$divid.'_btn" value="'.$options[0]['button'].'" alt="[Submit]" placeholder="Search" class="usfbtn '.$bclass.'" /></div>';
 $btn = apply_filters('uwpsqf_form_btn', $html, $id,$divclass,$defaultclass,$divid,$options[0]['button'] );
 echo $btn;
 }elseif($button == '0'){
  if($auto == '1'){
-	$form = '"#uwpqsffrom_'.$id.'"';
+	//$form = '"#uwpqsffrom_'.$id.'"';
+/*
   ?>
 	<script type="text/javascript">jQuery(document).ready(function($) { 
 	var formid = <?php echo $form; ?>; 
 	$(formid).change(function(){ process_data($(this)); })
       ;})</script>
   <?php
+*/
  }
 }
 

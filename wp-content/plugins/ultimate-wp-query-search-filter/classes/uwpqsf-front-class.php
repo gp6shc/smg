@@ -27,7 +27,7 @@ if(!class_exists('uwpqsfront')){
 		}
 		if($type == 'checkbox'){
  			if ( $count > 0 ){
-				$html  = '<div class="'.$defaultclass.' '.$divclass.' tax-check-'.$c.' togglecheck"><span  class="taxolabel-'.$c.'">'.$taxlabel.'</span >';
+				$html  = '<div class="'.$defaultclass.' '.$divclass.' tax-check-'.$c.' togglecheck"><span  class="taxolabel-'.$c.'">'.$taxlabel.'</span>';
 				$html .= '<input  type="hidden" name="taxo['.$c.'][name]" value="'.$taxname.'">';
 				$html .= '<input  type="hidden" name="taxo['.$c.'][opt]" value="'.$opt.'">';
 				if(!empty($taxall)){
@@ -46,15 +46,15 @@ if(!class_exists('uwpqsfront')){
 		}
 		if($type == 'radio'){
  			if ( $count > 0 ){
-				$html  = '<div class="'.$defaultclass.' '.$divclass.' tax-radio-'.$c.'"><span class="taxolabel-'.$c.'">'.$taxlabel.'</span>';
+				$html  = '<div class="'.$defaultclass.' '.$divclass.' tax-radio-'.$c.'">';
 				$html .= '<input  type="hidden" name="taxo['.$c.'][name]" value="'.$taxname.'">';
 				$html .= '<input  type="hidden" name="taxo['.$c.'][opt]" value="'.$opt.'">';
 				if(!empty($taxall)){
-				$html .= '<label><input type="radio" id="tradio-'.$c.'" name="taxo['.$c.'][term]" value="uwpqsftaxoall">'.$taxall.'</label>';
+				$html .= '<label><input type="radio" id="tradio-'.$c.'" name="taxo['.$c.'][term]" checked value="uwpqsftaxoall"><span>'.$taxall.'</span></label>';
 				}
 			foreach ( $terms as $term ) {
 				$checked = (isset($_GET['taxo'][$c]['term']) && $_GET['taxo'][$c]['term'] == $term->slug) ? 'checked="checked"' : '';
-				$html .= '<label><input type="radio" id="tradio-'.$c.'" name="taxo['.$c.'][term]" value="'.$term->slug.'" '.$checked.'>'.$term->name.'</label>';
+				$html .= '<label><input type="radio" id="tradio-'.$c.'" name="taxo['.$c.'][term]" value="'.$term->slug.'" '.$checked.'><span>'.$term->name.'</span></label>';
 			}
 
 				

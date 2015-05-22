@@ -60,7 +60,7 @@ if(!class_exists('uwpqsfclass')){
 				array(
 					'name' => __('Default Theme','UWPQSF'),
 					'themeid' => 'udefault',
-					/* 'link' => plugins_url( '/themes/default.css', dirname(__FILE__)) , */
+					//'link' => plugins_url( '/themes/default.css', dirname(__FILE__)) ,
 					'id'   => 'uwpqsf_id',
 					'class' => 'uwpqsf_class',
 					'thumb' => plugins_url( '/themes/default.png', dirname(__FILE__))
