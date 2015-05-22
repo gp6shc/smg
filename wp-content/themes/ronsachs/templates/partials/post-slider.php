@@ -14,13 +14,7 @@ $thumb_url = $thumb_url_array[0];
 			<?php $terms = get_the_terms($post->id, 'medium');
 				if ( !empty($terms) && !is_wp_error( $terms ) ) {
 					foreach( $terms as $term ) {
-						if ($term->name === "PR") {
-							echo '<li>Public Relations</li>';
-						}elseif ($term->name === "PA") {
-							echo '<li>Public Affairs</li>';
-						}else{
-							echo '<li>' . esc_html( $term->name ) . '</li>'; 
-						}
+						echo '<li>' . esc_html( $term->name ) . '</li>'; 
 					}
 				}else{
 					echo '<li></li>'; 
