@@ -47,7 +47,7 @@
 			<h2 class="red"><span>Page Not Found: 404</span></h2>
 		</div>
 	<?php elseif ( is_page(594) || $post->post_parent == '594' ) : // if is 'team' & all children of it ?>
-	<div id="banner" style="background: url('<?php echo home_url( 'wp-content/uploads/2014/08/SMG_Team.jpg' ); ?>') repeat-x 0 0;">
+	<div id="banner" style="background: url('<?php echo home_url( 'wp-content/uploads/2013/02/pageheader_whatwedo_grey.jpg' ); ?>') repeat-x 0 0;">
 		<div class="text">
 			<h2 class="red"><span>Team</span></h2>
 		</div>
