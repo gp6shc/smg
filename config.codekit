@@ -12302,13 +12302,22 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/css\/theme.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/css\/theme.css",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/css\/themev2.css",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/wp-content\/themes\/ronsachs\/resources\/css\/themev2.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/css\/themev2.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/wp-content\/themes\/ronsachs\/resources\/images\/backgrounds\/curlshadow.png": {
 		"fileType": 32768,

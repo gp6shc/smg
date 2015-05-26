@@ -14,7 +14,7 @@
 		<meta property="og:url" content="<?php the_permalink()?>"/>
 		<meta property="fb:app_id" content="712207672128635"/>
 		
-		<link rel="stylesheet" id="theme-css"  href="<?php echo home_url();?>/wp-content/themes/ronsachs/resources/css/theme.css" type="text/css" media="all" />
+		<link rel="stylesheet" id="theme-css"  href="<?php echo home_url();?>/wp-content/themes/ronsachs/resources/css/themev2.css" type="text/css" media="all" />
 		<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
