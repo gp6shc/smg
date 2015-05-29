@@ -38,7 +38,8 @@
 					<!--end facebook subscribe-->
 
 					<!--about paragraph-->
-					<p>Porsche Haynes joined Sachs Media Group in March 2014. Graduating summa cum laude from Florida A&M University with a degree in Public Relations, Porsche is an accomplished writer and has proven to be an invaluable asset to the team. Hired as a full-time extern in the thick of Florida’s legislative session, Porsche met every challenge presented with an unfailing work ethic and exemplary communications skills. Her enthusiasm and tenacity, coupled with her desire to learn, continues to add a dynamic element to the Sachs Media Group team.</p>
+					<p>Porsche Haynes joined Sachs Media Group in March 2014. Graduating summa cum laude from Florida A&M University with a degree in Public Relations, Haynes is an award winning writer and has proven to be an invaluable asset to the team. Her expertise as an Account Executive lies in generating awareness around high-profile legislative issues, coordinating with media on both a national and international scale.</p>
+					<p>Her client work includes shedding light on the case of wrongfully-convicted deaf inmate, Felix Garcia, whose story has generated statewide and national media interest from FOX and HBO Documentaries. An accomplished video producer, project coordinator and strategic planner, she consistently meets every challenge presented with an unfailing work ethic and exemplary communications skills. Her enthusiasm and tenacity continues to add a dynamic element to the Sachs Media Group team. </p>
 					<!--end about paragraph-->
 
 					<!--last p (pushes padding down)
