@@ -11,32 +11,28 @@
 			</nav>
 			<nav id="menu">
 				<ul>
-					<li><a href="<?php echo home_url()?>">Home</a></li>
-		            <li><a href="<?php echo home_url('/about')?>">About</a></li>
-		            <li><a href="<?php echo home_url('/what-we-do')?>">What We Do</a></li>
-		            <li><a href="<?php echo home_url('/blog')?>">Blog</a></li>
-		            <li><a href="<?php echo home_url('/news')?>">News</a></li>
-		            <li><a href="<?php echo home_url('/contact')?>">Contact</a></li>
+					<li><a href="<?php home_url()?>">Home</a></li>
+		            <li><a href="<?php home_url('/about')?>">About</a></li>
+		            <li><a href="<?php home_url('/what-we-do')?>">What We Do</a></li>
+		            <li><a href="<?php home_url('/blog')?>">Blog</a></li>
+		            <li><a href="<?php home_url('/news')?>">News</a></li>
+		            <li><a href="<?php home_url('/contact')?>">Contact</a></li>
 				</ul>
 			</nav>
 		</div>
 	</div>
 </header>
 <div id="container" class="wrapper">
-	<?php if ( is_front_page() ) : 
-		$slides = get_fields($page->ID);
-		$numberOfSlides = count($slides) / 2; ?>
-		
+	<?php if ( is_front_page() ) :
+		$slides = get_field('slides', $page->ID);?>
+
 		<div class="dummy-wrapper"><!-- dummy for drop shadow -->
 			<div id="slideshow">
-			<?php for ($i = 1; $i <= $numberOfSlides; $i++):
-					$link = 'slide_link_'.$i; 
-					$image = 'slide_image_'.$i; ?>
-				
-					<a href="<?= $slides[$link]?>"><img src="<?= $slides[$image]?>" width="1010" height="422"/></a>
-			<?php endfor; ?>
+			<?php foreach ($slides as $slide):?>
+				<a href="<?= $slide['page']?>"><img src="<?= $slide['image']?>" width="1010" height="422"/></a>
+			<?php endforeach; ?>
 		</div>
-	<?php elseif ( is_home() ||  is_singular(array('post')) ) : ?>
+	<?php elseif ( is_home() || is_singular(array('post')) ) : ?>
 	<div id="banner" style="background: url('<?php echo home_url( 'wp-content/uploads/2013/02/pageheader_whatwedo_grey.jpg' ); ?>') repeat-x 0 	0;">
 		<div class="text">
 			<h2 class="red"><span>Blog</span></h2>
