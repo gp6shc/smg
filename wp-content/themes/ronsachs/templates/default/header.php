@@ -11,12 +11,12 @@
 			</nav>
 			<nav id="menu">
 				<ul>
-					<li><a href="<?php home_url()?>">Home</a></li>
-		            <li><a href="<?php home_url('/about')?>">About</a></li>
-		            <li><a href="<?php home_url('/what-we-do')?>">What We Do</a></li>
-		            <li><a href="<?php home_url('/blog')?>">Blog</a></li>
-		            <li><a href="<?php home_url('/news')?>">News</a></li>
-		            <li><a href="<?php home_url('/contact')?>">Contact</a></li>
+					<li><a href="<?= home_url()?>">Home</a></li>
+		            <li><a href="<?= home_url('/about')?>">About</a></li>
+		            <li><a href="<?= home_url('/what-we-do')?>">What We Do</a></li>
+		            <li><a href="<?= home_url('/blog')?>">Blog</a></li>
+		            <li><a href="<?= home_url('/news')?>">News</a></li>
+		            <li><a href="<?= home_url('/contact')?>">Contact</a></li>
 				</ul>
 			</nav>
 		</div>
