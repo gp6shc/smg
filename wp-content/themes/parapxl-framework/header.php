@@ -24,6 +24,8 @@
 			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="<?= home_url();?>/wp-content/plugins/gravityforms/js/gravityforms.min.js"></script>
+		<script src="<?= home_url();?>/wp-content/plugins/gravity-forms-no-captcha-recaptcha/public/js/gf-no-captcha-recaptcha-public.js"></script>
 	</head>
 
 	<body <?php body_class(); ?>>

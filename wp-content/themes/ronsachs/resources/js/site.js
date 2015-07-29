@@ -27,6 +27,19 @@ $(document).ready(function() {
 	}	
 });
 
+$('#gform_1')[0].addEventListener('click', showCaptcha);
+$('#gform_3')[0].addEventListener('click', showCaptcha);
+
+function showCaptcha() {
+	$(this).find('.g-recaptcha').addClass('unhide');
+	this.removeEventListener('click', showCaptcha);
+}
+
+$(document).bind('gform_post_render', function(event, formId){
+	var updatedForm = '#gform_' + formId;
+	$(updatedForm).find('.g-recaptcha').addClass('unhide');
+});
+
 $('footer input, footer textarea').focusin(function(){
 	$(this).parent('div').prev('label').fadeOut('fast');
 });

@@ -39,7 +39,7 @@
 			</div>
 			<div class="span3">
 				<h4>Drop Us a Line</h4>
-				<?php echo do_shortcode("[gravityform id=1 title=false description=false tabindex=10]"); ?>
+				<?php echo do_shortcode("[gravityform id=1 title=false ajax=true description=false tabindex=10]"); ?>
 			</div>
 			<div class="span6">
 				<h4>Our Elevator Speech</h4>
