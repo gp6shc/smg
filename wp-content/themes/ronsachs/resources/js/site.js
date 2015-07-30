@@ -28,7 +28,7 @@ $(document).ready(function() {
 });
 
 $('#gform_1')[0].addEventListener('click', showCaptcha);
-if( $('#gform_3').length ) { $('#gform_1')[0].addEventListener('click', showCaptcha); }
+if( $('#gform_3').length ) { $('#gform_3')[0].addEventListener('click', showCaptcha); }
 
 function showCaptcha() {
 	$(this).find('.g-recaptcha').addClass('unhide');
