@@ -38,15 +38,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/missing.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/missing.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/podcasts\/FloridaNewsmakers.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -57,15 +48,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
-		},
-	"\/readme.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/readme.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/rockheaven\/assets\/css\/font-awesome.min.css": {
 		"fileType": 16,
@@ -1698,15 +1680,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/webformmailer.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/welcome.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/welcome.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -42535,13 +42508,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/wp-content\/uploads\/2015\/05\/dmts.jpg": {
+	"\/wp-content\/uploads\/2015\/05\/DMTS.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 671700,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/05\/dmts.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/05\/dmts.jpg",
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/05\/DMTS.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/05\/DMTS.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
