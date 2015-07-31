@@ -9,4 +9,7 @@ wp-config.php
 .htaccess
 wp-content/themes/ronsachs/resources/css/.sass-cache
 logs/
+<<<<<<< HEAD
 wp-content/cache
+=======
+>>>>>>> 785d429bceea2364987864e961a3132bb0feeb8e
