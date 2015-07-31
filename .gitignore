@@ -8,3 +8,5 @@ videos
 wp-config.php
 .htaccess
 wp-content/themes/ronsachs/resources/css/.sass-cache
+logs/
+wp-content/cache
