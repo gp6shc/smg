@@ -1794,12 +1794,14 @@ p .related{
 	}
 	
 	h3 {
-		color: mix($white, #36383A, 50%);
 		background-color: $red;
 		color: $white;
 		display: inline-block;
 		margin-left: -30px;
-		padding: 5px 10px 5px 30px;
+		padding: 9px 12px 5px 30px;
+		letter-spacing: 0.5px;
+		font-size: 35px;
+		line-height: 1;
 		letter-spacing: 0.5px;
 	}
 }
@@ -1812,7 +1814,7 @@ p .related{
 }
 
 .visible {
-	max-height: 1000px;
+	max-height: 1400px;
 
 	.row {
 		opacity: 1;
@@ -1822,6 +1824,8 @@ p .related{
 
 .memories.memories.memories {
 	margin-top: 10px;
+	font-size: 16px;
+	line-height: 1.35;
 }
 
 .single-alumni {
@@ -1898,7 +1902,7 @@ p .related{
 	li {
 		display: inline-block;
 		width: 180px;
-		background-color: $red;
+		background-color: #8b8b8b;
 		transform-origin: bottom;
 		transition: opacity 300ms, transform 300ms;
 		
@@ -1916,7 +1920,7 @@ p .related{
 		}
 
 		&.current-page {
-			background-color: #8b8b8b;			
+			background-color: $red;			
 		}
 	}
 }
@@ -1950,6 +1954,45 @@ p .related{
 .g-recaptcha.unhide {
 	margin-top: 16px;
 	height: auto;
+}
+
+.issue-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.issues-image {
+	box-shadow: 0 0 12px rgba(0,0,0,0.6);
+	width: 49%;
+	height: 100%;
+	margin: 10px 0;
+	z-index: 1;
+	position: relative;
+}
+.description {
+	width: 49%;
+}	
+.issue {
+		
+	.preview-title {
+		text-align: center;
+		transition: opacity 300ms 350ms;
+	}
+
+	i {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%,-50%);
+		color: white;
+		font-size: 90px;	
+	}
+	
+	&.active {
+		.preview-title {
+			opacity: 0;
+		}
+	}
 }
 
 @import 'owl.carousel';

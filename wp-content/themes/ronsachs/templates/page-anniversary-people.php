@@ -1,4 +1,4 @@
-<?php /* Template Name: Anniversary - People*/ pxl::page(); while ( have_posts() ) : the_post(); ?>
+<?php /* Template Name: Anniversary - People */ pxl::page(); while ( have_posts() ) : the_post(); ?>
 
 <div class="row">	
 	<h1 class="anniversary">20 Years of Impact</h1>
@@ -7,9 +7,9 @@
 
 <div class="row">
 	<ul class="anniv-nav">
-		<li class="current-page"><a href="<?php home_url('/impact-on-people') ?>">People</a></li>
-		<li><a href="<?php home_url('/impact-on-community') ?>">Community</a></li>
-		<li><a href="<?php home_url('/impact-on-issues') ?>">Issues</a></li>
+		<li class="current-page"><a href="/anniversary/people">People</a></li>
+		<li><a href="/anniversary/community">Community</a></li>
+		<li><a href="/anniversary/issues">Issues</a></li>
 	</ul>
 </div>
 <div class="row alumni-contain">
@@ -27,7 +27,7 @@
 						<?php if ($fields[website]) :?>
 							<a href="<?= $fields[website]?>" target="_blank"><?= $fields[current_company]?></a><br/>
 							<?php else:?>
-							<p><?= $fields[current_company]?></p><br/>
+							<a href="#"><?= $fields[current_company]?></a><br/>
 						<?php endif;?>
 						<span class="current-title"><?= $fields[title]?></span><br/>
 						<span class="current-state"><?= $fields[state]?></span>

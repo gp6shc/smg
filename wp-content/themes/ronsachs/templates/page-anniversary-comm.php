@@ -7,26 +7,29 @@
 
 <div class="row">
 	<ul class="anniv-nav">
-		<li><a href="/impact-on-people">People</a></li>
-		<li class="current-page"><a href="/impact-on-community">Community</a></li>
-		<li><a href="/impact-on-issues">Issues</a></li>
+		<li><a href="/anniversary/people">People</a></li>
+		<li class="current-page"><a href="/anniversary/community">Community</a></li>
+		<li><a href="/anniversary/issues">Issues</a></li>
 	</ul>
 </div>
 <div class="row alumni-contain">
-	<?php $loop = new WP_Query( array( 'post_type' => 'work', 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC' ) ); ?>
+	<?php $loop = new WP_Query( array( 'post_type' => 'communities', 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC' ) ); ?>
 	<?php $i = 0; ?>
-	<?php while ( $loop->have_posts() ) : $loop->the_post(); 
-		$i++;
-		$thumb_id = get_post_thumbnail_id();
-		$thumb_url_array = wp_get_attachment_image_src($thumb_id, 'thumbnail-size', true);
-		$thumb_url = $thumb_url_array[0];			
-	?>
-		<div class="alumni">
-			<div class="preview-box" style="background-image:url('<?= $thumb_url ?>')">
+	<?php while ( $loop->have_posts() ) : $loop->the_post(); $fields = get_fields(); $i++;?>
+
+		<div class="alumni issue">
+			<div class="preview-box" style="background-image: url('<?= $fields[background_image][sizes][large]?>')">
 				<span class="preview-title"><?php the_title()?></span>
 			</div>
 			<div class="full-view">
-				<?php the_content() ?>
+				<span class="bg-name"><?php the_title()?></span>
+				<h3><?php the_title()?></h3>
+				<div class="memories issue-content">
+					<p class="description"><?= $fields[content]?></p>
+					<?php foreach ($fields[images] as $image): ?>
+					<img class="issues-image" src="<?= $image[image][sizes][large]?>"/>
+					<?php endforeach; ?>
+				</div>
 			</div>
 		</div> <!-- /.alumni -->
 		<?php if ($i % 3 === 0): ?>
@@ -62,7 +65,7 @@
 	}
 	
 /*
-	$('.sachs-image').on('click', function() {
+	$('.issues-image').on('click', function() {
 		$(this).toggleClass('big');
 	});
 */

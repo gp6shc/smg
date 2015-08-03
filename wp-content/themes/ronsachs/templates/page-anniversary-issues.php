@@ -1,4 +1,4 @@
-<?php /* Template Name: Anniversary - People*/ pxl::page(); while ( have_posts() ) : the_post(); ?>
+<?php /* Template Name: Anniversary - Issues */ pxl::page(); while ( have_posts() ) : the_post(); ?>
 
 <div class="row">	
 	<h1 class="anniversary">20 Years of Impact</h1>
@@ -7,42 +7,29 @@
 
 <div class="row">
 	<ul class="anniv-nav">
-		<li><a href="/impact-on-people">People</a></li>
-		<li><a href="/impact-on-community">Community</a></li>
-		<li class="current-page"><a href="/impact-on-issues">Issues</a></li>
+		<li><a href="/anniversary/people">People</a></li>
+		<li><a href="/anniversary/community">Community</a></li>
+		<li class="current-page"><a href="/anniversary/issues">Issues</a></li>
 	</ul>
 </div>
 <div class="row alumni-contain">
-	<?php $loop = new WP_Query( array( 'post_type' => 'alumni', 'posts_per_page' => -1, 'orderby' => 'rand' ) ); ?>
+	<?php $loop = new WP_Query( array( 'post_type' => 'issues', 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC' ) ); ?>
 	<?php $i = 0; ?>
 	<?php while ( $loop->have_posts() ) : $loop->the_post(); $fields = get_fields(); $i++;?>
-		<div class="alumni">
-			<div class="preview-box" style="background-image:url('<?= $fields[current_photo][sizes][large]?>')">
+
+		<div class="alumni issue">
+			<div class="preview-box" style="background-image:radial-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0)), url('<?= $fields[background_image][sizes][large]?>')">
+				<i class="fa <?= $fields[icon]?>"></i>
 				<span class="preview-title"><?php the_title()?></span>
 			</div>
 			<div class="full-view">
-				<span class="bg-name"><?php the_title()?></span>
-				<div class="row">
-					<div class="current-position">Now:<br/>
-						<?php if ($fields[website]) :?>
-							<a href="<?= $fields[website]?>" target="_blank"><?= $fields[current_company]?></a><br/>
-							<?php else:?>
-							<p><?= $fields[current_company]?></p><br/>
-						<?php endif;?>
-						<span class="current-title"><?= $fields[title]?></span><br/>
-						<span class="current-state"><?= $fields[state]?></span>
-					</div>
-					<div class="smg-position">
-						<span><?= $fields[years]?></span><br/>
-						<span class="smg-title"><?= $fields[position_at_smg]?></span>
-					</div>
-				</div>
-				<div class="memories row">
-					<img class="sachs-image" src="<?= $fields[sachs_photo][sizes][large]?>"/>
-					<h3>Fondest Memory at Sachs:</h3>
-					<p><?= $fields[fondest_memory]?></p>
-					<h3>Biggest Takeaway from Sachs:</h3>
-					<p><?= $fields[biggest_takeaway]?></p>
+				<span class="bg-name"><?php the_title()?> <i class="fa <?= $fields[icon]?>"></i></span>
+				<h3><?php the_title()?> <i class="fa <?= $fields[icon]?>"></i></h3>
+				<div class="memories issue-content">
+					<p class="description"><?= $fields[content]?></p>
+					<?php foreach ($fields[images] as $image): ?>
+					<img class="issues-image" src="<?= $image[image][sizes][large]?>"/>
+					<?php endforeach; ?>
 				</div>
 			</div>
 		</div> <!-- /.alumni -->
@@ -78,9 +65,11 @@
 		setTimeout(function(){ cloneElem.empty(); }, 700);
 	}
 	
-	$('.sachs-image').on('click', function() {
+/*
+	$('.issues-image').on('click', function() {
 		$(this).toggleClass('big');
 	});
+*/
 	
 	$('.alumni').on('click', function(){
 		var clicked = $(this);

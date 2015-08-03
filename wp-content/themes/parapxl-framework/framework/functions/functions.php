@@ -67,35 +67,109 @@ function wp_character_excerpt($limit, $readMore) {
 	}	
 }
 
-function custom_post_alumni() {
+function custom_post_people() {
   $labels = array(
-    'name'               => _x( 'Alumni', 'post type general name' ),
-    'singular_name'      => _x( 'Alumni', 'post type singular name' ),
+    'name'               => _x( 'People', 'post type general name' ),
+    'singular_name'      => _x( 'People', 'post type singular name' ),
     'add_new'            => _x( 'Add New', 'book' ),
-    'add_new_item'       => __( 'Add New Alumni' ),
-    'edit_item'          => __( 'Edit Alumni' ),
-    'new_item'           => __( 'New Alumni' ),
-    'all_items'          => __( 'All Alumni' ),
-    'view_item'          => __( 'View Alumni' ),
-    'search_items'       => __( 'Search Alumni' ),
-    'not_found'          => __( 'No Alumni found' ),
-    'not_found_in_trash' => __( 'No Alumni found in the Trash' ), 
+    'add_new_item'       => __( 'Add New People' ),
+    'edit_item'          => __( 'Edit People' ),
+    'new_item'           => __( 'New People' ),
+    'all_items'          => __( 'People' ),
+    'view_item'          => __( 'View People' ),
+    'search_items'       => __( 'Search People' ),
+    'not_found'          => __( 'No People found' ),
+    'not_found_in_trash' => __( 'No People found in the Trash' ), 
     'parent_item_colon'  => '',
-    'menu_name'          => 'Alumni',
+    'menu_name'          => 'People',
   );
   $args = array(
     'labels'        => $labels,
-    'description'   => 'Collection of SMG Alumni',
+    'description'   => 'Collection of SMG People',
     'public'        => true,
     'menu_position' => 5,
+    'show_in_menu'	=> 'anniversary',
     'menu_icon'		=> 'dashicons-welcome-learn-more',
     'supports'      => array( 'title', 'editor' ),
     'has_archive'   => false,
   );
   register_post_type( 'alumni', $args ); 
 }
-add_action( 'init', 'custom_post_alumni' );
+add_action( 'init', 'custom_post_people' );
 
+function custom_post_issues() {
+  $labels = array(
+    'name'               => _x( 'Issue', 'post type general name' ),
+    'singular_name'      => _x( 'Issue', 'post type singular name' ),
+    'add_new'            => _x( 'Add New', 'book' ),
+    'add_new_item'       => __( 'Add New Issue' ),
+    'edit_item'          => __( 'Edit Issue' ),
+    'new_item'           => __( 'New Issue' ),
+    'all_items'          => __( 'Issues' ),
+    'view_item'          => __( 'View Issue' ),
+    'search_items'       => __( 'Search Issues' ),
+    'not_found'          => __( 'No Issues found' ),
+    'not_found_in_trash' => __( 'No Issues found in the Trash' ), 
+    'parent_item_colon'  => '',
+    'menu_name'          => 'Issues',
+  );
+  $args = array(
+    'labels'        => $labels,
+    'description'   => 'Collection of SMG Issues',
+    'public'        => true,
+    'menu_position' => 10,
+    'show_in_menu'	=> 'anniversary',
+    'menu_icon'		=> 'dashicons-welcome-learn-more',
+    'supports'      => array( 'title', 'editor' ),
+    'has_archive'   => false,
+  );
+  register_post_type( 'issues', $args ); 
+}
+add_action( 'init', 'custom_post_issues' );
+
+function custom_post_community() {
+  $labels = array(
+    'name'               => _x( 'Community', 'post type general name' ),
+    'singular_name'      => _x( 'Community', 'post type singular name' ),
+    'add_new'            => _x( 'Add New', 'book' ),
+    'add_new_item'       => __( 'Add New Community' ),
+    'edit_item'          => __( 'Edit Community' ),
+    'new_item'           => __( 'New Community' ),
+    'all_items'          => __( 'Communities' ),
+    'view_item'          => __( 'View Community' ),
+    'search_items'       => __( 'Search Communities' ),
+    'not_found'          => __( 'No Communities found' ),
+    'not_found_in_trash' => __( 'No Communities found in the Trash' ), 
+    'parent_item_colon'  => '',
+    'menu_name'          => 'Communities',
+  );
+  $args = array(
+    'labels'        => $labels,
+    'description'   => 'Collection of SMG Communities',
+    'public'        => true,
+    'menu_position' => 10,
+    'show_in_menu'	=> 'anniversary',
+    'menu_icon'		=> 'dashicons-welcome-learn-more',
+    'supports'      => array( 'title', 'editor' ),
+    'has_archive'   => false,
+  );
+  register_post_type( 'communities', $args ); 
+}
+add_action( 'init', 'custom_post_community' );
+
+function display_anniv_page() {
+	$output = "<h1>"
+			. "Anniversary"
+			. "</h1>"
+	;
+	
+	echo $output;
+}
+
+function add_anniversary_menu_page() {
+	add_menu_page( 'Anniversary', 'Anniversary', 'manage_options', 'anniversary', 'display_anniv_page', 'dashicons-editor-textcolor' , 6 );
+}
+add_action( 'admin_menu', 'add_anniversary_menu_page' );
 
 //Design Portfolio
 function customize_output($results , $arg, $id, $getdata ){
