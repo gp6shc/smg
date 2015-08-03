@@ -17497,7 +17497,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/wp-content\/themes\/ronsachs\/resources\/css\/themev2.css": {
 		"fileType": 16,

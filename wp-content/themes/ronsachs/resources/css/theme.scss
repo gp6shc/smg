@@ -1710,7 +1710,7 @@ p .related{
 	width: 100%;
 	box-sizing: border-box;
 	color: white;
-	background-image: linear-gradient(to top, rgba(black, 0.8), rgba(black,0.2) 88%, transparent);
+	background-image: linear-gradient(to top, rgba(0,0,0,0.75), rgba(0,0,0,0) 88%, transparent)
 }
 .current-position {
 	display: inline-block;
@@ -1985,7 +1985,12 @@ p .related{
 		top: 50%;
 		transform: translate(-50%,-50%);
 		color: white;
-		font-size: 90px;	
+		font-size: 135px;
+		transition: color 300ms;
+	}
+	
+	&:hover i {
+		color: $red;
 	}
 	
 	&.active {
