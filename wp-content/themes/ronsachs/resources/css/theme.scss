@@ -1814,7 +1814,8 @@ p .related{
 }
 
 .visible {
-	max-height: 1400px;
+	max-height: 900px;
+	overflow: scroll;
 
 	.row {
 		opacity: 1;
@@ -2002,6 +2003,12 @@ p .related{
 		.preview-title {
 			opacity: 0;
 		}
+	}
+}
+.hash-url {
+	color: white;
+	&:hover {
+		color: white;
 	}
 }
 

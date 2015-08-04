@@ -16,7 +16,7 @@
 	<?php $loop = new WP_Query( array( 'post_type' => 'alumni', 'posts_per_page' => -1, 'orderby' => 'rand' ) ); ?>
 	<?php $i = 0; ?>
 	<?php while ( $loop->have_posts() ) : $loop->the_post(); $fields = get_fields(); $i++;?>
-		<div class="alumni">
+		<div class="alumni" id="<?= $post->post_name;?>">
 			<div class="preview-box" style="background-image:url('<?= $fields[current_photo][sizes][large]?>')">
 				<span class="preview-title"><?php the_title()?></span>
 			</div>
@@ -39,7 +39,11 @@
 				</div>
 				<div class="memories row">
 					<img class="sachs-image" src="<?= $fields[sachs_photo][sizes][large]?>"/>
-					<h3>Fondest Memory at Sachs:</h3>
+					<h3>
+						<a class="hash-url" href="<?= home_url()?>/anniversary/people/#<?= $post->post_name;?>">
+						Fondest Memory at Sachs:
+						</a>
+					</h3>
 					<p><?= $fields[fondest_memory]?></p>
 					<h3>Biggest Takeaway from Sachs:</h3>
 					<p><?= $fields[biggest_takeaway]?></p>
@@ -66,7 +70,6 @@
 		
 		shouldScroll = typeof shouldScroll !== 'undefined' ? shouldScroll : 42;
 		if (shouldScroll) {
-			console.log('is scrolling');
 			$("html, body").animate({ scrollTop: elem.offset().top }, 600);
 		}
 	}
@@ -88,7 +91,6 @@
 		
 		// is the one clicked already open? If so close it
 		if ( clicked.hasClass('active') ) {
-			console.log('closing only active');
 			closeRow( clicked, cloneRow );
 		}else{
 			// it isn't already open, so check if there are any others open that need to be closed first
@@ -96,7 +98,6 @@
 
 			// anything else already open? If so close that other thing
 			if ( active.length !== 0 )  {
-				console.log('is another active');
 				
 				var otherActive = $(active[0]); 											// if everything works right, there should only ever be one other active item at any point, so no .each() over active
 				var existingCloneRow = otherActive.nextAll(".full-view-contain").first(); 	// possibly remove .first() if all working properly
@@ -110,29 +111,32 @@
 						openRow(clicked, cloneRow, false);
 						cloneRow.removeClass('fade-out');
 					},300);
-					console.log('same div');
 				}else{
 					// whelp, just close the old one and open the new one
 					var scrollToFuture = clicked.offset().top - existingCloneRow.innerHeight();
 					closeRow(otherActive, existingCloneRow);
 					openRow(clicked, cloneRow, false);
-					console.log('diff div');
 					
 					// is the new item lower than the previous one?, if so scroll to where it will be after the old one closes
 					if ( otherActive.index('.alumni') < clicked.index('.alumni') ) {
 						setTimeout(function() {
 							$("html, body").animate({ scrollTop: scrollToFuture }, 600);
 						}, 375);
-						console.log('new is lower; scrolling');
 					}else{
 						$("html, body").animate({ scrollTop: clicked.offset().top }, 600);
 					}
 				}							
 			}else{
 				// the default: nothing else open, go ahead and open the clicked item
-				console.log('no other active');
 				openRow(clicked, cloneRow);
 			}
+		}
+	});
+	
+	$(document).ready(function() {
+		if (window.location.hash) {
+			closestRow = $(window.location.hash).nextAll(".full-view-contain").first();
+			openRow( $(window.location.hash) , closestRow, true);
 		}
 	});
 </script>
