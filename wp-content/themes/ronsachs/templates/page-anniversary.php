@@ -1,6 +1,11 @@
 <?php /* Template Name: Anniversary */
 
-wp_redirect('/anniversary/impact-on-people/', 301);
-exit;
+if ( is_user_logged_in() ) {
+	wp_redirect('/anniversary/people/', 301);
+	exit;
+}else{
+	wp_redirect('/');
+	exit;		
+}
 
 ?>
