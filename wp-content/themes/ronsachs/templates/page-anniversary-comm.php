@@ -95,8 +95,10 @@
 						cloneRow.empty();
 						otherActive.removeClass('active');
 						openRow(clicked, cloneRow, false);
-						cloneRow.removeClass('fade-out');
 					},300);
+					setTimeout(function(){
+						cloneRow.removeClass('fade-out');
+					},400);
 				}else{
 					// whelp, just close the old one and open the new one
 					var scrollToFuture = clicked.offset().top - existingCloneRow.innerHeight();

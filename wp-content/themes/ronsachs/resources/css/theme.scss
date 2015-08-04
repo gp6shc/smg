@@ -1768,15 +1768,21 @@ p .related{
 	&::after {
 		content: '';
 		position: absolute;
+		z-index: 1;
 		top: 0;
 		width: 100%;
 		height: 100%;
 		background: rgb(54, 56, 58);
 		opacity: 0;
 		pointer-events: none;
-		transition: opacity 0.3s;
+		transition: opacity 0.5s;
 		box-shadow: inset 0 0 24px 6px rgba(0,0,0,0.3);
+		margin-top: 16px;
 	}
+}
+
+.page-id-4387 .full-view-contain::after {
+	margin-top: 0;
 }
 
 .full-view {
