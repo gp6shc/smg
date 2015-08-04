@@ -27,6 +27,10 @@
 				<h3><?php the_title()?> <i class="fa <?= $fields[icon]?>"></i></h3>
 				<div class="memories issue-content">
 					<p class="description"><?= $fields[content]?></p>
+					<?php if ( $fields[youtube] ) :?>
+						<?php $videoID = substr(strrchr( $fields[youtube] , "="), 1); ?>
+						<iframe class="yt-embed" src="https://www.youtube.com/embed/<?= $videoID; ?>" frameborder="0" allowfullscreen></iframe>
+					<?php endif;?>
 					<?php foreach ($fields[images] as $image): ?>
 					<img class="issues-image" src="<?= $image[image][sizes][large]?>"/>
 					<?php endforeach; ?>
