@@ -21,33 +21,35 @@
 				<span class="preview-title"><?php the_title()?></span>
 			</div>
 			<div class="full-view">
-				<span class="bg-name"><?php the_title()?></span>
-				<div class="row">
-					<div class="current-position">Now:<br/>
-						<?php if ($fields[website]) :?>
-							<a href="<?= $fields[website]?>" target="_blank"><?= $fields[current_company]?></a><br/>
-							<?php else:?>
-							<a href="#"><?= $fields[current_company]?></a><br/>
-						<?php endif;?>
-						<span class="current-title"><?= $fields[title]?></span><br/>
-						<span class="current-state"><?= $fields[state]?></span>
+				<div class="full-view-wrapper">
+					<span class="bg-name"><?php the_title()?></span>
+					<div class="row">
+						<div class="current-position">Now:<br/>
+							<?php if ($fields[website]) :?>
+								<a href="<?= $fields[website]?>" target="_blank"><?= $fields[current_company]?></a><br/>
+								<?php else:?>
+								<a href="#"><?= $fields[current_company]?></a><br/>
+							<?php endif;?>
+							<span class="current-title"><?= $fields[title]?></span><br/>
+							<span class="current-state"><?= $fields[state]?></span>
+						</div>
+						<div class="smg-position">
+							<span><?= $fields[years]?></span><br/>
+							<span class="smg-title"><?= $fields[position_at_smg]?></span>
+						</div>
 					</div>
-					<div class="smg-position">
-						<span><?= $fields[years]?></span><br/>
-						<span class="smg-title"><?= $fields[position_at_smg]?></span>
+					<div class="memories row">
+						<img class="sachs-image" src="<?= $fields[sachs_photo][sizes][large]?>"/>
+						<h3>
+							<a class="hash-url" href="<?= home_url()?>/anniversary/people/#<?= $post->post_name;?>">
+							Fondest Memory at Sachs:
+							</a>
+						</h3>
+						<p><?= $fields[fondest_memory]?></p>
+						<h3>Biggest Takeaway from Sachs:</h3>
+						<p><?= $fields[biggest_takeaway]?></p>
 					</div>
-				</div>
-				<div class="memories row">
-					<img class="sachs-image" src="<?= $fields[sachs_photo][sizes][large]?>"/>
-					<h3>
-						<a class="hash-url" href="<?= home_url()?>/anniversary/people/#<?= $post->post_name;?>">
-						Fondest Memory at Sachs:
-						</a>
-					</h3>
-					<p><?= $fields[fondest_memory]?></p>
-					<h3>Biggest Takeaway from Sachs:</h3>
-					<p><?= $fields[biggest_takeaway]?></p>
-				</div>
+				</div>			
 			</div>
 		</div> <!-- /.alumni -->
 		<?php if ($i % 3 === 0): ?>
@@ -60,13 +62,15 @@
 </div><!--end alumni-contain -->
 
 <script>
-	function openRow(elem, cloneElem, shouldScroll) { 					// elem = element clicked, to be cloned
-		elem.children('.full-view').clone(true).appendTo(cloneElem); 	// clone the hidden content of the element into dest
-		cloneElem.addClass('visible'); 									// make dest visible
-		elem.addClass('active');										// flag elem as the current, open, visible content
-		setTimeout(function() {											// allow the .sachs-image to escape bounds when scaled up
+	function openRow(elem, cloneElem, shouldScroll) { 						// elem = element clicked, to be cloned
+		elem.children('.full-view').clone(true).appendTo(cloneElem); 		// clone the hidden content of the element into dest
+		cloneElem.addClass('visible'); 										// make dest visible
+		var newHeight = elem.children('.full-view').outerHeight();			// get prefound height of content
+		cloneElem.css('height', newHeight);									// set new height
+		elem.addClass('active');											// flag elem as the current, open, visible content
+		setTimeout(function() {												// allow the .sachs-image to escape bounds when scaled up
 			cloneElem.addClass('allow-overflow');
-		}, 700);
+		}, 1500);
 		
 		shouldScroll = typeof shouldScroll !== 'undefined' ? shouldScroll : 42;
 		if (shouldScroll) {
@@ -78,6 +82,7 @@
 		cloneElem.removeClass('allow-overflow');
 		elem.removeClass('active');
 		cloneElem.removeClass('visible');
+		cloneElem.css('height', 0);
 		setTimeout(function(){ cloneElem.empty(); }, 700);
 	}
 	
@@ -104,6 +109,7 @@
 					
 				// does the new item use the same row as the old one? if so don't close the row, just empty and replace	
 				if ( existingCloneRow[0] === cloneRow[0] ) {
+					cloneRow.removeClass('allow-overflow');
 					cloneRow.addClass('fade-out');
 					setTimeout(function(){
 						cloneRow.empty();
@@ -140,6 +146,12 @@
 			closestRow = $(window.location.hash).nextAll(".full-view-contain").first();
 			openRow( $(window.location.hash) , closestRow, true);
 		}
+		$('.full-view').each(function() {
+			var newHeight = $(this).outerHeight();
+			console.log("Inner: ",newIHeight)
+			console.log("Outer: ",newOHeight)
+			$(this).attr('data-height', newOHeight);
+		});
 	});
 </script>
 <?php endwhile; pxl::page(0); ?>

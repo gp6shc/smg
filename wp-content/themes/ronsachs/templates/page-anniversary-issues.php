@@ -23,7 +23,6 @@
 				<span class="preview-title"><?php the_title()?></span>
 			</div>
 			<div class="full-view">
-				<span class="bg-name"><?php the_title()?> <i class="fa <?= $fields[icon]?>"></i></span>
 				<h3>
 					<a class="hash-url" href="<?= home_url()?>/anniversary/people/#<?= $post->post_name;?>"><?php the_title()?> <i class="fa <?= $fields[icon]?>"></i></a>
 				</h3>
