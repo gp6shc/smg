@@ -22,18 +22,20 @@
 				<span class="preview-title"><?php the_title()?></span>
 			</div>
 			<div class="full-view">
-				<h3>
-					<a class="hash-url" href="<?= home_url()?>/anniversary/people/#<?= $post->post_name;?>"><?php the_title()?></a>
-				</h3>
-				<div class="memories issue-content">
-					<p class="description"><?= $fields[content]?></p>
-					<?php if ( $fields[youtube] ) :?>
-						<?php $videoID = substr(strrchr( $fields[youtube] , "="), 1); ?>
-						<iframe class="yt-embed" src="https://www.youtube.com/embed/<?= $videoID; ?>" frameborder="0" allowfullscreen></iframe>
-					<?php endif;?>
-					<?php foreach ($fields[images] as $image): ?>
-					<img class="issues-image" src="<?= $image[image][sizes][large]?>"/>
-					<?php endforeach; ?>
+				<div class="full-view-wrapper">
+					<h3>
+						<a class="hash-url" href="<?= home_url()?>/anniversary/people/#<?= $post->post_name;?>"><?php the_title()?></a>
+					</h3>
+					<div class="memories issue-content">
+						<p class="description"><?= $fields[content]?></p>
+						<?php if ( $fields[youtube] ) :?>
+							<?php $videoID = substr(strrchr( $fields[youtube] , "="), 1); ?>
+							<iframe class="yt-embed" src="https://www.youtube.com/embed/<?= $videoID; ?>" frameborder="0" allowfullscreen></iframe>
+						<?php endif;?>
+						<?php foreach ($fields[images] as $image): ?>
+						<img class="issues-image" src="<?= $image[image][sizes][large]?>"/>
+						<?php endforeach; ?>
+					</div>
 				</div>
 			</div>
 		</div> <!-- /.alumni -->
@@ -47,10 +49,15 @@
 </div><!--end alumni-contain -->
 
 <script>
-	function openRow(elem, cloneElem, shouldScroll) { 					// elem = element clicked, to be cloned
-		elem.children('.full-view').clone(true).appendTo(cloneElem); 	// clone the hidden content of the element into dest
-		cloneElem.addClass('visible'); 									// make dest visible
-		elem.addClass('active');										// flag elem as the current, open, visible content
+	function openRow(elem, cloneElem, shouldScroll) { 						// elem = element clicked, to be cloned
+		elem.children('.full-view').clone(true).appendTo(cloneElem); 		// clone the hidden content of the element into dest
+		cloneElem.addClass('visible'); 										// make dest visible
+		var newHeight = elem.children('.full-view').outerHeight();			// get prefound height of content
+		cloneElem.css('height', newHeight);									// set new height
+		elem.addClass('active');											// flag elem as the current, open, visible content
+		setTimeout(function() {												// allow the .sachs-image to escape bounds when scaled up
+			cloneElem.addClass('allow-overflow');
+		}, 1000);
 		
 		shouldScroll = typeof shouldScroll !== 'undefined' ? shouldScroll : 42;
 		if (shouldScroll) {
@@ -59,10 +66,13 @@
 	}
 	
 	function closeRow(elem, cloneElem) {
+		cloneElem.removeClass('allow-overflow');
 		elem.removeClass('active');
 		cloneElem.removeClass('visible');
+		cloneElem.css('height', 0);
 		setTimeout(function(){ cloneElem.empty(); }, 700);
 	}
+
 	
 /*
 	$('.issues-image').on('click', function() {
@@ -70,7 +80,22 @@
 	});
 */
 	
+	var isClicking = false;
+	
 	$('.alumni').on('click', function(){
+		if (isClicking) {
+			console.log('nerfed');
+			return;
+		}else{
+			isClicking = true;
+		}
+		
+		if (history.replaceState) {
+			history.replaceState(null, null, '#' + $(this).attr('id') );
+		} else {
+			location.hash = $(this).attr('id');
+		}
+		
 		var clicked = $(this);
 		var cloneRow = clicked.nextAll(".full-view-contain").first();
 		
@@ -89,6 +114,7 @@
 					
 				// does the new item use the same row as the old one? if so don't close the row, just empty and replace	
 				if ( existingCloneRow[0] === cloneRow[0] ) {
+					cloneRow.removeClass('allow-overflow');
 					cloneRow.addClass('fade-out');
 					setTimeout(function(){
 						cloneRow.empty();
@@ -118,6 +144,10 @@
 				openRow(clicked, cloneRow);
 			}
 		}
+				
+		setTimeout( function() {
+			isClicking = false;
+		}, 1000);
 	});	
 		
 	$(document).ready(function() {

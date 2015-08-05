@@ -70,7 +70,7 @@
 		elem.addClass('active');											// flag elem as the current, open, visible content
 		setTimeout(function() {												// allow the .sachs-image to escape bounds when scaled up
 			cloneElem.addClass('allow-overflow');
-		}, 1500);
+		}, 1000);
 		
 		shouldScroll = typeof shouldScroll !== 'undefined' ? shouldScroll : 42;
 		if (shouldScroll) {
@@ -90,7 +90,22 @@
 		$(this).toggleClass('big');
 	});
 	
+	var isClicking = false;
+	
 	$('.alumni').on('click', function(){
+		if (isClicking) {
+			console.log('nerfed');
+			return;
+		}else{
+			isClicking = true;
+		}
+		
+		if (history.replaceState) {
+			history.replaceState(null, null, '#' + $(this).attr('id') );
+		} else {
+			location.hash = $(this).attr('id');
+		}
+		
 		var clicked = $(this);
 		var cloneRow = clicked.nextAll(".full-view-contain").first();
 		
@@ -139,6 +154,10 @@
 				openRow(clicked, cloneRow);
 			}
 		}
+		
+		setTimeout( function() {
+			isClicking = false;
+		}, 1000);
 	});
 	
 	$(document).ready(function() {
@@ -146,12 +165,6 @@
 			closestRow = $(window.location.hash).nextAll(".full-view-contain").first();
 			openRow( $(window.location.hash) , closestRow, true);
 		}
-		$('.full-view').each(function() {
-			var newHeight = $(this).outerHeight();
-			console.log("Inner: ",newIHeight)
-			console.log("Outer: ",newOHeight)
-			$(this).attr('data-height', newOHeight);
-		});
 	});
 </script>
 <?php endwhile; pxl::page(0); ?>
