@@ -57,8 +57,10 @@
 		cloneElem.css('height', newHeight);									// set new height
 		elem.addClass('active');											// flag elem as the current, open, visible content
 		setTimeout(function() {												// allow the .sachs-image to escape bounds when scaled up
-			cloneElem.addClass('allow-overflow');
-		}, 1000);
+			if (!cloneElem.hasClass('allow-overflow')) {
+				cloneElem.addClass('allow-overflow');
+			}
+		}, 400);
 		
 		shouldScroll = typeof shouldScroll !== 'undefined' ? shouldScroll : 42;
 		if (shouldScroll) {
@@ -147,7 +149,7 @@
 				
 		setTimeout( function() {
 			isClicking = false;
-		}, 1000);
+		}, 500);
 	});
 		
 	$(document).ready(function() {

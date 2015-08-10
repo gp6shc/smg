@@ -40,11 +40,7 @@
 					</div>
 					<div class="memories row">
 						<img class="sachs-image" src="<?= $fields[sachs_photo][sizes][large]?>"/>
-						<h3>
-							<a class="hash-url" href="<?= home_url()?>/anniversary/people/#<?= $post->post_name;?>">
-							Fondest Memory at Sachs:
-							</a>
-						</h3>
+						<h3>Fondest Memory at Sachs:</h3>
 						<p><?= $fields[fondest_memory]?></p>
 						<h3>Biggest Takeaway from Sachs:</h3>
 						<p><?= $fields[biggest_takeaway]?></p>
@@ -69,8 +65,10 @@
 		cloneElem.css('height', newHeight);									// set new height
 		elem.addClass('active');											// flag elem as the current, open, visible content
 		setTimeout(function() {												// allow the .sachs-image to escape bounds when scaled up
-			cloneElem.addClass('allow-overflow');
-		}, 1000);
+			if (!cloneElem.hasClass('allow-overflow')) {
+				cloneElem.addClass('allow-overflow');
+			}
+		}, 400);
 		
 		shouldScroll = typeof shouldScroll !== 'undefined' ? shouldScroll : 42;
 		if (shouldScroll) {
@@ -94,7 +92,7 @@
 	
 	$('.alumni').on('click', function(){
 		if (isClicking) {
-			console.log('nerfed');
+			//console.log('nerfed');
 			return;
 		}else{
 			isClicking = true;
@@ -157,7 +155,7 @@
 		
 		setTimeout( function() {
 			isClicking = false;
-		}, 1000);
+		}, 500);
 	});
 	
 	$(document).ready(function() {
