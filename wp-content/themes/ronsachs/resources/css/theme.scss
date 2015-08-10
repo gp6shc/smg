@@ -1610,8 +1610,8 @@ p .related{
 	
 	> li {
 		font-size: 18px;
-		text-indent: -22px;
 		padding-left: 44px;
+		position: relative;
 		
 		+ li {
 			margin-top: 15px;
@@ -1634,10 +1634,13 @@ p .related{
 	}
 	
 	i {
-		font-size: 1.6em;
-		color: $red;
-		margin-right: 18px;
-		vertical-align: -0.2ex;
+		font-size: 1.4em;
+		color: #DA1F26;
+		text-indent: 0;
+		display: inline-block;
+		position: absolute;
+		left: 0;
+		top: 0;
 	}
 }
 
