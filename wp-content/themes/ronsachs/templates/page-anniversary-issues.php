@@ -18,7 +18,7 @@
 	<?php while ( $loop->have_posts() ) : $loop->the_post(); $fields = get_fields(); $i++;?>
 
 		<div class="alumni issue" id="<?= $post->post_name;?>">
-			<div class="preview-box" style="background-image:radial-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0)), url('<?= $fields[background_image][sizes][large]?>')">
+			<div class="preview-box" style="url('<?= $fields[background_image][sizes][large]?>')">
 				<span class="preview-title"><?php the_title()?></span>
 			</div>
 			<div class="full-view">
