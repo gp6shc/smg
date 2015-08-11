@@ -19,7 +19,6 @@
 
 		<div class="alumni issue" id="<?= $post->post_name;?>">
 			<div class="preview-box" style="background-image:radial-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0)), url('<?= $fields[background_image][sizes][large]?>')">
-				<i class="fa <?= $fields[icon]?>"></i>
 				<span class="preview-title"><?php the_title()?></span>
 			</div>
 			<div class="full-view">

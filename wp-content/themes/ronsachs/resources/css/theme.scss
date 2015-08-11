@@ -1986,16 +1986,6 @@ p .related{
 		transition: opacity 300ms 350ms;
 	}
 
-	i {
-		position: absolute;
-		left: 50%;
-		top: 50%;
-		transform: translate(-50%,-50%);
-		color: white;
-		font-size: 135px;
-		transition: color 300ms;
-	}
-	
 	&:hover i {
 		color: $red;
 	}
