@@ -15,9 +15,7 @@
 <div class="row alumni-contain">
 	<?php $loop = new WP_Query( array( 'post_type' => 'issues', 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC' ) ); ?>
 	<?php $i = 0; ?>
-	<?php while ( $loop->have_posts() ) : $loop->the_post(); $fields = get_fields(); $i++; echo '<pre>';
-	var_dump($fields[images]);
-	echo '</pre>';?>
+	<?php while ( $loop->have_posts() ) : $loop->the_post(); $fields = get_fields(); $i++;?>
 
 		<div class="alumni issue" id="<?= $post->post_name;?>">
 			<div class="preview-box" style="background-image: url('<?= $fields[background_image][sizes][large]?>')">
