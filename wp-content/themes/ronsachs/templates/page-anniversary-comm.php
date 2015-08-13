@@ -32,8 +32,12 @@
 							<?php $videoID = substr(strrchr( $fields[youtube] , "="), 1); ?>
 							<iframe class="yt-embed" src="https://www.youtube.com/embed/<?= $videoID; ?>" frameborder="0" allowfullscreen></iframe>
 						<?php endif;?>
-						<?php foreach ($fields[images] as $image): ?>
-						<a href="<?= $image[image_credit]?>" target="_blank"><img class="issues-image" src="<?= $image[image][sizes][large]?>"/></a>
+						<?php foreach ($fields[images] as $image):
+							if ( $image[image_credit] ): ?>
+								<a href="<?= $image[image_credit]?>" target="_blank"><img class="issues-image" src="<?= $image[image][sizes][large]?>"/></a>
+							<?php else: ?>
+								<img class="issues-image" src="<?= $image[image][sizes][large]?>"/>
+							<?php endif; ?>
 						<?php endforeach; ?>
 					</div>
 				</div>

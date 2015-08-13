@@ -97,6 +97,36 @@ function custom_post_people() {
 }
 add_action( 'init', 'custom_post_people' );
 
+function custom_post_community() {
+  $labels = array(
+    'name'               => _x( 'Community', 'post type general name' ),
+    'singular_name'      => _x( 'Community', 'post type singular name' ),
+    'add_new'            => _x( 'Add New', 'book' ),
+    'add_new_item'       => __( 'Add New Community' ),
+    'edit_item'          => __( 'Edit Community' ),
+    'new_item'           => __( 'New Community' ),
+    'all_items'          => __( 'Communities' ),
+    'view_item'          => __( 'View Community' ),
+    'search_items'       => __( 'Search Communities' ),
+    'not_found'          => __( 'No Communities found' ),
+    'not_found_in_trash' => __( 'No Communities found in the Trash' ), 
+    'parent_item_colon'  => '',
+    'menu_name'          => 'Communities',
+  );
+  $args = array(
+    'labels'        => $labels,
+    'description'   => 'Collection of SMG Communities',
+    'public'        => true,
+    'menu_position' => 10,
+    'show_in_menu'	=> 'anniversary',
+    'menu_icon'		=> 'dashicons-welcome-learn-more',
+    'supports'      => array( 'title', 'editor' ),
+    'has_archive'   => false,
+  );
+  register_post_type( 'communities', $args ); 
+}
+add_action( 'init', 'custom_post_community' );
+
 function custom_post_issues() {
   $labels = array(
     'name'               => _x( 'Issue', 'post type general name' ),
@@ -127,35 +157,6 @@ function custom_post_issues() {
 }
 add_action( 'init', 'custom_post_issues' );
 
-function custom_post_community() {
-  $labels = array(
-    'name'               => _x( 'Community', 'post type general name' ),
-    'singular_name'      => _x( 'Community', 'post type singular name' ),
-    'add_new'            => _x( 'Add New', 'book' ),
-    'add_new_item'       => __( 'Add New Community' ),
-    'edit_item'          => __( 'Edit Community' ),
-    'new_item'           => __( 'New Community' ),
-    'all_items'          => __( 'Communities' ),
-    'view_item'          => __( 'View Community' ),
-    'search_items'       => __( 'Search Communities' ),
-    'not_found'          => __( 'No Communities found' ),
-    'not_found_in_trash' => __( 'No Communities found in the Trash' ), 
-    'parent_item_colon'  => '',
-    'menu_name'          => 'Communities',
-  );
-  $args = array(
-    'labels'        => $labels,
-    'description'   => 'Collection of SMG Communities',
-    'public'        => true,
-    'menu_position' => 10,
-    'show_in_menu'	=> 'anniversary',
-    'menu_icon'		=> 'dashicons-welcome-learn-more',
-    'supports'      => array( 'title', 'editor' ),
-    'has_archive'   => false,
-  );
-  register_post_type( 'communities', $args ); 
-}
-add_action( 'init', 'custom_post_community' );
 
 function display_anniv_page() {
 	$output = "<h1>"

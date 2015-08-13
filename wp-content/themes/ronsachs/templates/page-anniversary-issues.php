@@ -15,7 +15,9 @@
 <div class="row alumni-contain">
 	<?php $loop = new WP_Query( array( 'post_type' => 'issues', 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC' ) ); ?>
 	<?php $i = 0; ?>
-	<?php while ( $loop->have_posts() ) : $loop->the_post(); $fields = get_fields(); $i++;?>
+	<?php while ( $loop->have_posts() ) : $loop->the_post(); $fields = get_fields(); $i++; echo '<pre>';
+	var_dump($fields[images]);
+	echo '</pre>';?>
 
 		<div class="alumni issue" id="<?= $post->post_name;?>">
 			<div class="preview-box" style="background-image: url('<?= $fields[background_image][sizes][large]?>')">
@@ -32,8 +34,12 @@
 							<?php $videoID = substr(strrchr( $fields[youtube] , "="), 1); ?>
 							<iframe class="yt-embed" src="https://www.youtube.com/embed/<?= $videoID; ?>" frameborder="0" allowfullscreen></iframe>
 						<?php endif;?>
-						<?php foreach ($fields[images] as $image): ?>
-						<a href="<?= $image[image_credit]?>" target="_blank"><img class="issues-image" src="<?= $image[image][sizes][large]?>"/></a>
+						<?php foreach ($fields[images] as $image):
+							if ( $image[image_credit] ): ?>
+								<a href="<?= $image[image_credit]?>" target="_blank"><img class="issues-image" src="<?= $image[image][sizes][large]?>"/></a>
+							<?php else: ?>
+								<img class="issues-image" src="<?= $image[image][sizes][large]?>"/>
+							<?php endif; ?>
 						<?php endforeach; ?>
 					</div>
 				</div>
