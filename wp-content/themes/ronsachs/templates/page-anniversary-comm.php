@@ -24,7 +24,7 @@
 			<div class="full-view">
 				<div class="full-view-wrapper">
 					<h3>
-						<a class="hash-url" href="<?= home_url()?>/anniversary/people/#<?= $post->post_name;?>"><?php the_title()?></a>
+						<a class="hash-url" href="<?= home_url()?>/anniversary/community/#<?= $post->post_name;?>"><?php the_title()?></a>
 					</h3>
 					<div class="memories issue-content">
 						<p class="description"><?= $fields[content]?></p>
@@ -33,7 +33,7 @@
 							<iframe class="yt-embed" src="https://www.youtube.com/embed/<?= $videoID; ?>" frameborder="0" allowfullscreen></iframe>
 						<?php endif;?>
 						<?php foreach ($fields[images] as $image): ?>
-						<img class="issues-image" src="<?= $image[image][sizes][large]?>"/>
+						<a href="<?= $image[image_credit]?>" target="_blank"><img class="issues-image" src="<?= $image[image][sizes][large]?>"/></a>
 						<?php endforeach; ?>
 					</div>
 				</div>
