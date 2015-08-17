@@ -6,7 +6,7 @@ $(document).ready(function() {
 			navigationText: true,
 			singleItem: true,
 			autoPlay: 5000,
-			transitionStyle: "fadeUp"
+			transitionStyle: "fade"
 		});
 	
 		$("#new-work-slider").owlCarousel({
@@ -14,7 +14,7 @@ $(document).ready(function() {
 			navigationText: false,
 			items: 3,
 			responsive: false,
-			autoPlay: 6000,
+			autoPlay: false,
 			scrollPerPage: true
 		});
 		
