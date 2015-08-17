@@ -1,7 +1,13 @@
 <?php /* Template Name: Anniversary - Issues */ pxl::page(); while ( have_posts() ) : the_post(); ?>
 
 <div class="row">	
-	<h1 class="anniversary">20 Years of Impact</h1>
+	<h1 class="anniversary">20 Years of Impact 
+	<svg class="anniv-chev" viewBox="0 0 80 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+	    <g id="Page-1" stroke="none" fill="ffffff" fill-rule="evenodd" sketch:type="MSPage">
+	        <path d="M78.5328185,65.9894541 L21.2355212,123.526675 C20.2574003,124.508892 19.0990991,125 17.7606178,125 C16.4221364,125 15.2638353,124.508892 14.2857143,123.526675 L1.46718147,110.654467 C0.489060489,109.67225 0,108.509098 0,107.165012 C0,105.820926 0.489060489,104.657775 1.46718147,103.675558 L42.4710425,62.5 L1.46718147,21.3244417 C0.489060489,20.342225 0,19.1790736 0,17.8349876 C0,16.4909016 0.489060489,15.3277502 1.46718147,14.3455335 L14.2857143,1.47332506 C15.2638353,0.491108354 16.4221364,0 17.7606178,0 C19.0990991,0 20.2574003,0.491108354 21.2355212,1.47332506 L78.5328185,59.0105459 C79.5109395,59.9927626 80,61.155914 80,62.5 C80,63.844086 79.5109395,65.0072374 78.5328185,65.9894541 L78.5328185,65.9894541 Z" id="Shape" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+	    </g>
+	</svg>
+	</h1>
 	<div class="anniversary-content"><?php the_content(); ?></div>
 </div>
 

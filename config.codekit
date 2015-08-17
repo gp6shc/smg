@@ -47696,13 +47696,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/wp-content\/uploads\/2015\/05\/DMTS.jpg": {
+	"\/wp-content\/uploads\/2015\/05\/dmts.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 671700,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/05\/DMTS.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/05\/DMTS.jpg",
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/05\/dmts.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/05\/dmts.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
