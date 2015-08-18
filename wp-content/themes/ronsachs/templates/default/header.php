@@ -24,7 +24,7 @@
 </header>
 <div id="container" class="wrapper">
 	<?php if ( is_front_page() ) :
-		$slides = get_field('slides', $page->ID);?>
+		$slides = get_field('slides', 200);?>
 
 		<div class="dummy-wrapper"><!-- dummy for drop shadow -->
 			<div id="slideshow">
