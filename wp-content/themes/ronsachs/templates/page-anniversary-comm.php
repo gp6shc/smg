@@ -24,7 +24,7 @@
 	<?php while ( $loop->have_posts() ) : $loop->the_post(); $fields = get_fields(); $i++;?>
 
 		<div class="alumni issue" id="<?= $post->post_name;?>">
-			<div class="preview-box" style="background-image: url('<?= $fields[background_image][sizes][large]?>')">
+			<div class="preview-box" style="background-image: url('<?= $fields['background_image']['sizes']['large']?>')">
 				<span class="preview-title"><?php the_title()?></span>
 			</div>
 			<div class="full-view">
@@ -33,16 +33,16 @@
 						<a class="hash-url" href="<?= home_url()?>/anniversary/community/#<?= $post->post_name;?>"><?php the_title()?></a>
 					</h3>
 					<div class="memories issue-content">
-						<p class="description"><?= $fields[content]?></p>
-						<?php if ( $fields[youtube] ) :?>
-							<?php $videoID = substr(strrchr( $fields[youtube] , "="), 1); ?>
+						<p class="description"><?= $fields['content']?></p>
+						<?php if ( array_key_exists( 'youtube', $fields ) ):?>
+							<?php $videoID = substr(strrchr( $fields['youtube'] , "="), 1); ?>
 							<iframe class="yt-embed" src="https://www.youtube.com/embed/<?= $videoID; ?>" frameborder="0" allowfullscreen></iframe>
 						<?php endif;?>
-						<?php foreach ($fields[images] as $image):
-							if ( $image[image_credit] ): ?>
-								<a href="<?= $image[image_credit]?>" target="_blank"><img class="issues-image" src="<?= $image[image][sizes][large]?>"/></a>
+						<?php foreach ($fields['images'] as $image):
+							if ( array_key_exists( 'image_credit', $image ) ): ?>
+								<a href="<?= $image['image_credit']?>" target="_blank"><img class="issues-image" src="<?= $image['image']['sizes']['large']?>"/></a>
 							<?php else: ?>
-								<img class="issues-image" src="<?= $image[image][sizes][large]?>"/>
+								<img class="issues-image" src="<?= $image['image']['sizes']['large']?>"/>
 							<?php endif; ?>
 						<?php endforeach; ?>
 					</div>
@@ -65,11 +65,6 @@
 		var newHeight = elem.children('.full-view').outerHeight();			// get prefound height of content
 		cloneElem.css('height', newHeight);									// set new height
 		elem.addClass('active');											// flag elem as the current, open, visible content
-		setTimeout(function() {												// allow the .sachs-image to escape bounds when scaled up
-			if (!cloneElem.hasClass('allow-overflow')) {
-				cloneElem.addClass('allow-overflow');
-			}
-		}, 400);
 		
 		shouldScroll = typeof shouldScroll !== 'undefined' ? shouldScroll : 42;
 		if (shouldScroll) {
@@ -78,19 +73,11 @@
 	}
 	
 	function closeRow(elem, cloneElem) {
-		cloneElem.removeClass('allow-overflow');
 		elem.removeClass('active');
 		cloneElem.removeClass('visible');
 		cloneElem.css('height', 0);
 		setTimeout(function(){ cloneElem.empty(); }, 700);
 	}
-
-	
-/*
-	$('.issues-image').on('click', function() {
-		$(this).toggleClass('big');
-	});
-*/
 	
 	var isClicking = false;
 	
@@ -162,7 +149,7 @@
 		}, 500);
 	});	
 		
-	$(document).ready(function() {
+	$(window).load(function() {
 		if (window.location.hash) {
 			closestRow = $(window.location.hash).nextAll(".full-view-contain").first();
 			openRow( $(window.location.hash) , closestRow, true);
