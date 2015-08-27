@@ -168,7 +168,7 @@ function display_anniv_page() {
 }
 
 function add_anniversary_menu_page() {
-	add_menu_page( 'Anniversary', 'Anniversary', 'manage_options', 'anniversary', 'display_anniv_page', 'dashicons-editor-textcolor' , 6 );
+	add_menu_page( 'Anniversary', 'Anniversary', 'manage_options', 'anniversary', 'display_anniv_page', 'dashicons-editor-textcolor' , 8 );
 }
 add_action( 'admin_menu', 'add_anniversary_menu_page' );
 
