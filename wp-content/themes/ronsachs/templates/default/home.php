@@ -15,7 +15,7 @@
 	    </g>
 	</svg>
 	</h2>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>
+	<p>As we celebrate 20 years in business, we are so grateful for the clients, the partners and the team members who made our success possible. Looking back over the past 20 years, we are proud of the impact we’ve made in the lives of the people who have worked here, the issues our work has touched, and the community we love.</p>
 	<ul class="anniv-nav">
 		<li><a href="/anniversary/people">People</a></li>
 		<li><a href="/anniversary/community">Community</a></li>
