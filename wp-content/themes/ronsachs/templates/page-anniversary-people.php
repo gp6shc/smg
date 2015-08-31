@@ -23,7 +23,7 @@
 	<?php $i = 0; ?>
 	<?php while ( $loop->have_posts() ) : $loop->the_post(); $fields = get_fields(); $i++;?>
 		<div class="alumni" id="<?= $post->post_name;?>">
-			<div class="preview-box" style="background-image:url('<?= $fields[current_photo][sizes][large]?>')">
+			<div class="preview-box" style="background-image:url('<?= $fields['current_photo']['sizes']['large']?>')">
 				<span class="preview-title"><?php the_title()?></span>
 			</div>
 			<div class="full-view">
@@ -31,25 +31,34 @@
 					<span class="bg-name"><?php the_title()?></span>
 					<div class="row">
 						<div class="current-position">Now:<br/>
-							<?php if ($fields[website]) :?>
-								<a href="<?= $fields[website]?>" target="_blank"><?= $fields[current_company]?></a><br/>
+							<?php if ( array_key_exists( 'website', $fields ) ):?>
+								<a href="<?= $fields['website']?>" target="_blank"><?= $fields['current_company']?></a><br/>
 								<?php else:?>
-								<a href="#"><?= $fields[current_company]?></a><br/>
+								<a href="#"><?= $fields['current_company']?></a><br/>
 							<?php endif;?>
-							<span class="current-title"><?= $fields[title]?></span><br/>
-							<span class="current-state"><?= $fields[state]?></span>
+							<span class="current-title"><?= $fields['title']?></span><br/>
+							<span class="current-state"><?= $fields['state']?></span>
 						</div>
 						<div class="smg-position">
-							<span><?= $fields[years]?></span><br/>
-							<span class="smg-title"><?= $fields[position_at_smg]?></span>
+							<span><?= $fields['years']?></span><br/>
+							<span class="smg-title"><?= $fields['position_at_smg']?></span>
 						</div>
 					</div>
 					<div class="memories row">
-						<img class="sachs-image" src="<?= $fields[sachs_photo][sizes][large]?>"/>
+						<?php if ( isset($fields['sachs_photo']['sizes']['large']) ): ?>
+							<?php
+								$aspectRatio = ( $fields['sachs_photo']['height'] / $fields['sachs_photo']['width'] ) * 100;
+							?>
+							<div class="sachs-wrap-wrap">
+							<div class="sachs-image-wrap" style="padding-top:<?= $aspectRatio ?>%">
+								<img class="sachs-image" src="<?= $fields['sachs_photo']['sizes']['large']?>"/>
+							</div>
+							</div>
+						<?php endif; ?>
 						<h3>Fondest Memory at Sachs:</h3>
-						<p><?= $fields[fondest_memory]?></p>
+						<p><?= $fields['fondest_memory']?></p>
 						<h3>Biggest Takeaway from Sachs:</h3>
-						<p><?= $fields[biggest_takeaway]?></p>
+						<p><?= $fields['biggest_takeaway']?></p>
 					</div>
 				</div>			
 			</div>
@@ -70,11 +79,6 @@
 		var newHeight = elem.children('.full-view').outerHeight();			// get prefound height of content
 		cloneElem.css('height', newHeight);									// set new height
 		elem.addClass('active');											// flag elem as the current, open, visible content
-		setTimeout(function() {												// allow the .sachs-image to escape bounds when scaled up
-			if (!cloneElem.hasClass('allow-overflow')) {
-				cloneElem.addClass('allow-overflow');
-			}
-		}, 400);
 		
 		shouldScroll = typeof shouldScroll !== 'undefined' ? shouldScroll : 42;
 		if (shouldScroll) {
@@ -83,16 +87,11 @@
 	}
 	
 	function closeRow(elem, cloneElem) {
-		cloneElem.removeClass('allow-overflow');
 		elem.removeClass('active');
 		cloneElem.removeClass('visible');
 		cloneElem.css('height', 0);
-		setTimeout(function(){ cloneElem.empty(); }, 700);
+		setTimeout(function(){ cloneElem.empty(); }, 400);
 	}
-	
-	$('.sachs-image').on('click', function() {
-		$(this).toggleClass('big');
-	});
 	
 	var isClicking = false;
 	
@@ -164,7 +163,7 @@
 		}, 500);
 	});
 	
-	$(document).ready(function() {
+	$(window).load(function() {
 		if (window.location.hash) {
 			closestRow = $(window.location.hash).nextAll(".full-view-contain").first();
 			openRow( $(window.location.hash) , closestRow, true);
