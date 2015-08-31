@@ -34,7 +34,7 @@
 					</h3>
 					<div class="memories issue-content">
 						<p class="description"><?= $fields['content']?></p>
-						<?php if ( array_key_exists( 'youtube', $fields ) ):?>
+						<?php if ( $fields['youtube'] !== ""):?>
 							<?php $videoID = substr(strrchr( $fields['youtube'] , "="), 1); ?>
 							<iframe class="yt-embed" src="https://www.youtube.com/embed/<?= $videoID; ?>" frameborder="0" allowfullscreen></iframe>
 						<?php endif;?>
