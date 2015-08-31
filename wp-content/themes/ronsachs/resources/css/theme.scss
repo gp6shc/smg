@@ -1760,19 +1760,14 @@ p .related{
 	font-family: Arvo, sans-serif;
 	font-size: 18px;
 	text-transform: uppercase;
-	
-	a {
-		font-family: BebasNeueRegular, sans-serif;
-		font-size: 22px;
-		letter-spacing: 0.5px;
-		text-transform: none;
-		text-shadow: 0 0 7px rgba(0,0,0,0.8);
-		
-		&:hover {
-			text-decoration: underline; 
-			color: $red;
-		}
-	}
+}
+.current-company {
+	font-family: BebasNeueRegular, sans-serif;
+	font-size: 22px;
+	color: $red;
+	letter-spacing: 0.5px;
+	text-transform: none;
+	text-shadow: 0 0 7px rgba(0,0,0,0.8);		
 }
 .current-title, .current-state, .smg-position {
 	font-family: BebasNeueRegular, sans-serif;

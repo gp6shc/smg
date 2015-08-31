@@ -1763,16 +1763,14 @@ p .related {
   font-size: 18px;
   text-transform: uppercase;
 }
-.current-position a {
+
+.current-company {
   font-family: BebasNeueRegular, sans-serif;
   font-size: 22px;
+  color: #DA1F26;
   letter-spacing: 0.5px;
   text-transform: none;
   text-shadow: 0 0 7px rgba(0, 0, 0, 0.8);
-}
-.current-position a:hover {
-  text-decoration: underline;
-  color: #DA1F26;
 }
 
 .current-title, .current-state, .smg-position {

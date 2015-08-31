@@ -31,11 +31,7 @@
 					<span class="bg-name"><?php the_title()?></span>
 					<div class="row">
 						<div class="current-position">Now:<br/>
-							<?php if ( array_key_exists( 'website', $fields ) ):?>
-								<a href="<?= $fields['website']?>" target="_blank"><?= $fields['current_company']?></a><br/>
-								<?php else:?>
-								<a href="#"><?= $fields['current_company']?></a><br/>
-							<?php endif;?>
+							<span class="current-company"><?= $fields['current_company']?></span><br/>
 							<span class="current-title"><?= $fields['title']?></span><br/>
 							<span class="current-state"><?= $fields['state']?></span>
 						</div>
