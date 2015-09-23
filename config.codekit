@@ -12988,15 +12988,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/ronsachs\/templates\/page-amyridings.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/templates\/page-amyridings.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/wp-content\/themes\/ronsachs\/templates\/page-amyrosen.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -13371,15 +13362,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/templates\/page-team.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/themes\/ronsachs\/templates\/page-uchi.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/templates\/page-uchi.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -47832,6 +47814,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/uploads\/2015\/08\/bridges_of_america-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32661,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/bridges_of_america-logo.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/bridges_of_america-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/uploads\/2015\/08\/casestudies_halfpenny.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -47909,6 +47902,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/uploads\/2015\/08\/Crisis_FI.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 186493,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/Crisis_FI.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/Crisis_FI.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/uploads\/2015\/08\/Cropped-FDVA-Logo-with-One-Line-Web-Address.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -47916,6 +47920,17 @@
 		"initialSize": 29987,
 		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/Cropped-FDVA-Logo-with-One-Line-Web-Address.jpg",
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/Cropped-FDVA-Logo-with-One-Line-Web-Address.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/08\/Debate.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55042,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/Debate.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/Debate.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -47960,6 +47975,17 @@
 		"initialSize": 7126,
 		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/F4EE1.png",
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/F4EE1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/08\/FDVAWOMENVETS_18.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 352584,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/FDVAWOMENVETS_18.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/FDVAWOMENVETS_18.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -48063,6 +48089,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/uploads\/2015\/08\/IMG_0393.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.44561e+06,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/IMG_0393.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/IMG_0393.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/08\/IMG_4704_Link.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 704626,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/IMG_4704_Link.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/IMG_4704_Link.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/uploads\/2015\/08\/iStock_000003672777_Small.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -48118,6 +48166,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/uploads\/2015\/08\/LF-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58591,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/LF-logo.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/LF-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/08\/LF-logo1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58591,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/LF-logo1.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/LF-logo1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/uploads\/2015\/08\/ljMmmNIkGPVTPVA-1600x900-noPad.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -48136,6 +48206,17 @@
 		"initialSize": 20564,
 		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/logo.png",
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/08\/MeasuringMarketingEffectiveness_FI.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 99572,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/MeasuringMarketingEffectiveness_FI.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/MeasuringMarketingEffectiveness_FI.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -48327,6 +48408,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/uploads\/2015\/08\/shutterstock_126039806.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 259978,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/shutterstock_126039806.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/shutterstock_126039806.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/08\/shutterstock_185291012.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 279546,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/shutterstock_185291012.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/shutterstock_185291012.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/uploads\/2015\/08\/SKMBT_C45115081113480.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -48426,6 +48529,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/uploads\/2015\/08\/Viva-FL-Logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54451,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/Viva-FL-Logo.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/Viva-FL-Logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/uploads\/2015\/08\/VivaFL-500-w-years1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -48455,6 +48569,17 @@
 		"initialSize": 35777,
 		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/woa.jpg",
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/woa.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/09\/TSIC_20thAnniversary.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50586,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/09\/TSIC_20thAnniversary.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/09\/TSIC_20thAnniversary.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
