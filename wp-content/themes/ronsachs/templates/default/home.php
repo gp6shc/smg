@@ -1,6 +1,6 @@
 <div class="row spaced intro">
 	<p class="span6">
-		<iframe width="449" height="198.4" src="https://www.youtube.com/embed/DWlBwezbkj8?controls=0&modestbranding=1&rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+		<img src="<?= home_url()?>/wp-content/themes/ronsachs/resources/images/web_banner-min.png" alt="Shift Happens" width="450" height="200" />
 	</p>
 	<div class="span6">
 		<?php the_content() ?>
