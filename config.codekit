@@ -13986,6 +13986,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/wp-content\/uploads\/2012\/08\/FLBrand_Slider.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 288594,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2012\/08\/FLBrand_Slider.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2012\/08\/FLBrand_Slider.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/uploads\/2012\/08\/FSU_WomenBBall_Slider_2015-150x150.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -14708,6 +14719,17 @@
 		"initialSize": 162976,
 		"inputAbbreviatedPath": "\/wp-content\/uploads\/2012\/08\/SMG_Sliders_2015_Polls.jpg",
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/2012\/08\/SMG_Sliders_2015_Polls.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2012\/08\/Web_Slider_001.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58114,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2012\/08\/Web_Slider_001.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2012\/08\/Web_Slider_001.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -49061,6 +49083,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/uploads\/2015\/09\/SMG_IMG_7716.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 95850,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/09\/SMG_IMG_7716.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/09\/SMG_IMG_7716.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/uploads\/2015\/09\/SMG_SqueezeMePink.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -49090,6 +49123,17 @@
 		"initialSize": 50586,
 		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/09\/TSIC_20thAnniversary.jpg",
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/09\/TSIC_20thAnniversary.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/09\/web_button.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9642,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/09\/web_button.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/09\/web_button.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
