@@ -11868,6 +11868,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/wp-content\/themes\/parapxl-framework\/badges\/ninja-turtle.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9377,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/parapxl-framework\/badges\/ninja-turtle.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/parapxl-framework\/badges\/ninja-turtle.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/themes\/parapxl-framework\/badges\/ninja.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -11933,6 +11944,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/wp-content\/themes\/parapxl-framework\/badges\/pizza.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6706,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/parapxl-framework\/badges\/pizza.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/parapxl-framework\/badges\/pizza.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/wp-content\/themes\/parapxl-framework\/badges\/quill.png": {
 		"fileType": 32768,
@@ -13153,17 +13175,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/wp-content\/themes\/ronsachs\/resources\/images\/badges\/mike-1.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 8147,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/images\/badges\/mike-1.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/resources\/images\/badges\/mike-1.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
 	"\/wp-content\/themes\/ronsachs\/resources\/images\/icons\/grab.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -13694,6 +13705,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/templates\/page-chidozie.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/ronsachs\/templates\/page-chris.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/templates\/page-chris.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -14333,6 +14353,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/wp-content\/uploads\/2012\/08\/pink.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53398,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2012\/08\/pink.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2012\/08\/pink.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/uploads\/2012\/08\/png-150x150.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -14618,6 +14649,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/wp-content\/uploads\/2012\/08\/Sachs_banner.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46182,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2012\/08\/Sachs_banner.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2012\/08\/Sachs_banner.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/wp-content\/uploads\/2012\/08\/SeaTurtle_Sliders_2015-150x150.jpg": {
 		"fileType": 16384,
@@ -49404,6 +49446,28 @@
 		"initialSize": 9642,
 		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/09\/web_button.png",
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/09\/web_button.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/10\/SMG_Chris_Profile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 215049,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/10\/SMG_Chris_Profile.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/10\/SMG_Chris_Profile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/10\/stock-photo-fire-truck-57412213.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54431,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/10\/stock-photo-fire-truck-57412213.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/10\/stock-photo-fire-truck-57412213.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
