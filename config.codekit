@@ -10812,6 +10812,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/wp-content\/themes\/parapxl-framework\/badges\/anchor.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6865,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/parapxl-framework\/badges\/anchor.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/parapxl-framework\/badges\/anchor.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/themes\/parapxl-framework\/badges\/apple.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -11157,12 +11168,12 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 9824,
+		"initialSize": 8555,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/parapxl-framework\/badges\/compass.png",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/parapxl-framework\/badges\/compass.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/wp-content\/themes\/parapxl-framework\/badges\/cook.png": {
 		"fileType": 32768,
@@ -11559,6 +11570,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/wp-content\/themes\/parapxl-framework\/badges\/harley.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9454,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/parapxl-framework\/badges\/harley.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/parapxl-framework\/badges\/harley.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/wp-content\/themes\/parapxl-framework\/badges\/hawaii.png": {
 		"fileType": 32768,
@@ -12066,6 +12088,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/wp-content\/themes\/parapxl-framework\/badges\/soccer-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8026,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/parapxl-framework\/badges\/soccer-2.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/parapxl-framework\/badges\/soccer-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/themes\/parapxl-framework\/badges\/soccer.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -12186,6 +12219,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/wp-content\/themes\/parapxl-framework\/badges\/syracuse.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5664,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/parapxl-framework\/badges\/syracuse.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/parapxl-framework\/badges\/syracuse.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/wp-content\/themes\/parapxl-framework\/badges\/talking.png": {
 		"fileType": 32768,
@@ -13795,6 +13839,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/templates\/page-empty.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/ronsachs\/templates\/page-g.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ronsachs\/templates\/page-g.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -49446,17 +49499,6 @@
 		"initialSize": 9642,
 		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/09\/web_button.png",
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/09\/web_button.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/uploads\/2015\/10\/SMG_Chris_Profile.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 215049,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/10\/SMG_Chris_Profile.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/10\/SMG_Chris_Profile.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
