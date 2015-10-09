@@ -66,6 +66,7 @@
 				<div class="span3">
 					<!--badges section-->
 					<div id="badges">
+					<h3 class="team"><?php $title = get_the_title();$title_array = explode(' ', $title);$first_word = $title_array[0];echo $first_word;?>'s Badges</h3><!--echos first name only-->
 					<p><img src="<?php bloginfo('template_directory'); ?>/badges/coffee.png" /></p>
 					<p class="badge-title">Coffee Addict</p>
 					<p>Courtney is a coffee fiend. She must start the morning with healthy doses of caffeine to get her creative juices flowing for the day.</p>

@@ -66,6 +66,7 @@
 				<div class="span3">
 					<!--badges section-->
 					<div id="badges">
+					<h3 class="team"><?php $title = get_the_title();$title_array = explode(' ', $title);$first_word = $title_array[0];echo $first_word;?>'s Badges</h3><!--echos first name only-->
 					<p><img src="<?php bloginfo('template_directory'); ?>/badges/compass-2.png" /></p>
 					<p class="badge-title">World Traveler</p>
 					<p>Passionate about travel and world culture. Spent a semester studying abroad in Switzerland, France, Germany, Italy, and Austria.</p>

@@ -67,6 +67,7 @@
 				<div class="span3">
 					<!--badges section-->
 					<div id="badges">
+					<h3 class="team"><?php $title = get_the_title();$title_array = explode(' ', $title);$first_word = $title_array[0];echo $first_word;?>'s Badges</h3><!--echos first name only-->
 					<p><img src="<?php bloginfo('template_directory'); ?>/badges/music-lover.png" /></p>
 					<p class="badge-title">Music Lover</p>
 					<p>He couldn’t live without music to get through the day.  He can’t get enough of hip hop, jazz, pop, alternative rock and many other genres.</p>
