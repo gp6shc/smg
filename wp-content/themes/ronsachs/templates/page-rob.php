@@ -28,8 +28,8 @@
 					<h3 class="team">About <?php echo get_the_title(); ?></h3>
 					<!--end about title-->
 
-					<!--twitter follow
-					<p class="follow"><a href="https://twitter.com/roborrace" class="twitter-follow-button" data-show-count="false">Follow RobOrracle</a>
+					<!--twitter follow-->
+					<p class="follow"><a href="https://twitter.com/roborracle" class="twitter-follow-button" data-show-count="false">Follow RobOrracle</a>
 					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
 					<!--end twitter follow-->
 
