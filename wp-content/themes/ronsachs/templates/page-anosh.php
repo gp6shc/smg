@@ -38,7 +38,8 @@
 					<!--end facebook subscribe-->
 
 					<!--about paragraph-->
-					<p>Anosh Gill, a creative director professional and teacher of his craft, in business for more than 20 years, has provided design services for Club Med, Renaissance Aruba, Our Lucaya Bahamas, Tallahassee/Leon County Tourist Development Council, the City of Carrabelle, Visit Florida and Florida's Space Coast, as well as destination hotels and resorts including Ritz Carlton Hotels and Homes, several Marriott Hotel Resorts, Diners Club, Wyndham Hotels, Algonquin Hotel NY, The Roosevelt Hotel NY, Equinox Vermont and Claremont Hotel Berkeley. He also teaches graphic design at Florida A&M University.</p>
+					<p>Anosh Gill is an acclaimed creative director and educator with more than 20 years of international design experience. He has provided design services for hundreds of clients including municipalities, government agencies, travel destinations and educational organizations. His work has earned more than 60 awards in advertising, design and illustration. As a visiting graphic design instructor at Florida A&M University, his students have won ADDY® Awards in nearly every nominated category.</p>
+					<p class="lastp">Anosh believes that designers are communicators first and foremost, so he approaches every design project with a communication strategy. He loves to find beauty in all things big and small, from other artists' work to the intricate and often delicate artistry found in nature. Anosh has an M.F.A. in Media Design from Full Sail University and a B.S. in Industrial and Product Design from The Ohio State University.</p>
 					<!--end about paragraph-->
 			    
 					<!--keep up with-->
@@ -60,6 +61,32 @@
 			
 				<div class="span3">
 					<!--badges section-->
+					<div id="badges">
+					<h3 class="team"><?php $title = get_the_title();$title_array = explode(' ', $title);$first_word = $title_array[0];echo $first_word;?>'s Badges</h3><!--echos first name only-->
+					<p><img src="<?php bloginfo('template_directory'); ?>/badges/art.png" /></p>
+					<p class="badge-title">Painter</p>
+					<p>An artist from a very young age, Anosh's true passion is painting. His office walls are lined with original works with his own brushstrokes. </p>
+					<div id="bottom-line"></div>
+
+					<p><img src="<?php bloginfo('template_directory'); ?>/badges/music-lover.png" /></p>
+					<p class="badge-title">Music</p>
+					<p>While Anosh loves all types of music, he would probably say Depeche Mode & Eurythmics are two of his all-time favorite bands.</p>
+					<div id="bottom-line"></div>
+
+					<p><img src="<?php bloginfo('template_directory'); ?>/badges/family.png" /></p>
+					<p class="badge-title">Family Guy</p>
+					<p>Family is incredibly important to Anosh. He and his wife are the parents of two boys with a big age gap: one age four, one age 17. </p>
+					<div id="bottom-line"></div>
+
+					<p><img src="<?php bloginfo('template_directory'); ?>/badges/running.png" /></p>
+					<p class="badge-title">Run</p>
+					<p>His big goal is to one day run a half-marathon with his wife. </p>
+					<div id="bottom-line"></div>
+
+					<p><img src="<?php bloginfo('template_directory'); ?>/badges/teacher.png" /></p>
+					<p class="badge-title">Teacher</p>
+					<p>Anosh loves guiding his students as communicators in the world of design. </p>
+					</div>	
 					<!--end badges section-->
 				</div><!--end span 3-->
 				
