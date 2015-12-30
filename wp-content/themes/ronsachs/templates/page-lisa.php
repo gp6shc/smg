@@ -41,7 +41,7 @@
 
 					<p>She is an avid volunteer in her community, church and a member of the Florida Public Relations Board. Lisa’s work has received significant recognition including an Award of Distinction in 2012 for the “No More Cuts” campaign for the Florida Hospital Association; A 2011 Golden Image Award for her work in the “We Tackle Cancer” campaign for the University of Miami, a Grand All and Golden Image Award in 2010 for her work on the “No Butts About It” campaign for the Florida Hospital Association and a Suncoast Regional Emmy Award in 2008 for directing a series of public service announcement related to climate change for the Environmental Defense Fund.</p>
 
-					<p class="lastp"><iframe src="http://www.youtube.com/embed/P5ZFPb-_sik?rel=0" frameborder="0" width="100%" height="270"></iframe></p>
+					<p class="lastp"><iframe src="https://www.youtube.com/embed/P5ZFPb-_sik?rel=0" frameborder="0" width="100%" height="270"></iframe></p>
 
 					<!--keep up with-->
 					<!--<h3 class="team">Keep Up With <?php echo get_the_title(); ?></h3>-->

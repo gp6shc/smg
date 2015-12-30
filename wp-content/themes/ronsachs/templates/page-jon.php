@@ -41,7 +41,7 @@
 
 					<p>Jon eventually left journalism and embarked on a 26-year-career in state government that included communications duties for one governor (Bob Martinez), three Attorneys General and four executive agency heads. In early 2012, Jon enthusiastically joined the team at Ron Sachs Communications, where he quickly learned how easy it is to do good work when you’re surrounded by outstanding professionals.</p>
 
-					<p class="lastp"><iframe src="http://www.youtube.com/embed/_X5oSSLsim0?rel=0" frameborder="0" width="100%" height="270"></iframe></p>
+					<p class="lastp"><iframe src="https://www.youtube.com/embed/_X5oSSLsim0?rel=0" frameborder="0" width="100%" height="270"></iframe></p>
 			    
 					<!--keep up with-->
 					<!--<h3 class="team">Keep Up With <?php echo get_the_title(); ?></h3>-->

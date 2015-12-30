@@ -47,7 +47,7 @@
 
 					<p>Her prior career in Florida government included stints as Communication Director for the Florida Senate, Department of Insurance, Department of Health &amp; Rehabilitative Services, Department of Children and Families, and Department of Agriculture.  Her passion is creating campaigns that change public behavior.</p>
 
-					<p class="lastp"><iframe src="http://www.youtube.com/embed/JCTbws4JHBI?rel=0" frameborder="0" width="100%" height="270"></iframe></p>
+					<p class="lastp"><iframe src="https://www.youtube.com/embed/JCTbws4JHBI?rel=0" frameborder="0" width="100%" height="270"></iframe></p>
 			    
 					<!--keep up with-->
 					<!--<h3 class="team">Keep Up With <?php echo get_the_title(); ?></h3>-->

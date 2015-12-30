@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <meta property="og:title" content="Rock &amp; Roll Heaven"/>
-    <meta property="og:image" content="http://sachsdigital.com/assets/images/rockers/elvis.png"/>
+    <meta property="og:image" content="assets/images/rockers/elvis.png"/>
     <meta property="og:site_name" content="Rock &amp; Roll Heaven"/>
     <meta property="og:description" content=""/> 
     <link rel="shortcut icon" href="assets/images/favicon.ico">
@@ -37,7 +37,7 @@
       }
     }
     </style>
-    <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="../../assets/js/html5shiv.js"></script>

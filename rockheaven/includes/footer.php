@@ -46,7 +46,7 @@
               
               <div class="col-md-3">
                 <p><em>All content &copy; 2013 Sachs Media Group. All rights reserved. Contact: <br><a href="mailto:contact@sachsmedia.com"> contact@sachsmedia.com</a> 
-            <br><a href="http://sachsmedia.com/privacy-policy">Privacy Policy</a> | <a href="#top">Back to Top</a></em></p>
+            <br><a href="https://sachsmedia.com/privacy-policy">Privacy Policy</a> | <a href="#top">Back to Top</a></em></p>
               </div>
         </div>
           
@@ -59,7 +59,7 @@
       <!-- #sidr mobile slideout content-->
       <div id="sidr">
           <ul>
-            <li class="br-red"><a href="http://sachsmedia.com"> Home<span class="pull-right"><i class="icon-double-angle-right"></i></span></a></li>
+            <li class="br-red"><a href="https://sachsmedia.com"> Home<span class="pull-right"><i class="icon-double-angle-right"></i></span></a></li>
             <li class="br-white"><a href="/about"> About<span class="pull-right"><i class="icon-double-angle-right"></i></span></a></li>
             <li class="br-red"><a href="/what-we-do"> What We Do<span class="pull-right"><i class="icon-double-angle-right"></i></span></a></li>
             <li class="br-white"><a href="/blog"></i> Blog<span class="pull-right"><i class="icon-double-angle-right"></i></span></a></li>

@@ -46,7 +46,7 @@
 					<!--end about paragraph-->
 
 					<!--last p (pushes padding down)-->
-					<p class="lastp"><iframe src="http://www.youtube.com/embed/QoYbVyhET5Y?rel=0" frameborder="0" width="100%" height="270"></iframe></p>
+					<p class="lastp"><iframe src="https://www.youtube.com/embed/QoYbVyhET5Y?rel=0" frameborder="0" width="100%" height="270"></iframe></p>
 					<!--end last p-->
 			    
 					<!--keep up with-->

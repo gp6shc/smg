@@ -39,7 +39,7 @@
 // Custom admin login 
 function custom_login_logo() {
 	echo '<style type="text/css">
-	h1 a { background-image: url(http://sachsmedia.com/rockheaven/assets/images/smg_logo.png) !important; }
+	h1 a { background-image: url(https://sachsmedia.com/rockheaven/assets/images/smg_logo.png) !important; }
 	</style>';
 }
 add_action('login_head', 'custom_login_logo');

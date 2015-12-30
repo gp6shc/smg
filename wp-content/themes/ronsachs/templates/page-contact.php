@@ -45,7 +45,7 @@
 		</div>
 		<div class="row">
 			<header><h3>Employment & Internships</h3></header>
-			<p>Are you ready to join the Sachs family? We're looking for ideal candidates to fill a variety of positions and internships. Visit <a href="http://sachsmedia.com/employment-opportunities/">Employment Opportunities</a> to find out what's currently available.</p>
+			<p>Are you ready to join the Sachs family? We're looking for ideal candidates to fill a variety of positions and internships. Visit <a href="/employment-opportunities/">Employment Opportunities</a> to find out what's currently available.</p>
 		</div>
 	</div>
 	<div class="span6">

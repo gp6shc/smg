@@ -6,7 +6,7 @@
           <a class="brand" href="#"></a>
       </div>
         <div class="navbar-header">
-          <a class="navbar-brand" href="http://sachsmedia.com/"></a>
+          <a class="navbar-brand" href="https://sachsmedia.com/"></a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -17,7 +17,7 @@
       <li id="menu-item-5" class="youtube menu-item menu-item-type-custom menu-item-object-custom menu-item-5"><a title="Visit us on Youtube" href="http://www.youtube.com/user/SachsMedia/">YouTube</a></li>
         </ul>
       </nav>
-            <li class="active"><a href="http://sachsmedia.com/">Home</a></li>
+            <li class="active"><a href="https://sachsmedia.com/">Home</a></li>
             <li><a href="/about">About</a></li>
             <li><a href="/what-we-do">What We Do</a></li>
             <li><a href="/blog">Blog</a></li>

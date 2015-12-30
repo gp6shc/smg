@@ -47,7 +47,7 @@
 
 					<p>Ryan is a sociology nut and spends tons of time outside the office writing his upcoming book on social media from a leader’s perspective. Ryan has written for <a href="http://allfacebook.com/" target="_blank">AllFacebook</a> and <a href="http://socialfresh.com/" target="_blank">Social Fresh</a>, and travels the nation speaking about emerging technology.</p>
 
-					<p class="lastp"><iframe src="http://www.youtube.com/embed/PH8Xl91c_Nw?rel=0" frameborder="0" width="100%" height="270"></iframe></p>
+					<p class="lastp"><iframe src="https://www.youtube.com/embed/PH8Xl91c_Nw?rel=0" frameborder="0" width="100%" height="270"></iframe></p>
 			    
 					<!--keep up with-->
 					<!--<h3 class="team">Keep Up With <?php echo get_the_title(); ?></h3>-->

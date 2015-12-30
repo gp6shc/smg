@@ -14,7 +14,7 @@ jQuery(document).ready(function(){
 </script>
 <style>
 #expanderSign.read-more{
-	background: transparent url('http://sachsmedia.com/wp-content/themes/ronsachs/resources/images/icons/sprite.png') right -82px;
+	background: transparent url('https://sachsmedia.com/wp-content/themes/ronsachs/resources/images/icons/sprite.png') right -82px;
 	color: #DA1F26;
 	font-family: 'Arvo', serif;
 	font-size: 11px;
@@ -96,26 +96,26 @@ a.read-more.team{
 		
 		<p>So, whether the objective is gaining policymaker support, persuading key opinion leaders or energizing grassroots, we are your go-to firm for public affairs.</p>
 		
-		<p>To learn more about our philosophy <a href="http://www.youtube.com/watch?feature=player_embedded&amp;v=nk6f7uoJ2ls" target="_blank">click here</a>.</p>
+		<p>To learn more about our philosophy <a href="https://www.youtube.com/watch?feature=player_embedded&amp;v=nk6f7uoJ2ls" target="_blank">click here</a>.</p>
 		</div>
 		
 		<div class="public-affairs-team">
 		<h3 class="whatwedo" style="margin-bottom:15px;">The Team</h3>
 		
-		<a href="<?php echo home_url(); ?>/team/ron-sachs/"><img class="alignleft size-thumbnail wp-image-2238" style="margin-right: 10px;" title="Ron Sachs" src="http://sachsmedia.com/wp-content/uploads/2014/02/ron-sachs-smg.png" alt="" width="100" height="100" align="left" /></a>
+		<a href="<?php echo home_url(); ?>/team/ron-sachs/"><img class="alignleft size-thumbnail wp-image-2238" style="margin-right: 10px;" title="Ron Sachs" src="https://sachsmedia.com/wp-content/uploads/2014/02/ron-sachs-smg.png" alt="" width="100" height="100" align="left" /></a>
 		<p style="vertical-align: top;margin-bottom: 0px;">A veteran Florida communicator with an extensive background in journalism and government communications. His contacts in government and the media, formed during his service to Florida Governors Lawton Chiles and Reubin Askew, work to the benefit of all our clients<a class="read-more team" href="<?php echo home_url(); ?>/team/ron-sachs">View Profile</a></p>
 		<div style="clear: both;padding-bottom:1px;"></div>
 		<hr style="border-bottom: 0px solid #333;margin:20px 0px!important;" />
 		
 
-		<a href="<?php echo home_url(); ?>/team/ryan-banfill/"><img class="alignleft size-thumbnail wp-image-2238" style="margin-right: 10px;" title="Ryan Banfill" src="http://sachsmedia.com/wp-content/uploads/2014/02/ryan.jpg" alt="" width="100" height="100" align="left" /></a>
+		<a href="<?php echo home_url(); ?>/team/ryan-banfill/"><img class="alignleft size-thumbnail wp-image-2238" style="margin-right: 10px;" title="Ryan Banfill" src="https://sachsmedia.com/wp-content/uploads/2014/02/ryan.jpg" alt="" width="100" height="100" align="left" /></a>
 		<p style="vertical-align: top;margin-bottom: 0px;">The public affairs team is headed by partner and senior vice president Ryan Banfill, a senior public policy strategist who served as press secretary to Florida Governor Lawton Chiles and a communications director in both the Florida House and Senate. <a class="read-more team" href="<?php echo home_url(); ?>/team/ryan-banfill">View Profile</a></p>
 		<div style="clear: both;"></div>
 		<hr style="border-bottom: 0px solid #333;margin:20px 0px!important;" />
 		
 		
 		
-		<a href="<?php echo home_url(); ?>/team/herbie-thiele/"><img class="alignleft size-thumbnail wp-image-2237" style="margin-right: 10px; margin-bottom: 10px;" title="Herbie Thiele" src="http://sachsmedia.com/wp-content/uploads/2014/02/herbs_papage.png" alt="" width="100" height="100" align="left" /></a>
+		<a href="<?php echo home_url(); ?>/team/herbie-thiele/"><img class="alignleft size-thumbnail wp-image-2237" style="margin-right: 10px; margin-bottom: 10px;" title="Herbie Thiele" src="https://sachsmedia.com/wp-content/uploads/2014/02/herbs_papage.png" alt="" width="100" height="100" align="left" /></a>
 		<p style="vertical-align: top;">Deputy director of public affairs Herbie Thiele combines knowledge of the political process and media  relations expertise with an extensive network of contacts, including professionals in both state government and the private sector. <a class="read-more team" href="<?php echo home_url(); ?>/team/herbie-thiele">View Profile</a></p>
 		<div style="clear: both;"></div>
 		<hr style="border-bottom: 0px solid #333;margin:20px 0px!important;" />
@@ -123,7 +123,7 @@ a.read-more.team{
 
 
 		
-		<a href="<?php echo home_url(); ?>/team/mark-pankowski/"><img class="alignleft size-thumbnail wp-image-2235" style="margin-right: 10px;" title="Mark Pankowski" src="http://sachsmedia.com/wp-content/uploads/2014/02/mark.jpg" alt="" width="100" height="100" align="left" /></a>
+		<a href="<?php echo home_url(); ?>/team/mark-pankowski/"><img class="alignleft size-thumbnail wp-image-2235" style="margin-right: 10px;" title="Mark Pankowski" src="https://sachsmedia.com/wp-content/uploads/2014/02/mark.jpg" alt="" width="100" height="100" align="left" /></a>
 		<p style="vertical-align: top;">Director of Washington Operations Mark Pankowski leads our Washington D.C. efforts with more than 25 years of experience as an award-winnig journalist, media relations specialist and crisis communications expert. <a class="read-more team" href="<?php echo home_url(); ?>/team/mark-pankowski">View Profile</a></p>
 		<div style="clear: both;"></div>
 		<hr style="border-bottom: 0px solid #333;margin:20px 0px!important;" />
@@ -133,7 +133,7 @@ a.read-more.team{
 		
 
 		<div style="float: left;">
-		<a href="<?php echo home_url(); ?>/team/drew-piers/"><img class="alignleft size-thumbnail wp-image-2236" style="margin-bottom: 14px;margin-right: 20px!important;margin-left: 14px;border: 1px solid #FFF;padding: 2px;" title="Drew Piers" src="http://sachsmedia.com/wp-content/uploads/2014/02/drew.jpg" alt="" width="100" height="100" align="left" /></a>
+		<a href="<?php echo home_url(); ?>/team/drew-piers/"><img class="alignleft size-thumbnail wp-image-2236" style="margin-bottom: 14px;margin-right: 20px!important;margin-left: 14px;border: 1px solid #FFF;padding: 2px;" title="Drew Piers" src="https://sachsmedia.com/wp-content/uploads/2014/02/drew.jpg" alt="" width="100" height="100" align="left" /></a>
 		<p style="vertical-align: top;margin-top: -14px;height:95px;background: #fff;padding: 15px 7px;">Public affairs associate Drew Piers works closely with the team’s research and messaging  objectives and uses his prior experience at the Governor’s Office of Policy and Budget to simplify complex  subject matter and frame issues so they are compelling and easily understood. <a class="read-more team" href="<?php echo home_url(); ?>/team/drew-piers">View Profile</a></p>
 		<div style="clear: both;"></div>
 		<hr style="border-bottom: 0px solid #333;margin:20px 0px!important;" />
@@ -161,9 +161,6 @@ a.read-more.team{
 				<p>
 					<iframe width="450" height="253.125" src="https://www.youtube.com/embed/TV0v8Sw3mSs?rel=0" frameborder="0" allowfullscreen></iframe>
 				</p>
-				<ul>
-					<li><a style="font-size:18px;font-weight:700" href="http://192.155.94.156/mlb/" target="_blank">Florida Fights Baseball Injustice</a></li>
-				</ul>
 				<!--end blog section-->
 			</div><!--end span6-->					
 		</div><!--end span6 row lined-->
