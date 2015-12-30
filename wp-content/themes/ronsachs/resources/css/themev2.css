@@ -275,7 +275,7 @@ textarea {
 input, textarea {
   border: 1px solid #ccc;
   -webkit-transition: border 300ms;
-          transition: border 300ms;
+  transition: border 300ms;
   box-sizing: border-box;
   width: 100%;
 }
@@ -559,7 +559,9 @@ nav ul#categories {
   border: none;
   background-color: rgba(218, 31, 38, 0.7);
   -webkit-transition: -webkit-transform 200ms;
-          transition: transform 200ms;
+  transition: -webkit-transform 200ms;
+  transition: transform 200ms;
+  transition: transform 200ms, -webkit-transform 200ms;
 }
 #slideshow .owl-prev::before, #slideshow .owl-next::before {
   content: '';
@@ -585,6 +587,7 @@ nav ul#categories {
   top: 7px;
   left: 21px;
   -webkit-transform: rotateZ(-45deg);
+      -ms-transform: rotate(-45deg);
           transform: rotateZ(-45deg);
 }
 #slideshow .owl-next {
@@ -598,6 +601,7 @@ nav ul#categories {
   top: 7px;
   right: 21px;
   -webkit-transform: rotateZ(45deg);
+      -ms-transform: rotate(45deg);
           transform: rotateZ(45deg);
 }
 
@@ -726,7 +730,7 @@ a.work span {
   cursor: pointer;
   border-top: 4px solid grey;
   -webkit-transition: border-color 300ms;
-          transition: border-color 300ms;
+  transition: border-color 300ms;
 }
 .owl-prev:hover, .owl-next:hover {
   border-color: #DA1F26;
@@ -736,6 +740,7 @@ a.work span {
   left: -18px;
   border-left: 4px solid grey;
   -webkit-transform: rotateZ(-45deg);
+      -ms-transform: rotate(-45deg);
           transform: rotateZ(-45deg);
 }
 
@@ -743,6 +748,7 @@ a.work span {
   right: -18px;
   border-right: 4px solid grey;
   -webkit-transform: rotateZ(45deg);
+      -ms-transform: rotate(45deg);
           transform: rotateZ(45deg);
 }
 
@@ -882,20 +888,6 @@ span.share a {
   height: 2px;
 }
 
-#sidebar > .fb_iframe_widget iframe {
-  -webkit-transform: scale(0.713);
-      -ms-transform: scale(0.713);
-          transform: scale(0.713);
-  -webkit-transform-origin: top left;
-      -ms-transform-origin: top left;
-          transform-origin: top left;
-  min-height: 130px;
-}
-
-#sidebar #twitter {
-  margin-top: -25px;
-}
-
 ul#side {
   padding: 0;
 }
@@ -1008,7 +1000,7 @@ p.coprf {
   overflow: hidden;
   margin-bottom: 10px;
   -webkit-transition: max-height 700ms 45ms;
-          transition: max-height 700ms 45ms;
+  transition: max-height 700ms 45ms;
 }
 .location h3 {
   margin: 0;
@@ -1020,7 +1012,7 @@ p.coprf {
 .location:hover {
   max-height: 200px;
   -webkit-transition: max-height 450ms;
-          transition: max-height 450ms;
+  transition: max-height 450ms;
 }
 
 /* Individual Team Member Template Styling */
@@ -1227,7 +1219,9 @@ p .related {
   left: calc(50% - 15px);
   z-index: 0;
   -webkit-transition: opacity 200ms, -webkit-transform 200ms;
-          transition: opacity 200ms, transform 200ms;
+  transition: opacity 200ms, -webkit-transform 200ms;
+  transition: opacity 200ms, transform 200ms;
+  transition: opacity 200ms, transform 200ms, -webkit-transform 200ms;
 }
 
 .loader {
@@ -1294,7 +1288,7 @@ p .related {
   z-index: 1;
   overflow: hidden;
   -webkit-transition: color 200ms;
-          transition: color 200ms;
+  transition: color 200ms;
 }
 #uwpqsf_id span:not(.taxolabel-0):hover {
   color: white;
@@ -1323,7 +1317,9 @@ p .related {
       -ms-transform: translateY(100%);
           transform: translateY(100%);
   -webkit-transition: -webkit-transform 300ms;
-          transition: transform 300ms;
+  transition: -webkit-transform 300ms;
+  transition: transform 300ms;
+  transition: transform 300ms, -webkit-transform 300ms;
 }
 
 #uwpqsffrom_3924 > div > label:nth-child(3) > span {
@@ -1377,7 +1373,7 @@ p .related {
   overflow: hidden;
   z-index: 0;
   -webkit-transition: color 200ms;
-          transition: color 200ms;
+  transition: color 200ms;
 }
 .upagievent::before {
   content: '';
@@ -1389,7 +1385,9 @@ p .related {
   width: 100%;
   background-color: #DA1F26;
   -webkit-transition: -webkit-transform 200ms;
-          transition: transform 200ms;
+  transition: -webkit-transform 200ms;
+  transition: transform 200ms;
+  transition: transform 200ms, -webkit-transform 200ms;
   -webkit-transform: translateY(100%);
       -ms-transform: translateY(100%);
           transform: translateY(100%);
@@ -1425,7 +1423,7 @@ p .related {
   padding-bottom: 50px;
   z-index: 1;
   -webkit-transition: opacity 200ms;
-          transition: opacity 200ms;
+  transition: opacity 200ms;
 }
 #works::after {
   content: '';
@@ -1444,7 +1442,9 @@ p .related {
   position: relative;
   overflow: hidden;
   -webkit-transition: opacity 350ms, -webkit-transform 300ms;
-          transition: opacity 350ms, transform 300ms;
+  transition: opacity 350ms, -webkit-transform 300ms;
+  transition: opacity 350ms, transform 300ms;
+  transition: opacity 350ms, transform 300ms, -webkit-transform 300ms;
   -webkit-transform-origin: top left;
       -ms-transform-origin: top left;
           transform-origin: top left;
@@ -1477,7 +1477,7 @@ p .related {
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-transition: all 300ms;
-          transition: all 300ms;
+  transition: all 300ms;
 }
 
 .portfolio-title {
@@ -1489,7 +1489,9 @@ p .related {
       -ms-transform: translateY(24px);
           transform: translateY(24px);
   -webkit-transition: -webkit-transform 350ms;
-          transition: transform 350ms;
+  transition: -webkit-transform 350ms;
+  transition: transform 350ms;
+  transition: transform 350ms, -webkit-transform 350ms;
 }
 .portfolio-title h3 {
   color: #DA1F26;
@@ -1502,7 +1504,7 @@ p .related {
   padding-left: 10px;
   opacity: 0;
   -webkit-transition: opacity 300ms;
-          transition: opacity 300ms;
+  transition: opacity 300ms;
 }
 .medium-list li {
   display: inline;
@@ -1534,7 +1536,7 @@ p .related {
 .portfolio-more i {
   padding-top: 30%;
   -webkit-transition: color 250ms;
-          transition: color 250ms;
+  transition: color 250ms;
 }
 .portfolio-more h3 {
   color: #DA1F26;
@@ -1594,8 +1596,10 @@ p .related {
   -webkit-transform: translateX(-3px);
       -ms-transform: translateX(-3px);
           transform: translateX(-3px);
-  -webkit-transition: -webkit-transform 450ms, opacity 200ms;
-          transition: transform 450ms, opacity 200ms;
+  -webkit-transition: opacity 200ms, -webkit-transform 450ms;
+  transition: opacity 200ms, -webkit-transform 450ms;
+  transition: transform 450ms, opacity 200ms;
+  transition: transform 450ms, opacity 200ms, -webkit-transform 450ms;
 }
 .web-caption a:hover::after {
   -webkit-transform: translateX(5px);
@@ -1719,7 +1723,7 @@ p .related {
   height: 314px;
   cursor: pointer;
   -webkit-transition: margin 0.6s 0.3s linear;
-          transition: margin 0.6s 0.3s linear;
+  transition: margin 0.6s 0.3s linear;
 }
 .preview-box img {
   display: block;
@@ -1739,7 +1743,7 @@ p .related {
   border-bottom: 12px solid #27282A;
   opacity: 0;
   -webkit-transition: opacity 0.6s;
-          transition: opacity 0.6s;
+  transition: opacity 0.6s;
 }
 
 .preview-title {
@@ -1792,7 +1796,7 @@ p .related {
   opacity: 1;
   padding: 30px;
   -webkit-transition: opacity 0.4s;
-          transition: opacity 0.4s;
+  transition: opacity 0.4s;
 }
 
 .full-view-contain {
@@ -1803,7 +1807,7 @@ p .related {
   margin-top: 0;
   z-index: 1;
   -webkit-transition: height 0.35s cubic-bezier(0.4, 0.01, 0.165, 0.99), margin-top 0.35s linear;
-          transition: height 0.35s cubic-bezier(0.4, 0.01, 0.165, 0.99), margin-top 0.35s linear;
+  transition: height 0.35s cubic-bezier(0.4, 0.01, 0.165, 0.99), margin-top 0.35s linear;
   background-color: #36383A;
   box-shadow: inset 0 0 24px 6px rgba(0, 0, 0, 0.3);
 }
@@ -1823,7 +1827,7 @@ p .related {
 .full-view .row {
   opacity: 0;
   -webkit-transition: opacity 0.2s 0s;
-          transition: opacity 0.2s 0s;
+  transition: opacity 0.2s 0s;
 }
 .full-view h3 {
   background-color: #DA1F26;
@@ -1847,7 +1851,7 @@ p .related {
 .visible .row {
   opacity: 1;
   -webkit-transition: opacity 0.4s 0.2s;
-          transition: opacity 0.4s 0.2s;
+  transition: opacity 0.4s 0.2s;
 }
 
 .memories.memories.memories {
@@ -1904,7 +1908,7 @@ p .related {
   z-index: 0;
   pointer-events: none;
   -webkit-transition: opacity 0.3s;
-          transition: opacity 0.3s;
+  transition: opacity 0.3s;
 }
 
 .anniv-nav {
@@ -1930,7 +1934,9 @@ p .related {
       -ms-transform-origin: bottom;
           transform-origin: bottom;
   -webkit-transition: opacity 300ms, -webkit-transform 300ms;
-          transition: opacity 300ms, transform 300ms;
+  transition: opacity 300ms, -webkit-transform 300ms;
+  transition: opacity 300ms, transform 300ms;
+  transition: opacity 300ms, transform 300ms, -webkit-transform 300ms;
 }
 .anniv-nav li a {
   font-size: 22px;
@@ -2010,7 +2016,7 @@ p .related {
   height: 0;
   overflow: hidden;
   -webkit-transition: height 300ms, margin 300ms;
-          transition: height 300ms, margin 300ms;
+  transition: height 300ms, margin 300ms;
 }
 
 .g-recaptcha.unhide {
@@ -2059,7 +2065,7 @@ p .related {
 .issue .preview-title {
   text-align: center;
   -webkit-transition: opacity 300ms 350ms;
-          transition: opacity 300ms 350ms;
+  transition: opacity 300ms 350ms;
 }
 .issue:hover i {
   color: #DA1F26;
@@ -2125,7 +2131,6 @@ p .related {
 
 .owl-controls {
   -webkit-user-select: none;
-  -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;

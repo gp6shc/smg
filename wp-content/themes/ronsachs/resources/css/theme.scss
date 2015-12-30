@@ -906,15 +906,6 @@ span.share a {
   background-color: #000;
   height: 2px;
 }
-// this is soooo wrong... thanks for being responsive FB...
-#sidebar > .fb_iframe_widget iframe {
-	transform: scale(0.713);
-	transform-origin: top left;
-	min-height: 130px;
-}
-#sidebar #twitter {
-	margin-top: -25px;
-}
 ul#side {
   padding: 0;
 }

@@ -24,7 +24,7 @@
 		<hr>
 	<?php endif; ?>
 	
-	<div class="fb-page" data-href="https://www.facebook.com/sachsmedia" data-hide-cover="false" data-show-facepile="false" data-show-posts="false" width="222">
+	<div class="fb-page" data-href="https://www.facebook.com/sachsmedia" data-hide-cover="false" data-show-facepile="false" data-show-posts="false" width="200">
 		<div class="fb-xfbml-parse-ignore">
 			<blockquote cite="https://www.facebook.com/sachsmedia">
 				<a href="https://www.facebook.com/facebook">Facebook</a>
