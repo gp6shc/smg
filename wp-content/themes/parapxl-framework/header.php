@@ -6,7 +6,7 @@
 		
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
 		<meta name="viewport" content="width=1130">
-	    <meta name="author" content="<?php echo bloginfo('name'); ?>">
+	  <meta name="author" content="<?php echo bloginfo('name'); ?>">
 		<meta property="twitter:account_id" content="68730054" />
 		
 		<meta property="og:title" content="<?php the_title()?>"/>
@@ -15,15 +15,15 @@
 		<meta property="fb:app_id" content="712207672128635"/>
 		
 		<link rel="stylesheet" id="theme-css"  href="<?php echo home_url();?>/wp-content/themes/ronsachs/resources/css/themev2.css" type="text/css" media="all" />
-		<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+		<link href='//fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 		<link rel="shortcut icon" href="<?php bloginfo('stylesheet_directory'); ?>/resources/images/icons/favicon.ico" />
 
 		<!--[if lt IE 9]>
-			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<script src="<?= home_url();?>/wp-content/plugins/gravityforms/js/gravityforms.min.js"></script>
 		<script src="<?= home_url();?>/wp-content/plugins/gravity-forms-no-captcha-recaptcha/public/js/gf-no-captcha-recaptcha-public.js"></script>
 	</head>

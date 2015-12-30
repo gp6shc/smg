@@ -96,7 +96,7 @@ window.onload = function(){
 		window._fbq = window._fbq || [];
 		window._fbq.push(["track", "PixelInitialized", {}]);
 	</script>
-	<noscript><img height="1" width="1" border="0" alt="" style="display:none" src="https://www.facebook.com/tr?id=1392381684358712&amp;ev=NoScript" /></noscript>
+	<noscript><img height="1" width="1" border="0" alt="" style="display:none" src="//www.facebook.com/tr?id=1392381684358712&amp;ev=NoScript" /></noscript>
 <!-- /SharpSpring -->
 
 <!-- Conversion Pixels (FB) -->
@@ -107,12 +107,12 @@ window.onload = function(){
 	(function(){
 	  var fpw = document.createElement('script');
 	  fpw.async = true;
-	  fpw.src = (location.protocol=='http:'?'http':'https')+'://connect.facebook.net/en_US/fp.js';
+	  fpw.src = '//connect.facebook.net/en_US/fp.js';
 	  var ref = document.getElementsByTagName('script')[0];
 	 ref.parentNode.insertBefore(fpw, ref);
 	})();
 	</script>
-	<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/offsite_event.php?id=6007260729204&amp;value=0" /></noscript>
+	<noscript><img height="1" width="1" alt="" style="display:none" src="//www.facebook.com/offsite_event.php?id=6007260729204&amp;value=0" /></noscript>
 <!-- /Conversion Pixels (FB) -->
 	</footer>
 </div>

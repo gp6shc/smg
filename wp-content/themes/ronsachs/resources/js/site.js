@@ -54,4 +54,4 @@ $('#side li.dropdown a').click(function(){
 	$(this).next('ul').slideToggle();
 });
 
-$.getScript('http://connect.facebook.net/en_US/all.js#xfbml=1&appId=131635040234309', function() {FB.init({status: true, cookie: true, xfbml:true});});
+$.getScript('//connect.facebook.net/en_US/all.js#xfbml=1&appId=131635040234309', function() {FB.init({status: true, cookie: true, xfbml:true});});
